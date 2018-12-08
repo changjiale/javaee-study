@@ -3,3 +3,12 @@ hibernate_01/.project
 hibernate_01/.gitignore
 hibernate_01/.classpath
 Servers/
+/.recommenders/
+hibernate_02/.classpath
+hibernate_02/.project
+hibernate_02/.gitignore
+hibernate_02/.settings/
+*/.settings/
+*/.classpath
+*/.project
+*/.gitignore
