@@ -5,7 +5,7 @@
     
  <hibernate-mapping>
  	<!-- 建立类与表的映射关系 -->
- 	<class name="cn.contentcl.hibernate.Customer" table="cst_customer">
+ 	<class name="cn.contentcl.hibernate.demo.Customer" table="cst_customer">
  		<!-- 建立类中的属性与表中的主键对应 -->
  		<id name="cust_id" column="cust_id">
  			<generator class="native"/>

@@ -1,4 +1,4 @@
-package cn.contentcl.hibernate;
+package cn.contentcl.hibernate.demo;
 /**
  * 
  * @author leer

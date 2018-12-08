@@ -1,4 +1,4 @@
-package cn.contentcl.hibernate;
+package cn.contentcl.hibernate.demo;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -23,7 +23,7 @@ public class HibernateDemo {
 		Transaction transaction = session.beginTransaction();
 		//5手动编写代码
 		Customer customer = new Customer();
-		customer.setCust_name("测试");
+		customer.setCust_name("zzz");
 		
 		session.save(customer);	
 		//6事务提交

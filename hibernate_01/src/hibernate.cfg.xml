@@ -16,8 +16,10 @@
 		<property name="hibernate.show_sql">true</property>
 		<!-- 格式化sql -->
 		<property name="hibernate.formate_sql">true</property>
+		<!-- 自动创建表 -->
+		<property name="hibernate.hbm2ddl.auto">update</property>
 		
 		
-		<mapping resource="cn/contentcl/hibernate/Customer.hbm.xml"/>
+		<mapping resource="cn/contentcl/hibernate/demo/Customer.hbm.xml"/>
 	</session-factory>
 </hibernate-configuration>
