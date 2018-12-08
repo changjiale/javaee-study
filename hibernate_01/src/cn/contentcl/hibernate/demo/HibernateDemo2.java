@@ -12,6 +12,7 @@ import cn.contentcl.hibernate.utils.HibernateUtils;
  *
  */
 
+
 public class HibernateDemo2 {
 	
 	@Test
