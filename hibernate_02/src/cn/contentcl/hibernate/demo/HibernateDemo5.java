@@ -3,9 +3,11 @@ package cn.contentcl.hibernate.demo;
 
 import java.util.List;
 
+import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.criterion.Restrictions;
 import org.junit.Test;
 
 import cn.contentcl.hibernate.utils.HibernateUtils;
@@ -39,6 +41,34 @@ public class HibernateDemo5 {
 		query.setFirstResult(2);
 		query.setMaxResults(2);
 		List<Customer> list = query.list();
+		for (Customer customer : list) {
+			System.out.println(customer);
+		}
+		
+		tx.commit();
+		
+	}
+	
+	@Test
+	//Criteria
+	public void demo2() {
+		Session session = HibernateUtils.getCurrentSession();
+		Transaction tx = session.beginTransaction();
+		
+		//通过session来获取Criteria 的对象
+		/*Criteria criteria = session.createCriteria(Customer.class);
+		List<Customer> list = criteria.list();*/
+		
+		//条件查询
+		/*Criteria criteria = session.createCriteria(Customer.class);
+		criteria.add(Restrictions.like("cust_name", "王%"));*/
+		
+		Criteria criteria = session.createCriteria(Customer.class);
+		criteria.setFirstResult(0);
+		criteria.setMaxResults(2);
+		List<Customer> list = criteria.list();
+		
+		
 		for (Customer customer : list) {
 			System.out.println(customer);
 		}
