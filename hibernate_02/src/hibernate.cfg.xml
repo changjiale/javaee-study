@@ -19,6 +19,10 @@
 		<!-- 自动创建表 -->
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		
+		<!-- 设置事务隔离级别 -->
+		<property name="hibernate.connection.isolation">4</property>
+		<!-- 配置当前线程绑定的session-->
+		<property name="hibernate.current_session_context_class">thread</property>		
 		
 		<mapping resource="cn/contentcl/hibernate/demo/Customer.hbm.xml"/>
 	</session-factory>
