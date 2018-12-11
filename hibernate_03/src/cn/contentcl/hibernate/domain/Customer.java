@@ -18,13 +18,14 @@ public class Customer {
 	private String cust_mobile;
 	//通过ORM方式表示：一个客户对应多个联系人
 	//放置的多的一方的集合。Hibernate默认使用Set集合
-	private Set<LinkMan> linkmans = new HashSet<LinkMan>();
+	private Set<LinkMan> linkMans = new HashSet<LinkMan>();
 	
-	public Set<LinkMan> getLinkmans() {
-		return linkmans;
+	
+	public Set<LinkMan> getLinkMans() {
+		return linkMans;
 	}
-	public void setLinkmans(Set<LinkMan> linkmans) {
-		this.linkmans = linkmans;
+	public void setLinkMans(Set<LinkMan> linkMans) {
+		this.linkMans = linkMans;
 	}
 	public Long getCust_id() {
 		return cust_id;

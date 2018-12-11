@@ -3,10 +3,11 @@
     "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- 建立类与表的映射关系 -->
+<hibernate-mapping>
  	<class name="cn.contentcl.hibernate.domain.LinkMan" table="cst_linkman">
  		<!-- 建立类中的属性与表中的主键对应 -->
  		<id name="lkm_id" column="lkm_id">
- 			<generator class="increment"/>
+ 			<generator class="native"/>
  		</id>
  		
  		<!-- 建立类中的普通的属性和表的字段对应 -->
@@ -29,3 +30,4 @@
  		 -->
  		 <many-to-one name="customer" class="cn.contentcl.hibernate.domain.Customer" column="lkm_cust_id"></many-to-one>
  	</class>
+</hibernate-mapping>

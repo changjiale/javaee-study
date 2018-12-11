@@ -7,7 +7,7 @@ package cn.contentcl.hibernate.domain;
  */
 public class LinkMan {
 	private Long lkm_id;
-	private Long lkm_name;
+	private String lkm_name;
 	private String lkm_gender;
 	private String lkm_phone;
 	private String lkm_mobile;
@@ -18,23 +18,16 @@ public class LinkMan {
 	//通过ORM方式表示：一个联系人之恶能属于某一个客户。
 	//放置的是一的一方的对象
 	private Customer customer;
-	
-	public Customer getCustomer() {
-		return customer;
-	}
-	public void setCustomer(Customer customer) {
-		this.customer = customer;
-	}
 	public Long getLkm_id() {
 		return lkm_id;
 	}
 	public void setLkm_id(Long lkm_id) {
 		this.lkm_id = lkm_id;
 	}
-	public Long getLkm_name() {
+	public String getLkm_name() {
 		return lkm_name;
 	}
-	public void setLkm_name(Long lkm_name) {
+	public void setLkm_name(String lkm_name) {
 		this.lkm_name = lkm_name;
 	}
 	public String getLkm_gender() {
@@ -79,6 +72,13 @@ public class LinkMan {
 	public void setLkm_memo(String lkm_memo) {
 		this.lkm_memo = lkm_memo;
 	}
+	public Customer getCustomer() {
+		return customer;
+	}
+	public void setCustomer(Customer customer) {
+		this.customer = customer;
+	}
+	
 	
 	
 }
