@@ -24,7 +24,9 @@
 		<!-- 配置当前线程绑定的session-->
 		<property name="hibernate.current_session_context_class">thread</property>		
 		
-		<mapping resource="cn/contentcl/hibernate/domain/Customer.hbm.xml"/>
-		<mapping resource="cn/contentcl/hibernate/domain/LinkMan.hbm.xml"/>
+		<!-- <mapping resource="cn/contentcl/hibernate/domain/Customer.hbm.xml"/>
+		<mapping resource="cn/contentcl/hibernate/domain/LinkMan.hbm.xml"/> -->
+		<mapping resource="cn/contentcl/hibernate/domain/User.hbm.xml"/>
+		<mapping resource="cn/contentcl/hibernate/domain/Role.hbm.xml"/>
 	</session-factory>
 </hibernate-configuration>
