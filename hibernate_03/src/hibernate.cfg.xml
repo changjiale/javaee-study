@@ -17,7 +17,7 @@
 		<!-- 格式化sql -->
 		<property name="hibernate.formate_sql">true</property>
 		<!-- 自动创建表 -->
-		<property name="hibernate.hbm2ddl.auto">create</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
 		
 		<!-- 设置事务隔离级别 -->
 		<property name="hibernate.connection.isolation">4</property>

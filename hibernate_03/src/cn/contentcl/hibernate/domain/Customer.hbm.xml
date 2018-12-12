@@ -19,8 +19,10 @@
 		<!-- 
 			set标签 ：
 				* name	：多的一方的对象集合的属性名称。
+				* cascade：级联
+				* inverse：放弃外键维护权
 		-->
-		<set name="linkMans">
+		<set name="linkMans" cascade="save-update,delete" inverse="true">
 			<!--
 				 key标签
 					* column：多的一方的外键的名称。

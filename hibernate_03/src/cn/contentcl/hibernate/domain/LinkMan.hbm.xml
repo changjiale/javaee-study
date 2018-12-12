@@ -28,6 +28,6 @@
  				* column:	在多的一方的表的外键的名称
  				
  		 -->
- 		 <many-to-one name="customer" class="cn.contentcl.hibernate.domain.Customer" column="lkm_cust_id"></many-to-one>
+ 		 <many-to-one name="customer"  cascade="save-update,delete" class="cn.contentcl.hibernate.domain.Customer" column="lkm_cust_id"></many-to-one>
  	</class>
 </hibernate-mapping>
