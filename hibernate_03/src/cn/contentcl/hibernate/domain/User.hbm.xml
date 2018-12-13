@@ -31,7 +31,7 @@
  				*classs : 对方的类的全路径
  				* column: 对方的对象在中间表的外键名称
  			 -->
- 			<many-to-many class="com.itheima.hibernate.domain.Role" column="role_id"/>
+ 			<many-to-many class="cn.contentcl.hibernate.domain.Role" column="role_id"/>
  		</set>
  		
 	</class>

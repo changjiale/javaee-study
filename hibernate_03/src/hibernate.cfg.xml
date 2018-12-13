@@ -17,15 +17,15 @@
 		<!-- 格式化sql -->
 		<property name="hibernate.formate_sql">true</property>
 		<!-- 自动创建表 -->
-		<property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.hbm2ddl.auto">create</property>
 		
 		<!-- 设置事务隔离级别 -->
 		<property name="hibernate.connection.isolation">4</property>
 		<!-- 配置当前线程绑定的session-->
 		<property name="hibernate.current_session_context_class">thread</property>		
 		
-		<!-- <mapping resource="cn/contentcl/hibernate/domain/Customer.hbm.xml"/>
-		<mapping resource="cn/contentcl/hibernate/domain/LinkMan.hbm.xml"/> -->
+		<mapping resource="cn/contentcl/hibernate/domain/Customer.hbm.xml"/>
+		<mapping resource="cn/contentcl/hibernate/domain/LinkMan.hbm.xml"/>
 		<mapping resource="cn/contentcl/hibernate/domain/User.hbm.xml"/>
 		<mapping resource="cn/contentcl/hibernate/domain/Role.hbm.xml"/>
 	</session-factory>
