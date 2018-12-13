@@ -19,7 +19,7 @@
 				* name		：对方的集合的属性名称。
 				* table		：多对多的关系需要使用中间表，放的是中间表的名称。
 		 -->
-		<set name="users" table="sys_user_role" inverse="true">
+		<set name="users" table="sys_user_role" cascade="save-update,delete" inverse="true">
 			<!-- 
 				key标签：
 					* column	：当前的对象对应中间表的外键的名称。
