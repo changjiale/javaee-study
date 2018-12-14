@@ -218,5 +218,32 @@ public class HibernateDemo1 {
 		tx.commit();
 		
 	}
+	
+	@Test
+	/**
+	 * HQL的多表查询
+	 */
+	public void demo9() {
+		Session session = HibernateUtils.getCurrentSession();
+		Transaction tx = session.beginTransaction();
+		
+		//SQL: select * from cst_customer c inner join cst_linkman l on c.cust_id=l.lkm_cust_id;
+		//HQL： 内连接from Customer c inner join c.linkMans
+		/*List<Object[]> list = session.createQuery("from Customer c inner join c.linkMans").list();
+		for (Object[] objects: list) {
+			System.out.println(Arrays.toString(objects));
+		}*/
+		
+		// HQL:迫切内连接 其实就在普通的内连接inner join后添加一个关键字fetch. from Customer c inner
+		// join fetch c.linkMans
+		List<Customer> list = session.createQuery("select distinct c from Customer c inner join fetch c.linkMans")
+		.list();// 通知hibernate，将另一个对象的数据封装到该对象中
+		
+		for (Customer customer : list) {
+			System.out.println(customer);
+		}
+		tx.commit();
+		
+	}
 
 }
