@@ -14,6 +14,12 @@
   <filter>
   	<filter-name>struts2</filter-name>
   	<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+  	<!-- 修改常量 -->
+  	<!-- <init-param>
+  		<param-name>struts.action.extension</param-name>
+  		<param-value>xyz</param-value>
+  	</init-param> -->
+  	
   </filter>
   
   <filter-mapping>
