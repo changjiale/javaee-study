@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+
+	<!-- struts2为了管理Action的配置，通过包进行管理 -->
+	<!-- 配置struts2的包   包名随便起--> 
+	<package name="demo2" extends="struts-default" namespace="/">
+		<!-- 配置Action  action名与类中统一-->
+		<action name="actionDemo1" class="cn.contentcl.struts.demo2.ActionDemo1">
+		<!-- 配置页面跳转 -->
+		</action>
+		<action name="actionDemo2" class="cn.contentcl.struts.demo2.ActionDemo2">
+		</action>
+	</package>
+</struts>
