@@ -14,5 +14,12 @@
 	密码:<input type="password" name="password"/><br>
 	<input type="submit" value="提交">
 </form>
+
+<h3>方式二：使用原生的方式访问</h3>
+<form action="${pageContext.request.contextPath }/requestDemo2.action" method="post">
+	姓名:<input type="text" name="name"/><br>
+	密码:<input type="password" name="password"/><br>
+	<input type="submit" value="提交">
+</form>
 </body>
 </html>
