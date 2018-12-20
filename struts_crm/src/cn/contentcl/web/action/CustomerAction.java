@@ -15,7 +15,7 @@ public class CustomerAction extends ActionSupport{
 		//调用业务层
 		CustomerService customerService = new CustomerServiceImpl();
 		List<Customer> list = customerService.find();
-		//页面跳转
+		// 页面跳转
 		ServletActionContext.getRequest().setAttribute("list", list);
 		return "findSuccess";
 	}

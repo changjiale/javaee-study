@@ -8,7 +8,7 @@
  	<class name="cn.contentcl.domain.Customer" table="cst_customer">
  		<!-- 建立类中的属性与表中的主键对应 -->
  		<id name="cust_id" column="cust_id">
- 			<generator class="increment"/>
+ 			<generator class="native"/>
  		</id>
  		
  		<!-- 建立类中的普通的属性和表的字段对应 -->
