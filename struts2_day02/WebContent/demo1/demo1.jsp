@@ -21,5 +21,12 @@
 	密码:<input type="password" name="password"/><br>
 	<input type="submit" value="提交">
 </form>
+
+<h3>方式三：接口注入的方式</h3>
+<form action="${pageContext.request.contextPath }/requestDemo3.action" method="post">
+	姓名:<input type="text" name="name"/><br>
+	密码:<input type="password" name="password"/><br>
+	<input type="submit" value="提交">
+</form>
 </body>
 </html>

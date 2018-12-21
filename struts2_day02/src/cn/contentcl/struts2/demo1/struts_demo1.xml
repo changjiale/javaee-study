@@ -5,11 +5,19 @@
 <struts>
 
 	<package name="demo1" extends="struts-default" namespace="/">
-		<action name="requestDemo1" class="cn.contentcl.struts2.demo1.RequestDemo1">
+		<!-- 全局结果页面 -->
+		<global-results>
 			<result name="success">/demo1/demo2.jsp</result>
+		</global-results>
+		
+		<action name="requestDemo1" class="cn.contentcl.struts2.demo1.RequestDemo1">
+			<result type="redirect">/demo1/demo2.jsp</result>
 		</action>
 		<action name="requestDemo2" class="cn.contentcl.struts2.demo1.RequestDemo2">
-			<result name="success">/demo1/demo2.jsp</result>
+			
+		</action>
+		<action name="requestDemo3" class="cn.contentcl.struts2.demo1.RequestDemo3">
+			
 		</action>
 	</package>
 	
