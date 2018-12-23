@@ -7,7 +7,7 @@
 	<package name="demo1" extends="struts-default" namespace="/">
 		<!-- 全局结果页面 -->
 		<global-results>
-			<result name="success">/demo1/demo2.jsp</result>
+			<result name="input">/demo1/demo2.jsp</result>
 		</global-results>
 		
 		<action name="requestDemo1" class="cn.contentcl.struts2.demo1.RequestDemo1">

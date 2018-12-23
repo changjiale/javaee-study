@@ -50,6 +50,6 @@ public class UserAction1 extends ActionSupport {
 		user.setPassword(password);
 		user.setSalary(salary);
 		user.setUsename(usename);
-		return NONE;
+		return INPUT;
 	}
 }

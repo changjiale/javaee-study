@@ -5,9 +5,11 @@
 <struts>
 
 	<package name="demo2" extends="struts-default" namespace="/">
+		<global-results>
+			<result name="input">/demo2/demo1.jsp</result>
+		</global-results>
 		
 		<action name="userAction1" class="cn.contentcl.struts2.demo2.UserAction1">
-			
 		</action>
 		<action name="userAction2" class="cn.contentcl.struts2.demo2.UserAction2">
 		</action>
