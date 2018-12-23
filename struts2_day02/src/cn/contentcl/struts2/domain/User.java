@@ -38,5 +38,12 @@ public class User {
 	public void setSalary(Double salary) {
 		this.salary = salary;
 	}
+	@Override
+	public String toString() {
+		return "User [usename=" + usename + ", password=" + password + ", age=" + age + ", birthday=" + birthday
+				+ ", salary=" + salary + "]";
+	}
+	
+	
 	
 }
