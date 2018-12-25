@@ -7,7 +7,7 @@
 	<!-- 配置struct2的常量 -->
 	<!-- <constant name="struts.action.extension" value="=abc"></constant> -->
 	<package name="crm" extends="struts-default" namespace="/">
-		<action name="cutomer_*" class="cn.contentcl.web.action.CustomerAction" method="{1}">
+		<action name="customer_*" class="cn.contentcl.web.action.CustomerAction" method="{1}">
 			<result name="findSuccess">/jsp/customer/list.jsp</result>
 		</action>
 	</package>

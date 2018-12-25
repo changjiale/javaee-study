@@ -1,4 +1,6 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <HEAD id=Head1>
 <TITLE>导航</TITLE>
@@ -128,11 +130,11 @@ A.active {
 											cellPadding=2 width=155 align=center border=0>
 											<TBODY>
 												<TR>
-													<TD class=menuSmall><A class=style2 href="customerServlet?method=add" 
+													<TD class=menuSmall><A class=style2 href="${ pageContext.request.contextPath }/customer_saveUI.action" 
 														target=main>－ 新增客户</A></TD>
 												</TR>
 												<TR> 
-													<TD class=menuSmall><A class=style2 href="/struts_crm/cutomer_find.action"
+													<TD class=menuSmall><A class=style2 href="${ pageContext.request.contextPath }/customer_find.action"
 														target=main>－ 客户列表</A></TD>
 												</TR>
 												

@@ -9,4 +9,5 @@
 	
 	<include file="cn/contentcl/struts2/demo1/struts_demo1.xml"></include>
 	<include file="cn/contentcl/struts2/demo2/struts_demo2.xml"></include>
+	<include file="cn/contentcl/struts2/demo3/struts_demo3.xml"></include>
 </struts>
