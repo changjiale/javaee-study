@@ -9,6 +9,9 @@
 	<package name="crm" extends="struts-default" namespace="/">
 		<action name="customer_*" class="cn.contentcl.web.action.CustomerAction" method="{1}">
 			<result name="findSuccess">/jsp/customer/list.jsp</result>
+			<result name="saveUI">/jsp/customer/add.jsp</result>
+			<result name="saveSuccess" type="redirectAction">customer_find.action</result>
+			
 		</action>
 	</package>
 

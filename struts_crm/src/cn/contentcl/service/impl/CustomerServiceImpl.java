@@ -17,4 +17,13 @@ public class CustomerServiceImpl implements CustomerService {
 		return customerDao.find();
 	}
 
+	@Override
+	//业务层保存客户的方法
+	public void save(Customer customer) {
+		// TODO Auto-generated method stub
+		CustomerDao customerDao = new CustomerDaoImpl();
+		customerDao.save(customer);
+		
+	}
+
 }

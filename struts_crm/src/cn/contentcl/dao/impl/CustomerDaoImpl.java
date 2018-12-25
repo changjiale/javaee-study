@@ -13,6 +13,7 @@ import cn.contentcl.utils.HibernateUtils;
 public class CustomerDaoImpl implements CustomerDao {
 
 	@Override
+	//查询客户的方法
 	public List<Customer> find() {
 		Session session = HibernateUtils.getCurrentSession();
 		Transaction tx = session.beginTransaction();
@@ -20,6 +21,17 @@ public class CustomerDaoImpl implements CustomerDao {
 		List<Customer> list = session.createQuery("from Customer").list();
 		tx.commit();
 		return list;
+	}
+
+	@Override
+	//保存客户
+	public void save(Customer customer) {
+		// TODO Auto-generated method stub
+		Session session = HibernateUtils.getCurrentSession();
+		Transaction tx = session.beginTransaction();
+		session.save(customer);
+		tx.commit();
+		
 	}
 	
 }
