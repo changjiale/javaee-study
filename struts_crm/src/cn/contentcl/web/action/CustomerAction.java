@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.apache.struts2.ServletActionContext;
 
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 
@@ -25,7 +26,10 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
 		CustomerService customerService = new CustomerServiceImpl();
 		List<Customer> list = customerService.find();
 		// 页面跳转
-		ServletActionContext.getRequest().setAttribute("list", list);
+		//ServletActionContext.getRequest().setAttribute("list", list);
+		
+		//将查询的list存入值栈中
+		ActionContext.getContext().getValueStack().set("list", list);
 		return "findSuccess";
 	}
 	/**
