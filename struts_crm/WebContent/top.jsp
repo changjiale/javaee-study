@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri="/struts-tags" prefix="s"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <HEAD id=Head1>
@@ -57,7 +58,7 @@ P {
 								</TR>
 								<TR>
 									<TD height=35 align="right">
-										当前用户：XXXX
+										当前用户：<s:property value="#session.existUser.user_name"/>
 										&nbsp;&nbsp;&nbsp;&nbsp;
 										<A href="#" target=_top><FONT color=red>修改密码</FONT></A>
 										&nbsp;&nbsp;&nbsp;&nbsp;

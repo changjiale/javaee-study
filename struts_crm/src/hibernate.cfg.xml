@@ -25,6 +25,7 @@
 		<property name="hibernate.current_session_context_class">thread</property>		
 		
 		<mapping resource="cn/contentcl/domain/Customer.hbm.xml"/>
+		<mapping resource="cn/contentcl/domain/User.hbm.xml"/>
 
 	</session-factory>
 </hibernate-configuration>
