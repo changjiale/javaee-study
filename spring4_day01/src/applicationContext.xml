@@ -9,4 +9,8 @@
 		<property name="name" value="李东"></property>
 	</bean>
 	
+	<!-- spring的bean的声明周期的配置 -->
+	<bean id="customerDAO" class="live.leer.spring.demo2.CustomerDAOImpl" scope="singleton" init-method="setup" destroy-method="destory">
+	</bean>
+	
 </beans>
