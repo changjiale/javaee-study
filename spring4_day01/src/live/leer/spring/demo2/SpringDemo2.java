@@ -18,7 +18,7 @@ public class SpringDemo2 {
 		CustomerDAO customerDAO = (CustomerDAO) applicationContext.getBean("customerDAO");
 		customerDAO.save();
 		applicationContext.close();
-		applicationContext.close();
+		//applicationContext.close();
 	}
 	
 	@Test

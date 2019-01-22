@@ -13,4 +13,17 @@
 	<bean id="customerDAO" class="live.leer.spring.demo2.CustomerDAOImpl" scope="singleton" init-method="setup" destroy-method="destory">
 	</bean>
 	
+	
+	<!-- Spring的Bean的实例化的方式============= -->
+	<!-- 无参数构造方法 -->
+	<!-- <bean id="bean1" class="live.leer.spring.demo3.Bean1"></bean>
+	
+	静态工厂实例化
+	<bean id="bean2" class="live.leer.spring.demo3.Bean2Factory" factory-method="createBean2"/>
+	
+	实例工厂实例化
+	<bean id="bean3Factory" class="live.leer.spring.demo3.Bean3Factory"></bean>
+	<bean id="bean3" factory-bean="bean3Factory" factory-method="createBean3"></bean> -->
+	
+	
 </beans>
