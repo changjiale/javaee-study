@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+
+	<!-- 配置struct2的常量 -->
+	<!-- <constant name="struts.action.extension" value="=abc"></constant> -->
+	<package name="crm" extends="struts-default" namespace="/">
+		<action name="customer_*" class="live.leer.web.action.CustomerAction" method="{1}">
+			<result name="saveUI">/jsp/customer/add.jsp</result>
+		</action>
+	</package>
+</struts>
