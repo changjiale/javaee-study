@@ -21,9 +21,10 @@ public class ProductDaoImpl implements ProductDao {
 	}
 
 	@Override
-	public void delete() {
+	public String delete() {
 		// TODO Auto-generated method stub
 		System.out.println("删除商品");
+		return "123";
 	}
 
 }
