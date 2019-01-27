@@ -22,6 +22,7 @@
 		<property name="password" value=""></property>
 		
 	</bean> -->
+	
 	<!-- 配置springdbcp连接池 -->
 	<!-- <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
@@ -29,12 +30,21 @@
 		<property name="username" value="root"></property>
 		<property name="password" value=""></property>
 	</bean> -->
+	
+	<!-- 引入属性文件 -->
+	<!-- 第一种通过bean标签引入（很少） -->
+	<!-- <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location" value="classpath:jdbc.properties"></property>
+	</bean> -->
+	<!-- 第二种通过context标签引入 -->
+	<context:property-placeholder location="classpath:jdbc.properties"/>
+	
 	<!-- 配置C3p0连接池 -->
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-		<property name="driverClass" value="com.mysql.jdbc.Driver"></property>
-		<property name="jdbcUrl" value="jdbc:mysql:///spring4_day03"></property>
-		<property name="user" value="root"></property>
-		<property name="password" value=""></property>
+		<property name="driverClass" value="${jdbc.driverClass}"></property>
+		<property name="jdbcUrl" value="${jdbc.url}"></property>
+		<property name="user" value="${jdbc.username}"></property>
+		<property name="password" value="${jdbc.password}"></property>
 	</bean>
 	<!-- 配置spring的Jdbc模板 -->
 	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
