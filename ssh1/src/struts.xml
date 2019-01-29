@@ -7,5 +7,10 @@
 	<!-- 配置struct2的常量 -->
 	<!-- <constant name="struts.action.extension" value="=abc"></constant> -->
 	
-	
+	<!-- 配置action -->
+	<package name="ssh1" extends="struts-default" namespace="/">
+		<action name="customer_*" class="customerAction" method="{1}">
+
+		</action>
+	</package>
 </struts>

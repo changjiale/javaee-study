@@ -5,7 +5,7 @@
 <hibernate-configuration>
 	<session-factory>
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="hibernate.connection.url">jdbc:mysql:///hibernate_day04</property>
+		<property name="hibernate.connection.url">jdbc:mysql:///ssh1</property>
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.connection.password"></property>
 		<!-- 配置hibernate方言 -->
@@ -23,8 +23,7 @@
 		<!-- 配置当前线程绑定的session-->
 		<!-- <property name="hibernate.current_session_context_class">thread</property>		 -->
 		
-		<mapping resource="cn/contentcl/hibernate/domain/Customer.hbm.xml"/>
-		<mapping resource="cn/contentcl/hibernate/domain/LinkMan.hbm.xml"/>
+		<mapping resource="live/leer/ssh/domain/Customer.hbm.xml"/>
 
 	</session-factory>
 </hibernate-configuration>
