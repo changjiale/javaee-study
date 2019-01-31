@@ -14,20 +14,18 @@ import live.leer.ssh.service.CustomerService;
 @Transactional
 public class CustomerServiceImpl implements CustomerService {
 
-	//注入DAO
+	// 注入DAO;
 	private CustomerDao customerDao;
-	
 	
 	public void setCustomerDao(CustomerDao customerDao) {
 		this.customerDao = customerDao;
 	}
 
-
 	@Override
 	public void save(Customer customer) {
-		// TODO Auto-generated method stub
-		System.out.println("Service的save方法执行了");
+		System.out.println("Service中的save方法执行了...");
 		customerDao.save(customer);
 	}
 
 }
+

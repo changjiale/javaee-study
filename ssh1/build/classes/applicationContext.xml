@@ -12,30 +12,33 @@
 	http://www.springframework.org/schema/aop/spring-aop.xsd
 	http://www.springframework.org/schema/tx 
 	http://www.springframework.org/schema/tx/spring-tx.xsd">
+	
 	<!-- Spring整合Hibernate -->
 	<!-- 引入Hibernate的配置的信息=============== -->
 	<bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
-		<!-- 引入hibernate配置文件 -->
-		<property name="configLocation" value="classpath:hibernate.cfg.xml"></property>
+		<!-- 引入hibernate的配置文件 -->
+		<property name="configLocation" value="classpath:hibernate.cfg.xml"/>
 	</bean>
 	
-	<!-- 配置action -->
+	<!-- 配置Action=================== -->
 	<bean id="customerAction" class="live.leer.ssh.web.action.CustomerAction" scope="prototype">
-		<property name="customerService" ref="customerService"></property>
+		<property name="customerService" ref="customerService"/>
 	</bean>
 	
-	<!-- 配置DAO========== -->
+	<!-- 配置Service================== -->
 	<bean id="customerService" class="live.leer.ssh.service.impl.CustomerServiceImpl">
-		<property name="customerDao" ref="customerDao"></property>
+		<property name="customerDao" ref="customerDao"/>
 	</bean>
-	<!-- 配置DAO -->
+	
+	<!-- 配置DAO====================== -->
 	<bean id="customerDao" class="live.leer.ssh.dao.impl.CustomerDaoImpl">
-		<property name="sessionFactory" ref="sessionFactory"></property>
+		<property name="sessionFactory" ref="sessionFactory"/>
 	</bean>
+		
 	
 	<!-- 配置事务管理器 -->
 	<bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
-		<property name="sessionFactory" ref="sessionFactory"></property>
+		<property name="sessionFactory" ref="sessionFactory"/>
 	</bean>
 	
 	<!-- 开启注解事务 -->
