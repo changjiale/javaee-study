@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [07/Feb/2019:14:33:28 +0800] "GET /mavenstruts HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [07/Feb/2019:14:33:29 +0800] "GET /mavenstruts/ HTTP/1.1" 200 139 http-bio-8080-exec-3 698
+0:0:0:0:0:0:0:1 - - [07/Feb/2019:14:34:28 +0800] "GET /mavenstruts/HelloAction HTTP/1.1" 404 1185 http-bio-8080-exec-4 57
+0:0:0:0:0:0:0:1 - - [07/Feb/2019:14:34:51 +0800] "GET /mavenstruts/helloAction HTTP/1.1" 200 139 http-bio-8080-exec-6 57
