@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cn.itcast.crm.domain.Customer" table="customer" >
+        <id name="custId" type="java.lang.Long">
+            <column name="cust_id" />
+            <!-- 6种生成策略  ： identity,native,sequence,uuid,increment, assigned  -->
+        </id>
+      
+        <property name="custName" type="string">
+            <column name="cust_name" length="32" not-null="true"></column>
+        </property>
+        <property name="custUserId" column="cust_user_id"></property>
+        <property name="custCreateId" column="cust_create_id"></property>
+        <property name="custIndustry" column="cust_industry"></property>
+        <property name="custLevel" column="cust_level"></property>
+ 
+        <property name="custLinkman" type="string">
+            <column name="cust_linkman" length="64"></column>
+        </property>
+        <property name="custPhone" type="string">
+            <column name="cust_phone" length="64"></column>
+        </property>
+        <property name="custMobile" type="string">
+            <column name="cust_mobile" length="16"></column>
+        </property>
+       
+    </class>
+</hibernate-mapping>
