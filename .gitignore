@@ -12,3 +12,4 @@ hibernate_02/.settings/
 */.classpath
 */.project
 */.gitignore
+*/target/
