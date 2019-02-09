@@ -10,6 +10,7 @@ public class User {
 	private Date birthday;// 生日
 	private String address;// 地址
 
+	private String uuid;
 	public Integer getId() {
 		return id;
 	}
@@ -50,10 +51,20 @@ public class User {
 		this.address = address;
 	}
 
+	public String getUuid() {
+		return uuid;
+	}
+
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
+	}
+
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", username=" + username + ", sex=" + sex + ", birthday=" + birthday + ", address="
-				+ address + "]";
+				+ address + ", uuid=" + uuid + "]";
 	}
+
+	
 
 }

@@ -60,4 +60,50 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		  ) ;
 		
 	</insert>
+	
+	<insert id="insertUserUUID" parameterType="live.leer.mybatis.pojo.User" useGeneratedKeys="true" keyProperty="id">
+		<!-- 
+			selectKey主键返回
+			keyProperty user中的主键属性
+			resultType 主键数据类型
+			order 指定selectKey何时执行 
+		 -->
+		<selectKey keyProperty="uuid" resultType="String" order="BEFORE">
+			SELECT UUID()
+		</selectKey>
+		
+		INSERT INTO `user` (
+		  `username`,
+		  `birthday`,
+		  `sex`,
+		  `address`,
+		  `uuid`
+		) 
+		VALUES
+		  (
+		    #{username},
+		    #{birthday},
+		    #{sex},
+		    #{address},
+		    #{uuid}
+		  ) ;
+		
+	</insert>
+	
+	<!-- 更新用户 -->
+	<update id="updateUser" parameterType="live.leer.mybatis.pojo.User">
+		UPDATE 
+		  `user` 
+		SET
+		  `username` = #{username}
+		WHERE `id` = #{id} ;
+	</update>
+	
+	<!-- 删除用户 -->
+	<delete id="deleteUser" parameterType="int">
+		DELETE 
+		FROM
+		  `user` 
+		WHERE `id` = #{id} ;
+	</delete>
 </mapper>
