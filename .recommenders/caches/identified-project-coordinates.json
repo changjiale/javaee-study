@@ -1,1 +1,1 @@
-[[{"location":"D:\\Java\\jdk1.8.0_181","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"]]
+[[{"location":"E:\\code\\javaee\\mybatis01\\lib\\mybatis-3.2.7.jar","type":"JAR","hints":{}},"org.mybatis:mybatis:3.2.7"],[{"location":"D:\\Java\\jdk1.8.0_181","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"]]

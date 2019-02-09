@@ -2,7 +2,11 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<!-- namespace命名空间 用于隔离sql语句 -->
+<!-- namespace命名空间 用于隔离sql语句 
+	#{} 点位符 相当于jdbc的？
+	${} 字符串拼接指令，如果入参为普通数据类型{}内只能为value
+
+-->
 <mapper namespace="user">
 	
 	<!-- id:statementId
@@ -17,7 +21,15 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		  `user` 
 		WHERE 
 			id = #{id}
-
-		
+	</select>
+	<!-- resultType，如果返回结果为集合，只需设置为每一个的数据类型 -->
+	<select id="getUserByName" parameterType="String" resultType="live.leer.mybatis.pojo.User">
+		SELECT 
+		  `id`,`username`,`birthday`,`sex`,`address` 
+		FROM
+		  `user` 
+		WHERE 
+			<!-- username LIKE #{name} -->
+			username LIKE '%${value}%'
 	</select>
 </mapper>

@@ -2,6 +2,7 @@ package live.leer.mybatis.test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -10,6 +11,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
 
 import live.leer.mybatis.pojo.User;
+import live.leer.mybatis.utils.SqlSessionFactoryUtils;
 
 public class MybatisTest {
 
@@ -29,5 +31,25 @@ public class MybatisTest {
 		 
 		 //释放资源
 		 sqlSession.close();
+	}
+	
+	@Test
+	public void testGetUserByName() {
+		//获取SqlSessionFactory
+		SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
+		//创建SqlSession
+		SqlSession sqlSession = sqlSessionFactory.openSession();
+		List<User> list = sqlSession.selectList("user.getUserByName", "张");
+		for (User user : list) {
+			System.out.println(user);
+		}
+		//释放资源
+		 sqlSession.close();
+		
+		
+		
+		
+		
+		
 	}
 }
