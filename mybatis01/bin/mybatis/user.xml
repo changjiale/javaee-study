@@ -32,4 +32,32 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 			<!-- username LIKE #{name} -->
 			username LIKE '%${value}%'
 	</select>
+	
+	<!-- userGeneratedKeys：使用自增 keyProperty与之配套使用 -->
+	<insert id="insertUser" parameterType="live.leer.mybatis.pojo.User" useGeneratedKeys="true" keyProperty="id">
+		<!-- 
+			selectKey主键返回
+			keyProperty user中的主键属性
+			resultType 主键数据类型
+			order 指定selectKey何时执行 
+		 -->
+		<!-- <selectKey keyProperty="id" resultType="int" order="AFTER">
+			SELECT LAST_INSERT_ID()
+		</selectKey> -->
+		
+		INSERT INTO `user` (
+		  `username`,
+		  `birthday`,
+		  `sex`,
+		  `address`
+		) 
+		VALUES
+		  (
+		    #{username},
+		    #{birthday},
+		    #{sex},
+		    #{address}
+		  ) ;
+		
+	</insert>
 </mapper>

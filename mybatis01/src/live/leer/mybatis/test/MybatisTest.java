@@ -2,6 +2,7 @@ package live.leer.mybatis.test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Date;
 import java.util.List;
 
 import org.apache.ibatis.io.Resources;
@@ -47,8 +48,24 @@ public class MybatisTest {
 		 sqlSession.close();
 		
 		
-		
-		
+	}
+	@Test
+	public void testInsertUser() {
+		//获取SqlSessionFactory
+		SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
+		//创建SqlSession
+		SqlSession sqlSession = sqlSessionFactory.openSession();
+		User user = new User();
+		user.setUsername("张飞3");
+		user.setSex("1");
+		user.setBirthday(new Date());
+		user.setAddress("白马寺");
+		sqlSession.insert("user.insertUser", user);
+		System.out.println(user);
+		//提交事务
+		sqlSession.commit();
+		//释放资源
+		 sqlSession.close();
 		
 		
 	}
