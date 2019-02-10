@@ -15,6 +15,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
  -->
 <mapper namespace="live.leer.mybatis.mapper.UserMapper">
 	
+	<!-- sql片段的抽取，定义 -->
+	<sql id="user_sql">
+		`id`,`username`,`birthday`,`sex`,`address` 
+	</sql>
+	
 	<!-- id:statementId
 		 resultType:查询结果集的数据类型
 		 parameterType:查询的入参
@@ -78,6 +83,95 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<!-- 查询用户总记录数，演示返回简单类型 -->
 	<select id="getUserCount" resultType="int">
 		SELECT COUNT(1) FROM USER
+	</select>
+	
+	<!-- resultType，如果返回结果为集合，只需设置为每一个的数据类型 -->
+	<select id="getUserByPojo" parameterType="user" resultType="live.leer.mybatis.pojo.User">
+		SELECT 
+		<!-- sql片段引用 -->
+		  <include refid="user_sql"></include>
+		FROM
+		  `user` 
+		<!-- WHERE 1 = 1
+			<if test="username != null and username != ''">
+				and username LIKE '%${username}%'
+			</if>
+			<if test="id != null">
+				and sex = #{sex}
+			</if> -->
+			<where>
+				<if test="username != null and username != ''">
+					and username LIKE '%${username}%'
+				</if>
+				<if test="id != null">
+					and sex = #{sex}
+				</if>
+				
+			</where>
+
+	</select>
+	
+	<!-- 演示动态sql-foreach标签的使用情景 -->
+	<select id="getUserByIds" parameterType="queryvo"
+		resultType="live.leer.mybatis.pojo.User">
+		
+		SELECT
+		*
+		FROM USER
+		<!-- where会自动加上where同处理多余的and -->
+		<where>
+			<!-- id IN(1,10,25,30,34) -->
+			<!-- foreach循环标签 
+				 collection:要遍历的集合，来源入参 
+				 open:循环开始前的sql 
+				 separator:分隔符 
+				 close:循环结束拼接的sql
+			-->
+			<foreach item="uid" collection="ids" open="id IN(" separator=","
+				close=")">
+				#{uid}
+			</foreach>		</where>
+	</select>
+	
+	
+	<!-- 一对多关联查询 -->
+	<resultMap type="user" id="user_order_map">
+		<id property="id" column="id" />
+		<result property="username" column="username" />
+		<result property="birthday" column="birthday" />
+		<result property="address" column="address" />
+		<result property="sex" column="sex" />
+		<result property="uuid" column="uuid" />
+		
+		<!-- collection:配置一对多关系
+			 property:用户下的order属性
+			 ofType:property的数据类型，支持别名
+		-->
+		<collection property="orders" ofType="order">
+			<!-- id标签用于绑定主键 -->
+			<id property="id" column="oid"/>
+			<!-- 使用result绑定普通字段 -->
+			<!-- <result property="userId" column="id"/> -->
+			<result property="number" column="number"/>
+			<result property="createtime" column="createtime"/>
+		</collection>
+
+	</resultMap>
+	<!-- 一对多关联查询 -->
+	<select id="getUserOrder" resultMap="user_order_map">
+		SELECT
+		u.`id`,
+		u.`username`,
+		u.`birthday`,
+		u.`sex`,
+		u.`address`,
+		u.`uuid`,
+		o.`id` oid,
+		o.`number`,
+		o.`createtime`
+		FROM `user` u
+		LEFT JOIN `order` o
+		ON o.`user_id` = u.`id`
 	</select>
 	
 </mapper>

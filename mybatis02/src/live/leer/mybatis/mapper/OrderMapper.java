@@ -22,4 +22,11 @@ public interface OrderMapper {
 	 * @return
 	 */
 	List<Order> getOrderListMap();
+	
+	
+	/**
+	 * 一对一关联 resultmap
+	 * @return
+	 */
+	List<Order> getOrderUser2();
 }

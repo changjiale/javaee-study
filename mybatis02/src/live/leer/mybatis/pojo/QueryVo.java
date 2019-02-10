@@ -1,4 +1,7 @@
 package live.leer.mybatis.pojo;
+
+import java.util.List;
+
 /**
  * 包装的pojo
  * @author leer
@@ -7,6 +10,15 @@ package live.leer.mybatis.pojo;
 public class QueryVo {
 	//用户对象
 		private User user;
+		private List<Integer> ids;
+		
+		public List<Integer> getIds() {
+			return ids;
+		}
+
+		public void setIds(List<Integer> ids) {
+			this.ids = ids;
+		}
 
 		public User getUser() {
 			return user;

@@ -2,6 +2,7 @@ package live.leer.mybatis.mapper;
 
 import java.util.List;
 
+import live.leer.mybatis.pojo.Order;
 import live.leer.mybatis.pojo.QueryVo;
 import live.leer.mybatis.pojo.User;
 
@@ -37,6 +38,15 @@ public interface UserMapper {
 	 * @return
 	 */
 	Integer getUserCount();
+
+	List<User> getUserByPojo(User user);
+	
+	List<User> getUserByIds(QueryVo queryVo);
+	/**
+	 * 演示一对多级联查询
+	 * @return
+	 */
+	List<User> getUserOrder();
 
 }
 

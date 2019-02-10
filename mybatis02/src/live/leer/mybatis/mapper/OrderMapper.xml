@@ -38,6 +38,45 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		SELECT * FROM `order`
 	</select>
 	
+	<!-- 一对一关联查询-resultMap -->
+	<resultMap type="order" id="order_user_map">
+		<!-- id标签用于绑定主键 -->
+		<id property="id" column="id"/>
+		<!-- 使用result绑定普通字段 -->
+		<result property="userId" column="user_id"/>
+		<result property="number" column="number"/>
+		<result property="createtime" column="createtime"/>
+		<result property="note" column="note"/>
+		
+		<!-- association:配置一对一关联
+			 property:绑定的用户属性
+			 javaType:属性数据类型，支持别名
+		-->
+		<association property="user" javaType="live.leer.mybatis.pojo.User">
+			<id property="id" column="user_id"/>
+			
+			<result property="username" column="username"/>
+			<result property="address" column="address"/>
+			<result property="sex" column="sex"/>
+		</association>
+	</resultMap>
+	
+	
+	<!-- 一对一关联查询-使用resultMap -->
+	<select id="getOrderUser2" resultMap="order_user_map">
+		SELECT
+		  o.`id`,
+		  o.`user_id`,
+		  o.`number`,
+		  o.`createtime`,
+		  o.`note`,
+		  u.`username`,
+		  u.`address`,
+		  u.`sex`
+		FROM `order` o
+		LEFT JOIN `user` u
+		ON u.id = o.`user_id`
+	</select>
 	
 	
 	

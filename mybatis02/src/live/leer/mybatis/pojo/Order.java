@@ -12,6 +12,17 @@ public class Order {
 	private Date createtime;
 
 	private String note;
+	
+	private User user;
+	
+	
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
 
 	public Integer getId() {
 		return id;
