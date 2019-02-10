@@ -20,7 +20,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		 parameterType:查询的入参
 	-->
 	
-	<select id="getUserById" parameterType="int" resultType="live.leer.mybatis.pojo.User">
+	<select id="getUserById" parameterType="int" resultType="user">
 		SELECT 
 		  `id`,`username`,`birthday`,`sex`,`address` 
 		FROM
