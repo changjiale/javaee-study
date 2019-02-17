@@ -49,7 +49,7 @@
    	<!-- 动态代理Dao开发，第一种方式，包扫描器(推荐使用) -->
 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
    		<!-- basePackage：配置映射包装扫描，多个包时用","或";"分隔 -->
-<property name="basePackage" value="live.leer.mybatis.mapper" />
+<property name="basePackage" value="live.leer.ssm.mapper" />
    </bean>
    	
 	
