@@ -21,8 +21,8 @@ public class ItemController {
 		List<Item> list = Arrays.asList(new Item(1, "冰箱", 1999, new Date(), "冰箱很冷")
 				,new Item(2, "冰箱2", 1999, new Date(), "冰箱很热"));
 		mav.addObject("itemList", list);
-		mav.setViewName("/WEB-INF/jsp/itemList.jsp");
-		
+		//mav.setViewName("/WEB-INF/jsp/itemList.jsp");
+		mav.setViewName("itemList");
 		return mav;
 	}
 }
