@@ -21,7 +21,7 @@
 		<!-- 连接池的最大数据库连接数 -->
 		<property name="maxActive" value="10" />
 		<!-- 最大空闲数 -->
-		<property name="maxIdle" value="5" />
+		<property name="maxIdle" value="5" /> 
 	</bean>
 	
 	<!-- SqlSessionFactory配置 -->
