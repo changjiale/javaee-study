@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.itheima.springmvc.mapper.UserMapper" >
-  <resultMap id="BaseResultMap" type="com.itheima.springmvc.pojo.User" >
+<mapper namespace="live.leer.springmvc.mapper.ItemMapper" >
+  <resultMap id="BaseResultMap" type="live.leer.springmvc.pojo.Item" >
     <id column="id" property="id" jdbcType="INTEGER" />
-    <result column="username" property="username" jdbcType="VARCHAR" />
-    <result column="birthday" property="birthday" jdbcType="DATE" />
-    <result column="sex" property="sex" jdbcType="CHAR" />
-    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="price" property="price" jdbcType="REAL" />
+    <result column="detail" property="detail" jdbcType="VARCHAR" />
+    <result column="pic" property="pic" jdbcType="VARCHAR" />
+    <result column="createtime" property="createtime" jdbcType="TIMESTAMP" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -67,15 +68,15 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    id, username, birthday, sex, address
+    id, name, price, detail, pic, createtime
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.itheima.springmvc.pojo.UserExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="live.leer.springmvc.pojo.ItemExample" >
     select
     <if test="distinct" >
       distinct
     </if>
     <include refid="Base_Column_List" />
-    from user
+    from item
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
@@ -86,85 +87,96 @@
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
-    from user
+    from item
     where id = #{id,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
-    delete from user
+    delete from item
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <delete id="deleteByExample" parameterType="com.itheima.springmvc.pojo.UserExample" >
-    delete from user
+  <delete id="deleteByExample" parameterType="live.leer.springmvc.pojo.ItemExample" >
+    delete from item
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.itheima.springmvc.pojo.User" >
-    insert into user (id, username, birthday, 
-      sex, address)
-    values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{birthday,jdbcType=DATE}, 
-      #{sex,jdbcType=CHAR}, #{address,jdbcType=VARCHAR})
+  <insert id="insert" parameterType="live.leer.springmvc.pojo.Item" >
+    insert into item (id, name, price, 
+      detail, pic, createtime
+      )
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{price,jdbcType=REAL}, 
+      #{detail,jdbcType=VARCHAR}, #{pic,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP}
+      )
   </insert>
-  <insert id="insertSelective" parameterType="com.itheima.springmvc.pojo.User" >
-    insert into user
+  <insert id="insertSelective" parameterType="live.leer.springmvc.pojo.Item" >
+    insert into item
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
         id,
       </if>
-      <if test="username != null" >
-        username,
+      <if test="name != null" >
+        name,
       </if>
-      <if test="birthday != null" >
-        birthday,
+      <if test="price != null" >
+        price,
       </if>
-      <if test="sex != null" >
-        sex,
+      <if test="detail != null" >
+        detail,
       </if>
-      <if test="address != null" >
-        address,
+      <if test="pic != null" >
+        pic,
+      </if>
+      <if test="createtime != null" >
+        createtime,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="id != null" >
         #{id,jdbcType=INTEGER},
       </if>
-      <if test="username != null" >
-        #{username,jdbcType=VARCHAR},
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
       </if>
-      <if test="birthday != null" >
-        #{birthday,jdbcType=DATE},
+      <if test="price != null" >
+        #{price,jdbcType=REAL},
       </if>
-      <if test="sex != null" >
-        #{sex,jdbcType=CHAR},
+      <if test="detail != null" >
+        #{detail,jdbcType=VARCHAR},
       </if>
-      <if test="address != null" >
-        #{address,jdbcType=VARCHAR},
+      <if test="pic != null" >
+        #{pic,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        #{createtime,jdbcType=TIMESTAMP},
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.itheima.springmvc.pojo.UserExample" resultType="java.lang.Integer" >
-    select count(*) from user
+  <select id="countByExample" parameterType="live.leer.springmvc.pojo.ItemExample" resultType="java.lang.Integer" >
+    select count(*) from item
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </select>
   <update id="updateByExampleSelective" parameterType="map" >
-    update user
+    update item
     <set >
       <if test="record.id != null" >
         id = #{record.id,jdbcType=INTEGER},
       </if>
-      <if test="record.username != null" >
-        username = #{record.username,jdbcType=VARCHAR},
+      <if test="record.name != null" >
+        name = #{record.name,jdbcType=VARCHAR},
       </if>
-      <if test="record.birthday != null" >
-        birthday = #{record.birthday,jdbcType=DATE},
+      <if test="record.price != null" >
+        price = #{record.price,jdbcType=REAL},
       </if>
-      <if test="record.sex != null" >
-        sex = #{record.sex,jdbcType=CHAR},
+      <if test="record.detail != null" >
+        detail = #{record.detail,jdbcType=VARCHAR},
       </if>
-      <if test="record.address != null" >
-        address = #{record.address,jdbcType=VARCHAR},
+      <if test="record.pic != null" >
+        pic = #{record.pic,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createtime != null" >
+        createtime = #{record.createtime,jdbcType=TIMESTAMP},
       </if>
     </set>
     <if test="_parameter != null" >
@@ -172,40 +184,45 @@
     </if>
   </update>
   <update id="updateByExample" parameterType="map" >
-    update user
+    update item
     set id = #{record.id,jdbcType=INTEGER},
-      username = #{record.username,jdbcType=VARCHAR},
-      birthday = #{record.birthday,jdbcType=DATE},
-      sex = #{record.sex,jdbcType=CHAR},
-      address = #{record.address,jdbcType=VARCHAR}
+      name = #{record.name,jdbcType=VARCHAR},
+      price = #{record.price,jdbcType=REAL},
+      detail = #{record.detail,jdbcType=VARCHAR},
+      pic = #{record.pic,jdbcType=VARCHAR},
+      createtime = #{record.createtime,jdbcType=TIMESTAMP}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.itheima.springmvc.pojo.User" >
-    update user
+  <update id="updateByPrimaryKeySelective" parameterType="live.leer.springmvc.pojo.Item" >
+    update item
     <set >
-      <if test="username != null" >
-        username = #{username,jdbcType=VARCHAR},
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
       </if>
-      <if test="birthday != null" >
-        birthday = #{birthday,jdbcType=DATE},
+      <if test="price != null" >
+        price = #{price,jdbcType=REAL},
       </if>
-      <if test="sex != null" >
-        sex = #{sex,jdbcType=CHAR},
+      <if test="detail != null" >
+        detail = #{detail,jdbcType=VARCHAR},
       </if>
-      <if test="address != null" >
-        address = #{address,jdbcType=VARCHAR},
+      <if test="pic != null" >
+        pic = #{pic,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        createtime = #{createtime,jdbcType=TIMESTAMP},
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.itheima.springmvc.pojo.User" >
-    update user
-    set username = #{username,jdbcType=VARCHAR},
-      birthday = #{birthday,jdbcType=DATE},
-      sex = #{sex,jdbcType=CHAR},
-      address = #{address,jdbcType=VARCHAR}
+  <update id="updateByPrimaryKey" parameterType="live.leer.springmvc.pojo.Item" >
+    update item
+    set name = #{name,jdbcType=VARCHAR},
+      price = #{price,jdbcType=REAL},
+      detail = #{detail,jdbcType=VARCHAR},
+      pic = #{pic,jdbcType=VARCHAR},
+      createtime = #{createtime,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=INTEGER}
   </update>
 </mapper>

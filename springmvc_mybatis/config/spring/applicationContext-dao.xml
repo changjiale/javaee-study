@@ -36,6 +36,6 @@
     <!-- 动态代理，第二种方式：包扫描（推荐）： -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
     	<!-- basePackage多个包用","分隔 -->
-    	<property name="basePackage" value="com.itheima.springmvc.mapper" />
+    	<property name="basePackage" value="live.leer.springmvc.mapper" />
     </bean>
 </beans>
