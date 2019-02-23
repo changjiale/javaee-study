@@ -51,7 +51,7 @@ ${ msg }
 	</td>
 	<td><input type="text" name="items[${ status.index }].detail" value="${item.detail }"></td>
 	<td><a href="${pageContext.request.contextPath }/itemEdit.action?id=${item.id}">修改</a></td>
-
+  
 </tr>
 </c:forEach>
 
