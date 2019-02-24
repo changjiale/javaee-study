@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import live.leer.springmvc.exception.MyException;
 import live.leer.springmvc.pojo.Item;
 import live.leer.springmvc.pojo.QueryVo;
 import live.leer.springmvc.service.ItemService;
@@ -109,7 +110,7 @@ public class ItemController {
 	}
 	
 	@RequestMapping("queryVoid")
-	public void queryVoid(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public void queryVoid(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, MyException {
 		
 		//request相应用户请求
 		/*request.setAttribute("msg", "request相应的消息");
@@ -117,6 +118,11 @@ public class ItemController {
 		//response响应用户请求
 		/*response.sendRedirect("itemList.action");*/
 		
+		//假设这里是根据id查询商品信息，搜素不到商品
+		if(true) {
+			throw new MyException("你查找的商品不存在");
+		}
+		int i =1/0;
 		//设置响应头字符编码
 		response.setContentType("text/html;charset=utf-8");
 		response.setCharacterEncoding("utf-8");

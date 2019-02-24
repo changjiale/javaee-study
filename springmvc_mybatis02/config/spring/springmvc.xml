@@ -29,4 +29,7 @@
 		<property name="prefix" value="/WEB-INF/jsp/"/>
 		<property name="suffix" value=".jsp"/>
 	</bean>
+	
+	<!-- 配置全局异常处理器 -->
+	<bean class="live.leer.springmvc.exception.CustomerExceptionResolver"></bean>
 </beans>
