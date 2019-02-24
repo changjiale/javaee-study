@@ -1,11 +1,18 @@
 package live.leer.springmvc.controller;
 
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -14,12 +21,13 @@ import live.leer.springmvc.pojo.QueryVo;
 import live.leer.springmvc.service.ItemService;
 
 @Controller
+//@RequestMapping("item")
 public class ItemController {
 
 	@Autowired
 	private ItemService itemService;
 
-	@RequestMapping("itemList")
+	@RequestMapping(value={"itemList","itemList2"})
 	public ModelAndView itemList() {
 		ModelAndView mav = new ModelAndView();
 
@@ -64,12 +72,12 @@ public class ItemController {
 	}
 	
 	/**
-	 * 修改商品
+	 * 修改商品 
 	 * 演示pojo参数绑定
 	 * @param item
 	 * @return
 	 */
-	@RequestMapping("updateItem")
+	@RequestMapping(value="updateItem",method={RequestMethod.POST,RequestMethod.GET})
 	public String updateItem(Item item,Model model){
 		itemService.updateItem(item);
 		model.addAttribute("item", item);
@@ -97,6 +105,22 @@ public class ItemController {
 		List<Item> itemList = itemService.getItemList();
 
 		model.addAttribute("itemList", itemList);
-		return "itemList";
+		return "itemList"; 
+	}
+	
+	@RequestMapping("queryVoid")
+	public void queryVoid(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		//request相应用户请求
+		/*request.setAttribute("msg", "request相应的消息");
+		request.getRequestDispatcher("/WEB-INF/jsp/msg.jsp").forward(request, response);*/
+		//response响应用户请求
+		/*response.sendRedirect("itemList.action");*/
+		
+		//设置响应头字符编码
+		response.setContentType("text/html;charset=utf-8");
+		response.setCharacterEncoding("utf-8");
+		PrintWriter printWriter = response.getWriter();
+		printWriter.println("这是一个response打印的消息");
 	}
 }
