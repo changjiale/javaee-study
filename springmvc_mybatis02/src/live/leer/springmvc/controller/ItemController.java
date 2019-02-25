@@ -1,19 +1,26 @@
 package live.leer.springmvc.controller;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
+import java.util.UUID;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import live.leer.springmvc.exception.MyException;
@@ -37,6 +44,7 @@ public class ItemController {
 		mav.addObject("itemList", itemList);
 		// mav.setViewName("/WEB-INF/jsp/itemList.jsp");
 		mav.setViewName("itemList");
+		System.out.println("ItemController.itemList");
 		return mav;
 	}
 
@@ -77,9 +85,26 @@ public class ItemController {
 	 * 演示pojo参数绑定
 	 * @param item
 	 * @return
+	 * @throws IOException 
+	 * @throws IllegalStateException 
 	 */
 	@RequestMapping(value="updateItem",method={RequestMethod.POST,RequestMethod.GET})
-	public String updateItem(Item item,Model model){
+	public String updateItem(Item item,MultipartFile pictureFile,Model model) throws IllegalStateException, IOException{
+		//图片新名字
+		 String newname = UUID.randomUUID().toString();
+		 //图片原来名字s
+		 String oldname = pictureFile.getOriginalFilename();
+		//后缀
+		String fux = oldname.substring(oldname.lastIndexOf("."));
+		//新建文件流
+		 File file = new File("E:\\code\\picture\\"+newname+fux);
+
+		
+		//写入本地磁盘
+		pictureFile.transferTo(file);
+		//保存图片到数据库
+		item.setPic(newname+fux);
+		
 		itemService.updateItem(item);
 		model.addAttribute("item", item);
 		model.addAttribute("msg", "修改商品信息成功");
@@ -128,5 +153,30 @@ public class ItemController {
 		response.setCharacterEncoding("utf-8");
 		PrintWriter printWriter = response.getWriter();
 		printWriter.println("这是一个response打印的消息");
+	}
+	
+	@RequestMapping("getItem")
+	@ResponseBody
+	public Item getItem(@RequestBody Item item) {
+		System.out.println(item);
+		//Item item = itemService.getItemById(1);
+		item.setName("1234");
+		return item;
+	}
+	
+	/**
+	 * restful风格
+	 * @param id
+	 * @param model
+	 * @return
+	 */
+	@RequestMapping("item/{id}")
+	public String itemQuery(@PathVariable Integer id, Model model) {
+		// 查询商品信息
+		Item item = itemService.getItemById(id);
+		//model返回数据模型
+		model.addAttribute("item", item);
+		//mav.addObject("item", item);
+		return "itemEdit";
 	}
 }

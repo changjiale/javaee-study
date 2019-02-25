@@ -32,4 +32,19 @@
 	
 	<!-- 配置全局异常处理器 -->
 	<bean class="live.leer.springmvc.exception.CustomerExceptionResolver"></bean>
+	
+	<!-- 配置多媒体处理器 -->
+	<!-- 注意：这里id必须填写：multipartResolver -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- 最大上传文件大小 -->
+		<property name="maxUploadSize" value="8388608" />
+	</bean>
+	
+	<mvc:interceptors>
+		<mvc:interceptor>
+		<!-- /** 拦截所有请求包括二级以上目录 -->
+			<mvc:mapping path="/**"/>
+			<bean class="live.leer.springmvc.interceptor.MyInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
 </beans>
