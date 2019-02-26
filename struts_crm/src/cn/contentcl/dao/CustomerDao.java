@@ -6,8 +6,8 @@ import cn.contentcl.domain.Customer;
 
 public interface CustomerDao {
 
-	List<Customer> find();
+    List<Customer> find();
 
-	void save(Customer customer);
+    void save(Customer customer);
 
 }

@@ -7,18 +7,17 @@ import cn.contentcl.service.UserService;
 
 /**
  * 用户业务层实现类
- * @author leer
  *
+ * @author leer
  */
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
 
-	@Override
-	// 业务层用户登录的方法:
-	public User login(User user) {
-		UserDao userDao = new UserDaoImpl();
-		return userDao.login(user);
-	}
+    @Override
+    // 业务层用户登录的方法:
+    public User login(User user) {
+        UserDao userDao = new UserDaoImpl();
+        return userDao.login(user);
+    }
 
-	
 
 }

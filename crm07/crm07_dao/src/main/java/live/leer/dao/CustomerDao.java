@@ -6,5 +6,5 @@ import live.leer.domain.Customer;
 
 public interface CustomerDao {
 
-	public List<Customer> findAll();
+    public List<Customer> findAll();
 }

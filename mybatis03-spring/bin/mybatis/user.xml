@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
-PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- namespace命名空间 用于隔离sql语句 
 	#{} 点位符 相当于jdbc的？
 	${} 字符串拼接指令，如果入参为普通数据类型{}内只能为value
 
 -->
 <mapper namespace="user">
-	
-	<!-- id:statementId
-		 resultType:查询结果集的数据类型
-		 parameterType:查询的入参
-	-->
-	
-	<select id="getUserById" parameterType="int" resultType="live.leer.mybatis.pojo.User">
-		SELECT 
-		  `id`,`username`,`birthday`,`sex`,`address` 
-		FROM
-		  `user` 
-		WHERE 
-			id = #{id}
-	</select>
-	<!-- resultType，如果返回结果为集合，只需设置为每一个的数据类型 -->
-	<select id="getUserByName" parameterType="String" resultType="live.leer.mybatis.pojo.User">
-		SELECT 
-		  `id`,`username`,`birthday`,`sex`,`address` 
-		FROM
-		  `user` 
-		WHERE 
-			<!-- username LIKE #{name} -->
-			username LIKE '%${value}%'
-	</select>
-	
-	<!-- userGeneratedKeys：使用自增 keyProperty与之配套使用 -->
-	<insert id="insertUser" parameterType="live.leer.mybatis.pojo.User" useGeneratedKeys="true" keyProperty="id">
-		<!-- 
-			selectKey主键返回
-			keyProperty user中的主键属性
-			resultType 主键数据类型
-			order 指定selectKey何时执行 
-		 -->
-		<!-- <selectKey keyProperty="id" resultType="int" order="AFTER">
-			SELECT LAST_INSERT_ID()
-		</selectKey> -->
-		
-		INSERT INTO `user` (
-		  `username`,
-		  `birthday`,
-		  `sex`,
-		  `address`
-		) 
-		VALUES
-		  (
-		    #{username},
-		    #{birthday},
-		    #{sex},
-		    #{address}
-		  ) ;
-		
-	</insert>
+
+    <!-- id:statementId
+         resultType:查询结果集的数据类型
+         parameterType:查询的入参
+    -->
+
+    <select id="getUserById" parameterType="int" resultType="live.leer.mybatis.pojo.User">
+        SELECT
+        `id`,`username`,`birthday`,`sex`,`address`
+        FROM
+        `user`
+        WHERE
+        id = #{id}
+    </select>
+    <!-- resultType，如果返回结果为集合，只需设置为每一个的数据类型 -->
+    <select id="getUserByName" parameterType="String" resultType="live.leer.mybatis.pojo.User">
+        SELECT
+        `id`,`username`,`birthday`,`sex`,`address`
+        FROM
+        `user`
+        WHERE
+        <!-- username LIKE #{name} -->
+        username LIKE '%${value}%'
+    </select>
+
+    <!-- userGeneratedKeys：使用自增 keyProperty与之配套使用 -->
+    <insert id="insertUser" parameterType="live.leer.mybatis.pojo.User" useGeneratedKeys="true" keyProperty="id">
+        <!--
+            selectKey主键返回
+            keyProperty user中的主键属性
+            resultType 主键数据类型
+            order 指定selectKey何时执行
+         -->
+        <!-- <selectKey keyProperty="id" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID()
+        </selectKey> -->
+
+        INSERT INTO `user` (
+        `username`,
+        `birthday`,
+        `sex`,
+        `address`
+        )
+        VALUES
+        (
+        #{username},
+        #{birthday},
+        #{sex},
+        #{address}
+        ) ;
+
+    </insert>
 </mapper>

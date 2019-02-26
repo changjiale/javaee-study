@@ -8,7 +8,7 @@ import live.leer.dao.CustomerDao;
 import live.leer.domain.Customer;
 
 public class CustomerDaoImpl extends HibernateDaoSupport implements CustomerDao {
-	public List<Customer> findAll(){
-		return (List<Customer>)getHibernateTemplate().find("from Customer");
-	}
+    public List<Customer> findAll() {
+        return (List<Customer>) getHibernateTemplate().find("from Customer");
+    }
 }

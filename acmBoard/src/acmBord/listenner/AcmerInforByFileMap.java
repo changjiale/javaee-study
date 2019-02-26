@@ -7,5 +7,5 @@ import acmBord.bean.AcmerInfoByFile;
 
 public class AcmerInforByFileMap {
 
-	public static Map<String, AcmerInfoByFile> map = new HashMap<String, AcmerInfoByFile>();
+    public static Map<String, AcmerInfoByFile> map = new HashMap<String, AcmerInfoByFile>();
 }

@@ -3,71 +3,71 @@ package live.leer.mybatis.pojo;
 import java.util.Date;
 
 public class Order {
-	private Integer id;
+    private Integer id;
 
-	private Integer userId;
+    private Integer userId;
 
-	private String number;
+    private String number;
 
-	private Date createtime;
+    private Date createtime;
 
-	private String note;
-	
-	private User user;
-	
-	
-	public User getUser() {
-		return user;
-	}
+    private String note;
 
-	public void setUser(User user) {
-		this.user = user;
-	}
+    private User user;
 
-	public Integer getId() {
-		return id;
-	}
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    public User getUser() {
+        return user;
+    }
 
-	public Integer getUserId() {
-		return userId;
-	}
+    public void setUser(User user) {
+        this.user = user;
+    }
 
-	public void setUserId(Integer userId) {
-		this.userId = userId;
-	}
+    public Integer getId() {
+        return id;
+    }
 
-	public String getNumber() {
-		return number;
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public void setNumber(String number) {
-		this.number = number == null ? null : number.trim();
-	}
+    public Integer getUserId() {
+        return userId;
+    }
 
-	public Date getCreatetime() {
-		return createtime;
-	}
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
 
-	public void setCreatetime(Date createtime) {
-		this.createtime = createtime;
-	}
+    public String getNumber() {
+        return number;
+    }
 
-	public String getNote() {
-		return note;
-	}
+    public void setNumber(String number) {
+        this.number = number == null ? null : number.trim();
+    }
 
-	public void setNote(String note) {
-		this.note = note == null ? null : note.trim();
-	}
+    public Date getCreatetime() {
+        return createtime;
+    }
 
-	@Override
-	public String toString() {
-		return "Order [id=" + id + ", userId=" + userId + ", number=" + number + ", createtime=" + createtime
-				+ ", note=" + note + "]";
-	}
+    public void setCreatetime(Date createtime) {
+        this.createtime = createtime;
+    }
+
+    public String getNote() {
+        return note;
+    }
+
+    public void setNote(String note) {
+        this.note = note == null ? null : note.trim();
+    }
+
+    @Override
+    public String toString() {
+        return "Order [id=" + id + ", userId=" + userId + ", number=" + number + ", createtime=" + createtime
+                + ", note=" + note + "]";
+    }
 
 }

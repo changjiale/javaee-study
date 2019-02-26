@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC
-	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
-	"http://struts.apache.org/dtds/struts-2.3.dtd">
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
 
-	<!-- 配置struct2的常量 -->
-	<!-- <constant name="struts.action.extension" value="=abc"></constant> -->
-	<constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
-	
-	<package name="demo1" extends="struts-default" namespace="/">
-		<!-- 定义拦截器 
-		<interceptors>
-			<interceptor name="interceptorDemo1" class="live.leer.web.interceptor.InterceptorDemo1"></interceptor>
-			<interceptor name="interceptorDemo2" class="live.leer.web.interceptor.InterceptorDemo2"></interceptor>
-		</interceptors> -->
-		
-		<!-- 定义拦截器 -->
-		<interceptors>
-			<interceptor name="interceptorDemo1" class="live.leer.web.interceptor.InterceptorDemo1"></interceptor>
-			<interceptor name="interceptorDemo2" class="live.leer.web.interceptor.InterceptorDemo2"></interceptor>
-			<!-- 定义拦截器栈 -->
-			<interceptor-stack name="myStack">
-				<interceptor-ref name="defaultStack"></interceptor-ref>
-			<interceptor-ref name="interceptorDemo1"></interceptor-ref>
-			<interceptor-ref name="interceptorDemo2"></interceptor-ref>
-			</interceptor-stack>
-		</interceptors>
-		
-		
-		<action name="actionDemo1" class="live.leer.web.action.ActionDemo1">
-			<result>/demo1/demo1.jsp</result>
-			
-			<!-- 引入拦截器（引入自定义拦截器，默认拦截器栈的拦截器就不执行了） -->
-			<!-- <interceptor-ref name="defaultStack"></interceptor-ref>
-			<interceptor-ref name="interceptorDemo1"></interceptor-ref>
-			<interceptor-ref name="interceptorDemo2"></interceptor-ref> -->
-			<interceptor-ref name="myStack"></interceptor-ref>
-		</action>
-	</package>
+    <!-- 配置struct2的常量 -->
+    <!-- <constant name="struts.action.extension" value="=abc"></constant> -->
+    <constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
+
+    <package name="demo1" extends="struts-default" namespace="/">
+        <!-- 定义拦截器
+        <interceptors>
+            <interceptor name="interceptorDemo1" class="live.leer.web.interceptor.InterceptorDemo1"></interceptor>
+            <interceptor name="interceptorDemo2" class="live.leer.web.interceptor.InterceptorDemo2"></interceptor>
+        </interceptors> -->
+
+        <!-- 定义拦截器 -->
+        <interceptors>
+            <interceptor name="interceptorDemo1" class="live.leer.web.interceptor.InterceptorDemo1"></interceptor>
+            <interceptor name="interceptorDemo2" class="live.leer.web.interceptor.InterceptorDemo2"></interceptor>
+            <!-- 定义拦截器栈 -->
+            <interceptor-stack name="myStack">
+                <interceptor-ref name="defaultStack"></interceptor-ref>
+                <interceptor-ref name="interceptorDemo1"></interceptor-ref>
+                <interceptor-ref name="interceptorDemo2"></interceptor-ref>
+            </interceptor-stack>
+        </interceptors>
+
+
+        <action name="actionDemo1" class="live.leer.web.action.ActionDemo1">
+            <result>/demo1/demo1.jsp</result>
+
+            <!-- 引入拦截器（引入自定义拦截器，默认拦截器栈的拦截器就不执行了） -->
+            <!-- <interceptor-ref name="defaultStack"></interceptor-ref>
+            <interceptor-ref name="interceptorDemo1"></interceptor-ref>
+            <interceptor-ref name="interceptorDemo2"></interceptor-ref> -->
+            <interceptor-ref name="myStack"></interceptor-ref>
+        </action>
+    </package>
 </struts>

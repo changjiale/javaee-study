@@ -1,0 +1,28 @@
+package live.leer.spring.demo2;
+
+import org.springframework.cglib.proxy.Enhancer;
+
+/**
+ * cglib动态代理
+ * @author leer
+ *
+ */
+public class CglibProxy {
+
+	private CustomerDao customerDao;
+
+	public CglibProxy(CustomerDao customerDao) {
+		this.customerDao = customerDao;
+	}
+	
+	
+	/**
+	 * 使用cglib产生代理的方法
+	 */
+	public CustomerDao createProxy() {
+		
+		//创建cglib的核心类对象
+		Enhancer enhancer = new Enhancer();
+		return null;
+	}
+}

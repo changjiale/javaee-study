@@ -10,22 +10,22 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
  * AOP入门
- * @author leer
  *
+ * @author leer
  */
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:applicationContext.xml")
 public class SpringDemo3 {
-	
-	@Resource(name="productDao")
-	private ProductDao productDao;
-	
-	@Test
-	public void demo1() {
-		productDao.save();
-		productDao.update();
-		productDao.find();
-		productDao.delete();
-	}
+
+    @Resource(name = "productDao")
+    private ProductDao productDao;
+
+    @Test
+    public void demo1() {
+        productDao.save();
+        productDao.update();
+        productDao.find();
+        productDao.delete();
+    }
 }

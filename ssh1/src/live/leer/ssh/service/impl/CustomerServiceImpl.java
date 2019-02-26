@@ -8,24 +8,24 @@ import live.leer.ssh.service.CustomerService;
 
 /**
  * 客户管理业务层实现类
- * @author leer
  *
+ * @author leer
  */
 @Transactional
 public class CustomerServiceImpl implements CustomerService {
 
-	// 注入DAO;
-	private CustomerDao customerDao;
-	
-	public void setCustomerDao(CustomerDao customerDao) {
-		this.customerDao = customerDao;
-	}
+    // 注入DAO;
+    private CustomerDao customerDao;
 
-	@Override
-	public void save(Customer customer) {
-		System.out.println("Service中的save方法执行了...");
-		customerDao.save(customer);
-	}
+    public void setCustomerDao(CustomerDao customerDao) {
+        this.customerDao = customerDao;
+    }
+
+    @Override
+    public void save(Customer customer) {
+        System.out.println("Service中的save方法执行了...");
+        customerDao.save(customer);
+    }
 
 }
 

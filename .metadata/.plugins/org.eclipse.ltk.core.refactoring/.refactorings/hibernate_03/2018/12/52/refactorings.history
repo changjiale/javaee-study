@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;log4j-1.2.16.jar&apos; to &apos;lib&apos;&#x0D;&#x0A;- Original project: &apos;hibernate_03&apos;&#x0D;&#x0A;- Destination element: &apos;lib&apos;&#x0D;&#x0A;- Original element: &apos;log4j-1.2.16.jar&apos;" description="Copy file" element1="WebContent/WEB-INF/lib/log4j-1.2.16.jar" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1545546432940" target="/struts2_day02/WebContent/WEB-INF/lib" units="0" version="1.0"/>
+</session>

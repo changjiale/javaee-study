@@ -1,0 +1,8 @@
+package live.leer.spring.demo2;
+
+public class CglibProxy {
+
+	/**
+	 * 使用cglib产生代理的方法
+	 */
+}

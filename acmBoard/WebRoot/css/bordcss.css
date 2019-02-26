@@ -1,76 +1,77 @@
 @CHARSET "UTF-8";
 
-
-#PromptDiv{
-	width: 100%;
-	height: 40px;
-	/*border: 1px solid red; */
+#PromptDiv {
+    width: 100%;
+    height: 40px;
+    /*border: 1px solid red; */
 }
 
-#PromptConLeftDiv{
-	height: 40px;
+#PromptConLeftDiv {
+    height: 40px;
 
-	float: left;
-	padding: 0px;
-	/*border: 1px solid black;*/
-}
-.PromptCon{
-	height: 30px;
-	float:left;
-	
-	border: 1px dashed red;
-	text-align: left;
-	padding: 10px 0px 0px 2px;	
-	margin: 0px 4px 0px 0px;
+    float: left;
+    padding: 0px;
+    /*border: 1px solid black;*/
 }
 
-#timeCon{
-	float: left;
+.PromptCon {
+    height: 30px;
+    float: left;
+
+    border: 1px dashed red;
+    text-align: left;
+    padding: 10px 0px 0px 2px;
+    margin: 0px 4px 0px 0px;
 }
 
-#bordSelDiv{
-	float:left;
-	margin: 0px 0px 0px 40px;
-	border: 1px solid black;
-	height: 30px;
+#timeCon {
+    float: left;
 }
 
-#PromptConRightDiv{
-	height: 40px;
-
-	float: right;
-}
-.PromptConright{
-	height: 30px;
-	float:right;
-	text-align: left;
-	border: 1px solid red;
-	padding: 10px 0px 0px 2px;		
+#bordSelDiv {
+    float: left;
+    margin: 0px 0px 0px 40px;
+    border: 1px solid black;
+    height: 30px;
 }
 
-#tableDiv{
-	margin: 10px 0px 0px 0px;
-	border: 1px dashed #DDDDDD;
-}
-#acmerInfoTable{
-	
-	border: 1px dashed #888888;
+#PromptConRightDiv {
+    height: 40px;
+
+    float: right;
 }
 
-td{
-	border: 1px dashed #888888;
-	text-align: center;
-	
-	width: 50px;
-	
-	
+.PromptConright {
+    height: 30px;
+    float: right;
+    text-align: left;
+    border: 1px solid red;
+    padding: 10px 0px 0px 2px;
 }
 
-th{
-	border: 1px dashed #888888;
-	text-align: center;
-	width: 50px
-	
+#tableDiv {
+    margin: 10px 0px 0px 0px;
+    border: 1px dashed #DDDDDD;
+}
+
+#acmerInfoTable {
+
+    border: 1px dashed #888888;
+}
+
+td {
+    border: 1px dashed #888888;
+    text-align: center;
+
+    width: 50px;
+
+}
+
+th {
+    border: 1px dashed #888888;
+    text-align: center;
+    width: 50px
+
 }
 
 

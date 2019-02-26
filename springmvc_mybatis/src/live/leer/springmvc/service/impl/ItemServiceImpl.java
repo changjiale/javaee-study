@@ -11,23 +11,23 @@ import live.leer.springmvc.service.ItemService;
 
 @Service
 public class ItemServiceImpl implements ItemService {
-	
-	@Autowired
-	private ItemMapper itemMapper;
 
-	@Override
-	public List<Item> getItemList() {
-		return itemMapper.selectByExample(null);
-	}
+    @Autowired
+    private ItemMapper itemMapper;
 
-	@Override
-	public Item getItemById(Integer id) {
-		return itemMapper.selectByPrimaryKey(id);
-	}
+    @Override
+    public List<Item> getItemList() {
+        return itemMapper.selectByExample(null);
+    }
 
-	@Override
-	public void updateItem(Item item) {
-		itemMapper.updateByPrimaryKeySelective(item);
-	}
+    @Override
+    public Item getItemById(Integer id) {
+        return itemMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public void updateItem(Item item) {
+        itemMapper.updateByPrimaryKeySelective(item);
+    }
 
 }

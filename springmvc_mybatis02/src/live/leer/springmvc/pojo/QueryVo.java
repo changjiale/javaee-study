@@ -4,40 +4,40 @@ import java.util.List;
 
 /**
  * 包装的pojo传递
- * @author Steven
  *
+ * @author Steven
  */
 public class QueryVo {
 
-	private Item item;
-	
-	private Integer[] ids;
-	
-	private List<Item> items;
+    private Item item;
 
-	
-	public Integer[] getIds() {
-		return ids;
-	}
+    private Integer[] ids;
 
-	public void setIds(Integer[] ids) {
-		this.ids = ids;
-	}
+    private List<Item> items;
 
-	public List<Item> getItems() {
-		return items;
-	}
 
-	public void setItems(List<Item> items) {
-		this.items = items;
-	}
+    public Integer[] getIds() {
+        return ids;
+    }
 
-	public Item getItem() {
-		return item;
-	}
+    public void setIds(Integer[] ids) {
+        this.ids = ids;
+    }
 
-	public void setItem(Item item) {
-		this.item = item;
-	}
-	
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
+    }
+
+    public Item getItem() {
+        return item;
+    }
+
+    public void setItem(Item item) {
+        this.item = item;
+    }
+
 }

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;live.leer.mybatis.mapper&apos; to &apos;mybatis03-spring/src/live.leer.mybatis&apos;&#x0D;&#x0A;- Original project: &apos;mybatis02&apos;&#x0D;&#x0A;- Destination element: &apos;mybatis03-spring/src/live.leer.mybatis&apos;&#x0D;&#x0A;- Original element: &apos;mybatis02/src/live.leer.mybatis.mapper&apos;" description="Copy package" destination="=mybatis03-spring/src&lt;live.leer.mybatis" element1="/src&lt;live.leer.mybatis.mapper" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1550383442425" version="1.0"/>
+</session>

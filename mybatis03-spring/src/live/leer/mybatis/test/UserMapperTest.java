@@ -12,29 +12,29 @@ import live.leer.mybatis.pojo.User;
 
 public class UserMapperTest {
 
-private ApplicationContext applicationContext;
-	
-	@Before
-	public void init(){
-		applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
-	}
+    private ApplicationContext applicationContext;
 
-	@Test
-	public void testGetUserById() {
-		UserMapper userMapper = applicationContext.getBean(UserMapper.class);
-		User user = userMapper.getUserById(10);
-		System.out.println(user);
-	}
+    @Before
+    public void init() {
+        applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+    }
+
+    @Test
+    public void testGetUserById() {
+        UserMapper userMapper = applicationContext.getBean(UserMapper.class);
+        User user = userMapper.getUserById(10);
+        System.out.println(user);
+    }
 
 
-	@Test
-	public void testGetUserByUserName() {
-		fail("Not yet implemented");
-	}
+    @Test
+    public void testGetUserByUserName() {
+        fail("Not yet implemented");
+    }
 
-	@Test
-	public void testInsertUser() {
-		fail("Not yet implemented");
-	}
+    @Test
+    public void testInsertUser() {
+        fail("Not yet implemented");
+    }
 
 }

@@ -5,5 +5,5 @@ import java.util.List;
 import live.leer.domain.Customer;
 
 public interface CustomerService {
-	public List<Customer> findAll();
+    public List<Customer> findAll();
 }

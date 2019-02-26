@@ -1,0 +1,9 @@
+package live.leer.spring.demo2;
+
+public class SpringDemo2 {
+
+	@Test
+	public void demo1() {
+		
+	}
+}

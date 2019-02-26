@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Mon Feb 25 15:26:36 CST 2019
+org.eclipse.jst.jee.server\:/binary\:E\:\\code\\javaee\\springmvc_mybatis02\\WebContent\\WEB-INF\\lib\\spring-web-4.2.4.RELEASE.jar=E\:\\\u5DE5\u5177\\apache-tomcat-7.0.90\\apache-tomcat-7.0.90\\wtpwebapps\\springmvc_mybatis02\\WEB-INF\\lib\\spring-web-4.2.4.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:E\:\\code\\javaee\\springmvc_mybatis02\\WebContent\\WEB-INF\\lib\\log4j-core-2.0-rc1.jar=E\:\\\u5DE5\u5177\\apache-tomcat-7.0.90\\apache-tomcat-7.0.90\\wtpwebapps\\springmvc_mybatis02\\WEB-INF\\lib\\log4j-core-2.0-rc1.jar
+org.eclipse.jst.jee.server\:springmvc_mybatis02=E\:\\\u5DE5\u5177\\apache-tomcat-7.0.90\\apache-tomcat-7.0.90\\wtpwebapps\\springmvc_mybatis02

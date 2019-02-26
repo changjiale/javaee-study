@@ -4,11 +4,11 @@ import cn.contentcl.domain.User;
 
 /**
  * 用户的DAO接口
- * @author leer
  *
+ * @author leer
  */
 public interface UserDao {
 
-	User login(User user);
+    User login(User user);
 
 }

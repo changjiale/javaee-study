@@ -12,29 +12,29 @@ import live.leer.mybatis.pojo.User;
 
 public class UserDaoTest {
 
-	private ApplicationContext applicationContext;
-	
-	@Before
-	public void init() {
-		applicationContext = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
-	}
-	
-	@Test
-	public void testGetUserById() {
-		UserDao userDao = applicationContext.getBean(UserDao.class);
-		User user = userDao.getUserById(1);
-		System.out.println(user);
+    private ApplicationContext applicationContext;
 
-	}
+    @Before
+    public void init() {
+        applicationContext = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
+    }
 
-	@Test
-	public void testGetUserByUserName() {
-		fail("Not yet implemented");
-	}
+    @Test
+    public void testGetUserById() {
+        UserDao userDao = applicationContext.getBean(UserDao.class);
+        User user = userDao.getUserById(1);
+        System.out.println(user);
 
-	@Test
-	public void testInsertUser() {
-		fail("Not yet implemented");
-	}
+    }
+
+    @Test
+    public void testGetUserByUserName() {
+        fail("Not yet implemented");
+    }
+
+    @Test
+    public void testInsertUser() {
+        fail("Not yet implemented");
+    }
 
 }

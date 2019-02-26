@@ -1,1 +1,10 @@
-[[{"location":"D:\\Java\\jdk1.8.0_181","type":"JRE","hints":{}},"jre:jre:1.8.0"],[{"location":"E:\\code\\javaee\\springmvc_mybatis02\\WebContent\\WEB-INF\\lib\\spring-web-4.2.4.RELEASE.jar","type":"JAR","hints":{}},"ABSENT"],[{"location":"E:\\code\\javaee\\springmvc_mybatis02","type":"PROJECT","hints":{"PROJECT_NAME":"springmvc_mybatis02"}},"ABSENT"]]
+[
+  [
+    {
+      "location": "D:\\Java\\jdk1.8.0_181",
+      "type": "JRE",
+      "hints": {}
+    },
+    "jre:jre:1.8.0"
+  ]
+]

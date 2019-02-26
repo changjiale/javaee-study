@@ -16,110 +16,114 @@ import live.leer.mybatis.utils.SqlSessionFactoryUtils;
 
 public class MybatisTest {
 
-	@Test
-	public void testGetUserById() throws IOException {
-		//创建SqlSessionFactoryBuilder对象
-		SqlSessionFactoryBuilder sessionFactoryBuilder = new SqlSessionFactoryBuilder();
-		//创建核心输入流
-		InputStream inputStream =  Resources.getResourceAsStream("SqlMapConfig.xml");
-		//通过输入流创建sqlsessionfactory对象
-		SqlSessionFactory sqlSessionFactory =  sessionFactoryBuilder.build(inputStream);
-		//创建sqlsession对象
-		SqlSession sqlSession = sqlSessionFactory.openSession();
-		//执行查询
-		User user = sqlSession.selectOne("user.getUserById",1);
-		 System.out.println(user);
-		 
-		 //释放资源
-		 sqlSession.close();
-	}
-	
-	@Test
-	public void testGetUserByName() {
-		//获取SqlSessionFactory
-		SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
-		//创建SqlSession
-		SqlSession sqlSession = sqlSessionFactory.openSession();
-		List<User> list = sqlSession.selectList("user.getUserByName", "张");
-		for (User user : list) {
-			System.out.println(user);
-		}
-		//释放资源
-		 sqlSession.close();
-		
-		
-	}
-	@Test
-	public void testInsertUser() {
-		//获取SqlSessionFactory
-		SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
-		//创建SqlSession
-		SqlSession sqlSession = sqlSessionFactory.openSession();
-		User user = new User();
-		user.setUsername("张飞3");
-		user.setSex("1");
-		user.setBirthday(new Date());
-		user.setAddress("白马寺");
-		sqlSession.insert("user.insertUser", user);
-		System.out.println(user);
-		//提交事务
-		sqlSession.commit();
-		//释放资源
-		 sqlSession.close();
-		
-		
-	}
-	@Test
-	public void testInsertUserUUID() {
-		//获取SqlSessionFactory
-		SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
-		//创建SqlSession
-		SqlSession sqlSession = sqlSessionFactory.openSession();
-		User user = new User();
-		user.setUsername("张飞5");
-		user.setSex("1");
-		user.setBirthday(new Date());
-		user.setAddress("白马寺");
-		sqlSession.insert("user.insertUserUUID", user);
-		System.out.println(user);
-		//提交事务
-		sqlSession.commit();
-		//释放资源
-		 sqlSession.close();
-		
-		
-	}
-	@Test
-	public void testUpdateUser() {
-		//获取SqlSessionFactory
-		SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
-		//创建SqlSession
-		SqlSession sqlSession = sqlSessionFactory.openSession();
-		User user = new User();
-		user.setId(30);
-		user.setUsername("张焦");
-		
-		sqlSession.update("user.updateUser", user);
-		//提交事务
-		sqlSession.commit();
-		//释放资源
-		 sqlSession.close();
-		
-		
-	}
-	@Test
-	public void testDeleteUser() {
-		//获取SqlSessionFactory
-		SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
-		//创建SqlSession
-		SqlSession sqlSession = sqlSessionFactory.openSession();
-		
-		sqlSession.delete("user.deleteUser", 30);
-		//提交事务
-		sqlSession.commit();
-		//释放资源
-		 sqlSession.close();
-		
-		
-	}
+    @Test
+    public void testGetUserById() throws IOException {
+        //创建SqlSessionFactoryBuilder对象
+        SqlSessionFactoryBuilder sessionFactoryBuilder = new SqlSessionFactoryBuilder();
+        //创建核心输入流
+        InputStream inputStream = Resources.getResourceAsStream("SqlMapConfig.xml");
+        //通过输入流创建sqlsessionfactory对象
+        SqlSessionFactory sqlSessionFactory = sessionFactoryBuilder.build(inputStream);
+        //创建sqlsession对象
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        //执行查询
+        User user = sqlSession.selectOne("user.getUserById", 1);
+        System.out.println(user);
+
+        //释放资源
+        sqlSession.close();
+    }
+
+    @Test
+    public void testGetUserByName() {
+        //获取SqlSessionFactory
+        SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
+        //创建SqlSession
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        List<User> list = sqlSession.selectList("user.getUserByName", "张");
+        for (User user : list) {
+            System.out.println(user);
+        }
+        //释放资源
+        sqlSession.close();
+
+
+    }
+
+    @Test
+    public void testInsertUser() {
+        //获取SqlSessionFactory
+        SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
+        //创建SqlSession
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        User user = new User();
+        user.setUsername("张飞3");
+        user.setSex("1");
+        user.setBirthday(new Date());
+        user.setAddress("白马寺");
+        sqlSession.insert("user.insertUser", user);
+        System.out.println(user);
+        //提交事务
+        sqlSession.commit();
+        //释放资源
+        sqlSession.close();
+
+
+    }
+
+    @Test
+    public void testInsertUserUUID() {
+        //获取SqlSessionFactory
+        SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
+        //创建SqlSession
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        User user = new User();
+        user.setUsername("张飞5");
+        user.setSex("1");
+        user.setBirthday(new Date());
+        user.setAddress("白马寺");
+        sqlSession.insert("user.insertUserUUID", user);
+        System.out.println(user);
+        //提交事务
+        sqlSession.commit();
+        //释放资源
+        sqlSession.close();
+
+
+    }
+
+    @Test
+    public void testUpdateUser() {
+        //获取SqlSessionFactory
+        SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
+        //创建SqlSession
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        User user = new User();
+        user.setId(30);
+        user.setUsername("张焦");
+
+        sqlSession.update("user.updateUser", user);
+        //提交事务
+        sqlSession.commit();
+        //释放资源
+        sqlSession.close();
+
+
+    }
+
+    @Test
+    public void testDeleteUser() {
+        //获取SqlSessionFactory
+        SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
+        //创建SqlSession
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        sqlSession.delete("user.deleteUser", 30);
+        //提交事务
+        sqlSession.commit();
+        //释放资源
+        sqlSession.close();
+
+
+    }
 }

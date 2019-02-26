@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE hibernate-mapping PUBLIC 
-    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
- <hibernate-mapping>
- 	<class name="cn.contentcl.hibernate.domain.User" table="sys_user">
- 		<!-- 建立类中的属性与表中的主键对应 -->
- 		<id name="user_id" column="user_id">
- 			<generator class="native"/>
- 		</id>
- 		
- 		<!-- 建立类中的普通的属性和表的字段对应 -->
- 		<property name="user_code" column="user_code"/>
- 		<property name="user_name" column="user_name"/>
- 		<property name="user_password" column="user_password"/>
- 		<property name="user_state" column="user_state"/>
- 		
- 		<!-- 建立与角色的多对多映射 -->
- 		<!-- 
- 			set标签
- 			 *name ： 对方的集合属性名称
- 			 *table : 多对多的关系需要使用中间表，放的是中间表的名称
- 		 -->
- 		<set name="roles" table="sys_user_role" cascade="save-update,delete">
- 		<!-- key标签：
- 			*column : 外键的名称  当前对象对应中间表的外键的名称
- 		 -->
- 			<key column="user_id"/>
- 			<!-- 
- 				many-to-many
- 				*classs : 对方的类的全路径
- 				* column: 对方的对象在中间表的外键名称
- 			 -->
- 			<many-to-many class="cn.contentcl.hibernate.domain.Role" column="role_id"/>
- 		</set>
- 		
-	</class>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="cn.contentcl.hibernate.domain.User" table="sys_user">
+        <!-- 建立类中的属性与表中的主键对应 -->
+        <id name="user_id" column="user_id">
+            <generator class="native"/>
+        </id>
+
+        <!-- 建立类中的普通的属性和表的字段对应 -->
+        <property name="user_code" column="user_code"/>
+        <property name="user_name" column="user_name"/>
+        <property name="user_password" column="user_password"/>
+        <property name="user_state" column="user_state"/>
+
+        <!-- 建立与角色的多对多映射 -->
+        <!--
+            set标签
+             *name ： 对方的集合属性名称
+             *table : 多对多的关系需要使用中间表，放的是中间表的名称
+         -->
+        <set name="roles" table="sys_user_role" cascade="save-update,delete">
+            <!-- key标签：
+                *column : 外键的名称  当前对象对应中间表的外键的名称
+             -->
+            <key column="user_id"/>
+            <!--
+                many-to-many
+                *classs : 对方的类的全路径
+                * column: 对方的对象在中间表的外键名称
+             -->
+            <many-to-many class="cn.contentcl.hibernate.domain.Role" column="role_id"/>
+        </set>
+
+    </class>
 </hibernate-mapping>

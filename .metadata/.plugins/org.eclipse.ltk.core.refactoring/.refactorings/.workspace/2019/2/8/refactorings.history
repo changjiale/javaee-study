@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mybatis04_springmvc&apos; to &apos;springmvc_mybatis&apos;" description="Rename resource &apos;mybatis04_springmvc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/mybatis04_springmvc" name="springmvc_mybatis" stamp="1550834637935" updateReferences="true"/>
+</session>

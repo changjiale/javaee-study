@@ -5,79 +5,78 @@ import java.util.List;
 
 public class User {
 
-	private Integer id;
-	private String username;// 用户姓名
-	private String sex;// 性别
-	private Date birthday;// 生日
-	private String address;// 地址
+    private Integer id;
+    private String username;// 用户姓名
+    private String sex;// 性别
+    private Date birthday;// 生日
+    private String address;// 地址
 
-	private String uuid;
-	
-	private List<Order> orders;
-	
-	
-	public List<Order> getOrders() {
-		return orders;
-	}
+    private String uuid;
 
-	public void setOrders(List<Order> orders) {
-		this.orders = orders;
-	}
+    private List<Order> orders;
 
-	public Integer getId() {
-		return id;
-	}
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    public List<Order> getOrders() {
+        return orders;
+    }
 
-	public String getUsername() {
-		return username;
-	}
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
+    }
 
-	public void setUsername(String username) {
-		this.username = username;
-	}
+    public Integer getId() {
+        return id;
+    }
 
-	public String getSex() {
-		return sex;
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public void setSex(String sex) {
-		this.sex = sex;
-	}
+    public String getUsername() {
+        return username;
+    }
 
-	public Date getBirthday() {
-		return birthday;
-	}
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
-	public void setBirthday(Date birthday) {
-		this.birthday = birthday;
-	}
+    public String getSex() {
+        return sex;
+    }
 
-	public String getAddress() {
-		return address;
-	}
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
 
-	public void setAddress(String address) {
-		this.address = address;
-	}
+    public Date getBirthday() {
+        return birthday;
+    }
 
-	public String getUuid() {
-		return uuid;
-	}
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
 
-	public void setUuid(String uuid) {
-		this.uuid = uuid;
-	}
+    public String getAddress() {
+        return address;
+    }
 
-	@Override
-	public String toString() {
-		return "User [id=" + id + ", username=" + username + ", sex=" + sex + ", birthday=" + birthday + ", address="
-				+ address + ", uuid=" + uuid + "]";
-	}
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
-	
+    public String getUuid() {
+        return uuid;
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
+
+    @Override
+    public String toString() {
+        return "User [id=" + id + ", username=" + username + ", sex=" + sex + ", birthday=" + birthday + ", address="
+                + address + ", uuid=" + uuid + "]";
+    }
+
 
 }

@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC
-	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
-	"http://struts.apache.org/dtds/struts-2.3.dtd">
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
 
-	<package name="demo1" extends="struts-default" namespace="/">
-		<!-- 全局结果页面 -->
-		<global-results>
-			<result name="input">/demo1/demo2.jsp</result>
-		</global-results>
-		
-		<action name="requestDemo1" class="cn.contentcl.struts2.demo1.RequestDemo1">
-			<result type="redirect">/demo1/demo2.jsp</result>
-		</action>
-		<action name="requestDemo2" class="cn.contentcl.struts2.demo1.RequestDemo2">
-			
-		</action>
-		<action name="requestDemo3" class="cn.contentcl.struts2.demo1.RequestDemo3">
-			
-		</action>
-	</package>
-	
-	
-	
+    <package name="demo1" extends="struts-default" namespace="/">
+        <!-- 全局结果页面 -->
+        <global-results>
+            <result name="input">/demo1/demo2.jsp</result>
+        </global-results>
+
+        <action name="requestDemo1" class="cn.contentcl.struts2.demo1.RequestDemo1">
+            <result type="redirect">/demo1/demo2.jsp</result>
+        </action>
+        <action name="requestDemo2" class="cn.contentcl.struts2.demo1.RequestDemo2">
+
+        </action>
+        <action name="requestDemo3" class="cn.contentcl.struts2.demo1.RequestDemo3">
+
+        </action>
+    </package>
+
+
 </struts>

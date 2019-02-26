@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC
-	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
-	"http://struts.apache.org/dtds/struts-2.3.dtd">
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
 
-	<!-- 配置struct2的常量 -->
-	<!-- <constant name="struts.action.extension" value="=abc"></constant> -->
-	
-	<!-- 配置action -->
-	<package name="ssh1" extends="struts-default" namespace="/">
-		<action name="customer_*" class="customerAction" method="{1}">
+    <!-- 配置struct2的常量 -->
+    <!-- <constant name="struts.action.extension" value="=abc"></constant> -->
 
-		</action>
-	</package>
+    <!-- 配置action -->
+    <package name="ssh1" extends="struts-default" namespace="/">
+        <action name="customer_*" class="customerAction" method="{1}">
+
+        </action>
+    </package>
 </struts>

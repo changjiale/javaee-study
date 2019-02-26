@@ -32,31 +32,32 @@ import live.leer.springmvc.service.ItemService;
 //@RequestMapping("item")
 public class ItemController {
 
-	@Autowired
-	private ItemService itemService;
+    @Autowired
+    private ItemService itemService;
 
-	@RequestMapping(value={"itemList","itemList2"})
-	public ModelAndView itemList() {
-		ModelAndView mav = new ModelAndView();
+    @RequestMapping(value = {"itemList", "itemList2"})
+    public ModelAndView itemList() {
+        ModelAndView mav = new ModelAndView();
 
-		List<Item> itemList = itemService.getItemList();
+        List<Item> itemList = itemService.getItemList();
 
-		mav.addObject("itemList", itemList);
-		// mav.setViewName("/WEB-INF/jsp/itemList.jsp");
-		mav.setViewName("itemList");
-		System.out.println("ItemController.itemList");
-		return mav;
-	}
+        mav.addObject("itemList", itemList);
+        // mav.setViewName("/WEB-INF/jsp/itemList.jsp");
+        mav.setViewName("itemList");
+        System.out.println("ItemController.itemList");
+        return mav;
+    }
 
-	/**
-	 * 跟据ID查询商品信息，跳转修改商品页面
-	 * 演示默认支持的参数传递
-	 * Model/ModelMap返回数据模型
-	 * @param request
-	 * @param response
-	 * @param session
-	 * @return
-	 */
+    /**
+     * 跟据ID查询商品信息，跳转修改商品页面
+     * 演示默认支持的参数传递
+     * Model/ModelMap返回数据模型
+     *
+     * @param request
+     * @param response
+     * @param session
+     * @return
+     */
 	/*@RequestMapping("itemEdit")
 	public String itemEdit(Model model,ModelMap modelMap,HttpServletRequest request, HttpServletResponse response, HttpSession session) {
 		String idStr = request.getParameter("id");
@@ -69,114 +70,115 @@ public class ItemController {
 		//mav.addObject("item", item);
 		return "itemEdit";
 	}*/
-	
-	@RequestMapping("itemEdit")
-	public String itemEdit(Model model,@RequestParam(value="id",required=true,defaultValue="1") Integer ids) {
-		// 查询商品信息
-		Item item = itemService.getItemById(ids);
-		//model返回数据模型
-		model.addAttribute("item", item);
-		//mav.addObject("item", item);
-		return "itemEdit";
-	}
-	
-	/**
-	 * 修改商品 
-	 * 演示pojo参数绑定
-	 * @param item
-	 * @return
-	 * @throws IOException 
-	 * @throws IllegalStateException 
-	 */
-	@RequestMapping(value="updateItem",method={RequestMethod.POST,RequestMethod.GET})
-	public String updateItem(Item item,MultipartFile pictureFile,Model model) throws IllegalStateException, IOException{
-		//图片新名字
-		 String newname = UUID.randomUUID().toString();
-		 //图片原来名字s
-		 String oldname = pictureFile.getOriginalFilename();
-		//后缀
-		String fux = oldname.substring(oldname.lastIndexOf("."));
-		//新建文件流
-		 File file = new File("E:\\code\\picture\\"+newname+fux);
+    @RequestMapping("itemEdit")
+    public String itemEdit(Model model, @RequestParam(value = "id", required = true, defaultValue = "1") Integer ids) {
+        // 查询商品信息
+        Item item = itemService.getItemById(ids);
+        //model返回数据模型
+        model.addAttribute("item", item);
+        //mav.addObject("item", item);
+        return "itemEdit";
+    }
 
-		
-		//写入本地磁盘
-		pictureFile.transferTo(file);
-		//保存图片到数据库
-		item.setPic(newname+fux);
-		
-		itemService.updateItem(item);
-		model.addAttribute("item", item);
-		model.addAttribute("msg", "修改商品信息成功");
-		return "itemEdit";
-	}
-	
-	@RequestMapping("queryItem")
-	public String queryItem(QueryVo vo,Integer[] ids,  Model model){
-		if(vo.getItem() != null){
-			System.out.println(vo.getItem());
-		}
-		if (ids!=null && ids.length>0) {
-			for (Integer id : ids) {
-				System.out.println(id);
-			}
-		}
-		if (vo.getItems() != null && vo.getItems().size() > 0) {
-			for (Item item : vo.getItems()) {
-				System.out.println(item);
-			}
-		}
-		
-		//模拟搜索商品
-		List<Item> itemList = itemService.getItemList();
+    /**
+     * 修改商品
+     * 演示pojo参数绑定
+     *
+     * @param item
+     * @return
+     * @throws IOException
+     * @throws IllegalStateException
+     */
+    @RequestMapping(value = "updateItem", method = {RequestMethod.POST, RequestMethod.GET})
+    public String updateItem(Item item, MultipartFile pictureFile, Model model) throws IllegalStateException, IOException {
+        //图片新名字
+        String newname = UUID.randomUUID().toString();
+        //图片原来名字s
+        String oldname = pictureFile.getOriginalFilename();
+        //后缀
+        String fux = oldname.substring(oldname.lastIndexOf("."));
+        //新建文件流
+        File file = new File("E:\\code\\picture\\" + newname + fux);
 
-		model.addAttribute("itemList", itemList);
-		return "itemList"; 
-	}
-	
-	@RequestMapping("queryVoid")
-	public void queryVoid(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, MyException {
-		
-		//request相应用户请求
+
+        //写入本地磁盘
+        pictureFile.transferTo(file);
+        //保存图片到数据库
+        item.setPic(newname + fux);
+
+        itemService.updateItem(item);
+        model.addAttribute("item", item);
+        model.addAttribute("msg", "修改商品信息成功");
+        return "itemEdit";
+    }
+
+    @RequestMapping("queryItem")
+    public String queryItem(QueryVo vo, Integer[] ids, Model model) {
+        if (vo.getItem() != null) {
+            System.out.println(vo.getItem());
+        }
+        if (ids != null && ids.length > 0) {
+            for (Integer id : ids) {
+                System.out.println(id);
+            }
+        }
+        if (vo.getItems() != null && vo.getItems().size() > 0) {
+            for (Item item : vo.getItems()) {
+                System.out.println(item);
+            }
+        }
+
+        //模拟搜索商品
+        List<Item> itemList = itemService.getItemList();
+
+        model.addAttribute("itemList", itemList);
+        return "itemList";
+    }
+
+    @RequestMapping("queryVoid")
+    public void queryVoid(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, MyException {
+
+        //request相应用户请求
 		/*request.setAttribute("msg", "request相应的消息");
 		request.getRequestDispatcher("/WEB-INF/jsp/msg.jsp").forward(request, response);*/
-		//response响应用户请求
-		/*response.sendRedirect("itemList.action");*/
-		
-		//假设这里是根据id查询商品信息，搜素不到商品
-		if(true) {
-			throw new MyException("你查找的商品不存在");
-		}
-		int i =1/0;
-		//设置响应头字符编码
-		response.setContentType("text/html;charset=utf-8");
-		response.setCharacterEncoding("utf-8");
-		PrintWriter printWriter = response.getWriter();
-		printWriter.println("这是一个response打印的消息");
-	}
-	
-	@RequestMapping("getItem")
-	@ResponseBody
-	public Item getItem(@RequestBody Item item) {
-		System.out.println(item);
-		//Item item = itemService.getItemById(1);
-		item.setName("1234");
-		return item;
-	}
-	
-	/**
-	 * restful风格
-	 * @param id
-	 * @param model
-	 * @return
-	 */
-	@RequestMapping("item/{id}")
-	public String itemQuery(@PathVariable Integer id, Model model) {
-		// 查询商品信息
-		Item item = itemService.getItemById(id);
-		//model返回数据模型
-		model.addAttribute("item", item);
-		//mav.addObject("item", item);
-		return "itemEdit";
-	}
+        //response响应用户请求
+        /*response.sendRedirect("itemList.action");*/
+
+        //假设这里是根据id查询商品信息，搜素不到商品
+        if (true) {
+            throw new MyException("你查找的商品不存在");
+        }
+        int i = 1 / 0;
+        //设置响应头字符编码
+        response.setContentType("text/html;charset=utf-8");
+        response.setCharacterEncoding("utf-8");
+        PrintWriter printWriter = response.getWriter();
+        printWriter.println("这是一个response打印的消息");
+    }
+
+    @RequestMapping("getItem")
+    @ResponseBody
+    public Item getItem(@RequestBody Item item) {
+        System.out.println(item);
+        //Item item = itemService.getItemById(1);
+        item.setName("1234");
+        return item;
+    }
+
+    /**
+     * restful风格
+     *
+     * @param id
+     * @param model
+     * @return
+     */
+    @RequestMapping("item/{id}")
+    public String itemQuery(@PathVariable Integer id, Model model) {
+        // 查询商品信息
+        Item item = itemService.getItemById(id);
+        //model返回数据模型
+        model.addAttribute("item", item);
+        //mav.addObject("item", item);
+        return "itemEdit";
+    }
 }

@@ -9,15 +9,15 @@ import live.leer.service.CustomerService;
 
 public class CustomerAction {
 
-	private CustomerService customerService;
+    private CustomerService customerService;
 
-	public void setCustomerService(CustomerService customerService) {
-		this.customerService = customerService;
-	}
-	
-	public String list(){
-		List<Customer> list = customerService.findAll();
-		ServletActionContext.getContext().put("list", list);
-		return "list";
-	}
+    public void setCustomerService(CustomerService customerService) {
+        this.customerService = customerService;
+    }
+
+    public String list() {
+        List<Customer> list = customerService.findAll();
+        ServletActionContext.getContext().put("list", list);
+        return "list";
+    }
 }

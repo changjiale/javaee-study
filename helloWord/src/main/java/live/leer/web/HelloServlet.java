@@ -10,17 +10,17 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class HelloServlet
  */
 public class HelloServlet extends HttpServlet {
-	
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("进入HelloServlet");
-		request.getRequestDispatcher("/index.jsp").forward(request, response);
-		
-		
-	}
 
-	
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		doGet(request, response);
-	}
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        System.out.println("进入HelloServlet");
+        request.getRequestDispatcher("/index.jsp").forward(request, response);
+
+
+    }
+
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        doGet(request, response);
+    }
 
 }

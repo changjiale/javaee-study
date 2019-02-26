@@ -4,6 +4,6 @@ import live.leer.ssh.domain.Customer;
 
 public interface CustomerDao {
 
-	void save(Customer customer);
+    void save(Customer customer);
 
 }

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC
-	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
-	"http://struts.apache.org/dtds/struts-2.3.dtd">
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
 
-	<package name="demo2" extends="struts-default" namespace="/">
-		<global-results>
-			<result name="input">/demo2/demo1.jsp</result>
-		</global-results>
-		
-		<action name="userAction1" class="cn.contentcl.struts2.demo2.UserAction1">
-		</action>
-		<action name="userAction2" class="cn.contentcl.struts2.demo2.UserAction2">
-		</action>
-		<action name="userAction3" class="cn.contentcl.struts2.demo2.UserAction3">
-		</action>
-	</package>
+    <package name="demo2" extends="struts-default" namespace="/">
+        <global-results>
+            <result name="input">/demo2/demo1.jsp</result>
+        </global-results>
+
+        <action name="userAction1" class="cn.contentcl.struts2.demo2.UserAction1">
+        </action>
+        <action name="userAction2" class="cn.contentcl.struts2.demo2.UserAction2">
+        </action>
+        <action name="userAction3" class="cn.contentcl.struts2.demo2.UserAction3">
+        </action>
+    </package>
 
 </struts>

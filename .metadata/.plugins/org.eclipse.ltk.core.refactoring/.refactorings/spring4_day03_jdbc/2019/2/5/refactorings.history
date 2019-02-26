@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;jdbc.properties&apos; to &apos;ssh2/src&apos;&#x0D;&#x0A;- Original project: &apos;spring4_day03_jdbc&apos;&#x0D;&#x0A;- Destination element: &apos;ssh2/src&apos;&#x0D;&#x0A;- Original element: &apos;jdbc.properties&apos;" description="Copy file" destination="=ssh2/src" element1="src/jdbc.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1548998890302" units="0" version="1.0"/>
+</session>

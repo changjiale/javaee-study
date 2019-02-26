@@ -1,0 +1,5 @@
+package live.leer.springmvc.controller;
+
+public class UserController {
+
+}

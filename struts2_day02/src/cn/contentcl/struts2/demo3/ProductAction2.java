@@ -8,32 +8,32 @@ import cn.contentcl.struts2.domain.Product;
 
 /**
  * 复杂类型封装map的方式
- * @author leer
  *
+ * @author leer
  */
 public class ProductAction2 extends ActionSupport {
 
-	private Map<String, Product>map;
-	
-	
-	public Map<String, Product> getMap() {
-		return map;
-	}
+    private Map<String, Product> map;
 
 
-	public void setMap(Map<String, Product> map) {
-		this.map = map;
-	}
+    public Map<String, Product> getMap() {
+        return map;
+    }
 
 
-	@Override
-		public String execute() throws Exception {
-			// TODO Auto-generated method stub
-		for (String key : map.keySet()) {
-			Product product = map.get(key);
-			System.out.println(key+" "+product);
-			
-		}
-			return NONE;
-		}
+    public void setMap(Map<String, Product> map) {
+        this.map = map;
+    }
+
+
+    @Override
+    public String execute() throws Exception {
+        // TODO Auto-generated method stub
+        for (String key : map.keySet()) {
+            Product product = map.get(key);
+            System.out.println(key + " " + product);
+
+        }
+        return NONE;
+    }
 }

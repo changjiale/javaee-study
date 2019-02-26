@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f26234c8-d2fa-42e2-891e-22a055e0f8af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.recommenders/caches/identified-project-coordinates.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.recommenders/caches/identified-project-coordinates.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/WebRoot/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/WebRoot/WEB-INF/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/WebRoot/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/WebRoot/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/WebRoot/css/bordcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/WebRoot/css/bordcss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/WebRoot/css/bordcss1.css" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/WebRoot/css/bordcss1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/WebRoot/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/WebRoot/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/WebRoot/page/board.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/WebRoot/page/board.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/WebRoot/page/newboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/WebRoot/page/newboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/WebRoot/script/jquery-1.7.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/WebRoot/script/jquery-1.7.2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/src/acmBord/action/BordInforAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/src/acmBord/action/BordInforAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/src/acmBord/bean/AcmerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/src/acmBord/bean/AcmerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/src/acmBord/bean/AcmerInfoByFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/src/acmBord/bean/AcmerInfoByFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/src/acmBord/bean/ProbleResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/src/acmBord/bean/ProbleResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/src/acmBord/bean/SimpleAcmerinfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/src/acmBord/bean/SimpleAcmerinfor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/src/acmBord/listenner/AcmerInforByFileMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/src/acmBord/listenner/AcmerInforByFileMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/src/acmBord/listenner/DataInitListenner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/src/acmBord/listenner/DataInitListenner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/src/acmBord/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/src/acmBord/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/src/acmBord/testpackage/datesources.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/src/acmBord/testpackage/datesources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acmBoard/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../acmBoard/src/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_dao/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_dao/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_dao/src/main/java/live/leer/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_dao/src/main/java/live/leer/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_dao/src/main/java/live/leer/dao/impl/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_dao/src/main/java/live/leer/dao/impl/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_dao/src/main/java/live/leer/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_dao/src/main/java/live/leer/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_dao/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_dao/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_dao/src/main/resources/live/leer/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_dao/src/main/resources/live/leer/domain/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_dao/src/main/resources/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_dao/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_dao/src/test/java/live/leer/dao/test/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_dao/src/test/java/live/leer/dao/test/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_dao/target/classes/META-INF/maven/leer.live/crm07_dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_dao/target/classes/META-INF/maven/leer.live/crm07_dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_dao/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_dao/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_dao/target/classes/live/leer/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_dao/target/classes/live/leer/domain/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_dao/target/classes/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_dao/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_service/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_service/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_service/src/main/java/live/leer/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_service/src/main/java/live/leer/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_service/src/main/java/live/leer/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_service/src/main/java/live/leer/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_service/src/test/java/live/leer/service/test/CustomerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_service/src/test/java/live/leer/service/test/CustomerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_service/target/classes/META-INF/maven/leer.live/crm07_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_service/target/classes/META-INF/maven/leer.live/crm07_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_service/target/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_service/target/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_web/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_web/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_web/src/main/java/live/leer/web/action/CustomerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_web/src/main/java/live/leer/web/action/CustomerAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_web/src/main/resources/spring/applicationContext-action.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_web/src/main/resources/spring/applicationContext-action.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_web/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_web/src/main/resources/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_web/src/main/webapp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_web/src/main/webapp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_web/target/classes/spring/applicationContext-action.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_web/target/classes/spring/applicationContext-action.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_web/target/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_web/target/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/crm07_web/target/m2e-wtp/web-resources/META-INF/maven/leer.live/crm07_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/crm07_web/target/m2e-wtp/web-resources/META-INF/maven/leer.live/crm07_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crm07/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crm07/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../generatorSqlmapCustom/bin/live/leer/ssm/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../generatorSqlmapCustom/bin/live/leer/ssm/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../generatorSqlmapCustom/bin/live/leer/ssm/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../generatorSqlmapCustom/bin/live/leer/ssm/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../generatorSqlmapCustom/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../generatorSqlmapCustom/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../generatorSqlmapCustom/src/live/leer/ssm/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../generatorSqlmapCustom/src/live/leer/ssm/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../generatorSqlmapCustom/src/live/leer/ssm/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../generatorSqlmapCustom/src/live/leer/ssm/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../generatorSqlmapCustom/src/live/leer/ssm/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../generatorSqlmapCustom/src/live/leer/ssm/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../generatorSqlmapCustom/src/live/leer/ssm/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../generatorSqlmapCustom/src/live/leer/ssm/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWord/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helloWord/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWord/src/main/java/live/leer/web/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../helloWord/src/main/java/live/leer/web/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWord/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helloWord/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWord/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../helloWord/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWord/target/m2e-wtp/web-resources/META-INF/maven/live.leer/helloWord/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helloWord/target/m2e-wtp/web-resources/META-INF/maven/live.leer/helloWord/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWord/target/tomcat/conf/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../helloWord/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWord/target/tomcat/conf/tomcat-users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helloWord/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWord/target/tomcat/conf/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helloWord/target/tomcat/conf/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWord/target/tomcat/work/Tomcat/localhost/helloWorld/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../helloWord/target/tomcat/work/Tomcat/localhost/helloWorld/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_01/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_01/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_01/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_01/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_01/src/cn/contentcl/hibernate/demo/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_01/src/cn/contentcl/hibernate/demo/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_01/src/cn/contentcl/hibernate/demo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_01/src/cn/contentcl/hibernate/demo/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_01/src/cn/contentcl/hibernate/demo/HibernateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_01/src/cn/contentcl/hibernate/demo/HibernateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_01/src/cn/contentcl/hibernate/demo/HibernateDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_01/src/cn/contentcl/hibernate/demo/HibernateDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_01/src/cn/contentcl/hibernate/utils/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_01/src/cn/contentcl/hibernate/utils/HibernateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_01/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_01/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_01/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_01/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_02/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_02/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/HibernateDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/HibernateDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/HibernateDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/HibernateDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/HibernateDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/HibernateDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/HibernateDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/HibernateDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/HibernateDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/demo/HibernateDemo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/utils/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_02/src/cn/contentcl/hibernate/utils/HibernateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_02/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_02/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_02/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_02/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/demo1/HibernateDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/demo1/HibernateDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/demo2/HibernateDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/demo2/HibernateDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/LinkMan.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/LinkMan.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/LinkMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/LinkMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/Role.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/Role.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/User.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/User.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/utils/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_03/src/cn/contentcl/hibernate/utils/HibernateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_03/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_03/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_03/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_03/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo1/HibernateDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo1/HibernateDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo1/HibernateDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo1/HibernateDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo1/HibernateDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo1/HibernateDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo2/HibernateDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo2/HibernateDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo2/HibernateDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo2/HibernateDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo2/HibernateDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo2/HibernateDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo2/HibernateDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/demo2/HibernateDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/domain/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/domain/LinkMan.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/domain/LinkMan.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/domain/LinkMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/domain/LinkMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/utils/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/cn/contentcl/hibernate/utils/HibernateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_04/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_04/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenstruts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenstruts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenstruts/src/main/java/live/leer/web/action/HelloAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenstruts/src/main/java/live/leer/web/action/HelloAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenstruts/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenstruts/src/main/resources/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenstruts/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenstruts/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenstruts/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenstruts/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenstruts/target/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenstruts/target/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenstruts/target/m2e-wtp/web-resources/META-INF/maven/live.leer/mavenstruts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenstruts/target/m2e-wtp/web-resources/META-INF/maven/live.leer/mavenstruts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenstruts/target/tomcat/conf/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenstruts/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenstruts/target/tomcat/conf/tomcat-users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenstruts/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenstruts/target/tomcat/conf/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenstruts/target/tomcat/conf/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenstruts/target/tomcat/work/Tomcat/localhost/mavenstruts/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenstruts/target/tomcat/work/Tomcat/localhost/mavenstruts/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/bin/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/bin/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/bin/live/leer/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/bin/live/leer/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/bin/mybatis/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/bin/mybatis/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/bin/mybatis/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/bin/mybatis/user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/config/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/config/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/config/mybatis/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/config/mybatis/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/config/mybatis/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/config/mybatis/user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/jdbc/JdbcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/jdbc/JdbcTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/pojo/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/test/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/test/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/test/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/test/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/utils/SqlSessionFactoryUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis01/src/live/leer/mybatis/utils/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/bin/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/bin/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/bin/live/leer/mybatis/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/bin/live/leer/mybatis/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/bin/live/leer/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/bin/live/leer/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/config/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/config/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/pojo/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/pojo/QueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/pojo/QueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/test/OrderMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/test/OrderMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/test/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/test/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/utils/SqlSessionFactoryUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis02/src/live/leer/mybatis/utils/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/bin/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/bin/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/bin/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/bin/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/bin/live/leer/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/bin/live/leer/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/bin/live/leer/ssm/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/bin/live/leer/ssm/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/bin/live/leer/ssm/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/bin/live/leer/ssm/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/bin/mybatis/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/bin/mybatis/user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/config/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/config/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/config/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/config/mybatis/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/config/mybatis/user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/pojo/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/test/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/test/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/test/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/test/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/test/UserMapperTestG.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/mybatis/test/UserMapperTestG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/ssm/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/ssm/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/ssm/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/ssm/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/ssm/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/ssm/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/ssm/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03-spring/src/live/leer/ssm/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/css/Manage.css" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/css/Manage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/js/Common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/js/Common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/js/FrameDiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/js/FrameDiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/customer/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/customer/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/customer/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/linkman/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/linkman/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/linkman/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/linkman/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/linkman/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/linkman/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/jsp/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/WebContent/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/WebContent/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/src/live/leer/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/src/live/leer/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/src/live/leer/dao/impl/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/src/live/leer/dao/impl/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/src/live/leer/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/src/live/leer/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/src/live/leer/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/src/live/leer/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/src/live/leer/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/src/live/leer/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/src/live/leer/web/action/CustomerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/src/live/leer/web/action/CustomerAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_crm/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_crm/src/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/applicationContext2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/applicationContext2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo1/SpringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo1/SpringDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo1/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo1/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo1/UserDAOHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo1/UserDAOHibernateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo1/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo1/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo2/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo2/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo2/CustomerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo2/CustomerDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo2/SpringDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo2/SpringDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo3/Bean1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo3/Bean1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo3/Bean2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo3/Bean2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo3/Bean2Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo3/Bean2Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo3/Bean3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo3/Bean3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo3/Bean3Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo3/Bean3Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo3/SpringDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo3/SpringDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo4/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo4/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo4/Car2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo4/Car2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo4/CarInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo4/CarInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo4/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo4/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo4/SpringDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo4/SpringDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo5/CollectionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo5/CollectionBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo5/SpringDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/live/leer/spring/demo5/SpringDemo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day01/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day01/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/build/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/build/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/build/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/build/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo1/SpringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo1/SpringDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo1/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo1/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo1/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo1/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo1/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo1/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo1/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo1/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo2/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo2/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo2/SpringDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo2/SpringDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo3/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo3/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo3/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo3/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo3/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo3/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo3/SpringDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/src/live/leer/spring/demo3/SpringDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/build/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/build/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo1/JdkProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo1/JdkProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo1/SpringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo1/SpringDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo1/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo1/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo1/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo1/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo2/CglibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo2/CglibProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo2/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo2/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo2/SpringDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo2/SpringDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo3/MyAspectXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo3/MyAspectXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo3/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo3/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo3/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo3/ProductDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo3/SpringDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day02_aop/src/live/leer/spring/demo3/SpringDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_aop/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_aop/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_aop/build/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_aop/build/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_aop/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_aop/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_aop/src/live/leer/spring/demo1/MyAspectAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_aop/src/live/leer/spring/demo1/MyAspectAnno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_aop/src/live/leer/spring/demo1/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_aop/src/live/leer/spring/demo1/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_aop/src/live/leer/spring/demo1/SpringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_aop/src/live/leer/spring/demo1/SpringDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/build/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/build/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/build/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/build/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/build/classes/tx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/build/classes/tx.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/build/classes/tx2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/build/classes/tx2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/build/classes/tx3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/build/classes/tx3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/jdbc/demo1/JdbcDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/jdbc/demo1/JdbcDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/jdbc/demo1/JdbcDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/jdbc/demo1/JdbcDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/jdbc/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/jdbc/domain/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo1/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo1/AccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo1/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo1/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo1/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo1/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo1/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo1/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo1/SpringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo1/SpringDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo2/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo2/AccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo2/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo2/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo2/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo2/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo2/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo2/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo2/SpringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo2/SpringDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo3/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo3/AccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo3/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo3/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo3/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo3/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo3/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo3/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo3/SpringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/live/leer/tx/demo3/SpringDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/tx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/tx.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/tx2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/tx2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4_day03_jdbc/src/tx3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4_day03_jdbc/src/tx3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc01/WebContent/WEB-INF/jsp/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc01/WebContent/WEB-INF/jsp/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc01/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc01/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc01/build/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc01/build/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc01/config/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc01/config/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc01/src/live/leer/springmvc/controller/HelloControll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc01/src/live/leer/springmvc/controller/HelloControll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc2/WebContent/WEB-INF/jsp/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc2/WebContent/WEB-INF/jsp/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc2/WebContent/WEB-INF/jsp/itemEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc2/WebContent/WEB-INF/jsp/itemEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc2/WebContent/WEB-INF/jsp/itemList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc2/WebContent/WEB-INF/jsp/itemList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc2/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc2/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc2/build/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc2/build/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc2/config/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc2/config/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc2/src/live/leer/springmvc/controller/HelloControll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc2/src/live/leer/springmvc/controller/HelloControll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc2/src/live/leer/springmvc/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc2/src/live/leer/springmvc/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc2/src/live/leer/springmvc/pojo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc2/src/live/leer/springmvc/pojo/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/WebContent/WEB-INF/jsp/itemEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/WebContent/WEB-INF/jsp/itemEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/WebContent/WEB-INF/jsp/itemList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/WebContent/WEB-INF/jsp/itemList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/live/leer/springmvc/mapper/ItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/live/leer/springmvc/mapper/ItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/live/leer/springmvc/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/live/leer/springmvc/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/spring/applicationContext-trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/spring/applicationContext-trans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/build/classes/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/config/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/config/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/config/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/config/spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/config/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/config/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/config/spring/applicationContext-trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/config/spring/applicationContext-trans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/config/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/config/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/mapper/ItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/mapper/ItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/pojo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/pojo/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/pojo/QueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/pojo/QueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis/src/live/leer/springmvc/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/WebContent/WEB-INF/jsp/itemEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/WebContent/WEB-INF/jsp/itemEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/WebContent/WEB-INF/jsp/itemList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/WebContent/WEB-INF/jsp/itemList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/WebContent/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/WebContent/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/WebContent/WEB-INF/jsp/msg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/WebContent/WEB-INF/jsp/msg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/live/leer/springmvc/mapper/ItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/live/leer/springmvc/mapper/ItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/live/leer/springmvc/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/live/leer/springmvc/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/spring/applicationContext-trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/spring/applicationContext-trans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/build/classes/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/config/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/config/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/config/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/config/spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/config/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/config/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/config/spring/applicationContext-trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/config/spring/applicationContext-trans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/config/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/config/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/exception/CustomerExceptionResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/exception/CustomerExceptionResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/exception/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/exception/MyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/interceptor/MyInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/interceptor/MyInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/mapper/ItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/mapper/ItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/pojo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/pojo/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/pojo/QueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/pojo/QueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/utils/DateConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_mybatis02/src/live/leer/springmvc/utils/DateConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/css/Manage.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/css/Manage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/js/Common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/js/Common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/js/FrameDiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/js/FrameDiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/jsp/customer/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/jsp/customer/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/jsp/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/jsp/customer/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/jsp/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/jsp/customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/jsp/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/jsp/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/jsp/linkman/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/jsp/linkman/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/jsp/linkman/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/jsp/linkman/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/jsp/linkman/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/jsp/linkman/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/jsp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/jsp/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/WebContent/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/WebContent/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/build/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/build/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/build/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/build/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/build/classes/live/leer/ssh/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/build/classes/live/leer/ssh/domain/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/build/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/build/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/build/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/build/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/dao/impl/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/dao/impl/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/domain/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/web/action/CustomerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/src/live/leer/ssh/web/action/CustomerAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh1/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh1/src/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/css/Manage.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/css/Manage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/js/Common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/js/Common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/js/FrameDiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/js/FrameDiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/jsp/customer/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/jsp/customer/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/jsp/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/jsp/customer/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/jsp/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/jsp/customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/jsp/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/jsp/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/jsp/linkman/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/jsp/linkman/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/jsp/linkman/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/jsp/linkman/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/jsp/linkman/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/jsp/linkman/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/jsp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/jsp/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/WebContent/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/WebContent/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/build/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/build/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/build/classes/live/leer/ssh/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/build/classes/live/leer/ssh/domain/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/build/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/build/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/build/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/build/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/dao/impl/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/dao/impl/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/domain/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/test/SSHDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/test/SSHDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/web/action/CustomerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/src/live/leer/ssh/web/action/CustomerAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh2/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh2/src/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/WebContent/demo1/demo1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/WebContent/demo1/demo1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/WebContent/demo1/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/WebContent/demo1/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/WebContent/demo2/demo1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/WebContent/demo2/demo1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo1/HelloAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo1/HelloAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo1/struts_demo1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo1/struts_demo1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo2/ActionDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo2/ActionDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo2/ActionDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo2/ActionDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo2/ActionDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo2/ActionDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo2/struts_demo2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo2/struts_demo2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo3/CustomerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo3/CustomerAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo3/ProductAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo3/ProductAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo3/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo3/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo3/struts_demo3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/src/cn/contentcl/struts/demo3/struts_demo3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day01/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day01/src/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/WebContent/demo1/demo1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/WebContent/demo1/demo1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/WebContent/demo1/demo2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/WebContent/demo1/demo2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/WebContent/demo2/demo1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/WebContent/demo2/demo1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/WebContent/demo3/demo1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/WebContent/demo3/demo1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo1/RequestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo1/RequestDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo1/RequestDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo1/RequestDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo1/RequestDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo1/RequestDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo1/struts_demo1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo1/struts_demo1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo2/UserAction1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo2/UserAction1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo2/UserAction2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo2/UserAction2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo2/UserAction3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo2/UserAction3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo2/struts_demo2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo2/struts_demo2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo3/ProductAction1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo3/ProductAction1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo3/ProductAction2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo3/ProductAction2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo3/struts_demo3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/demo3/struts_demo3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/cn/contentcl/struts2/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day02/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day02/src/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day03/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day03/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day03/WebContent/demo1/demo1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day03/WebContent/demo1/demo1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day03/WebContent/demo1/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day03/WebContent/demo1/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day03/WebContent/demo1/success2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day03/WebContent/demo1/success2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/ognl/OgnlDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/ognl/OgnlDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/valuestack/ValueStackDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/valuestack/ValueStackDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/valuestack/ValueStackDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/valuestack/ValueStackDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/valuestack/ValueStackDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/valuestack/ValueStackDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/valuestack/ValueStackDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/valuestack/ValueStackDemo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/valuestack/struts_demo1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day03/src/cn/contentcl/struts2/valuestack/struts_demo1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day03/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day03/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day03/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day03/src/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day04/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day04/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day04/WebContent/demo1/demo1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day04/WebContent/demo1/demo1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day04/src/live/leer/web/action/ActionDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day04/src/live/leer/web/action/ActionDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day04/src/live/leer/web/interceptor/InterceptorDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day04/src/live/leer/web/interceptor/InterceptorDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day04/src/live/leer/web/interceptor/InterceptorDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day04/src/live/leer/web/interceptor/InterceptorDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day04/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day04/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2_day04/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2_day04/src/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/css/Manage.css" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/css/Manage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/js/Common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/js/Common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/js/FrameDiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/js/FrameDiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/customer/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/customer/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/customer/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/linkman/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/linkman/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/linkman/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/linkman/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/linkman/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/linkman/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/jsp/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/WebContent/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/WebContent/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/dao/impl/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/dao/impl/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/domain/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/domain/User.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/domain/User.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/utils/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/utils/HibernateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/web/action/CustomerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/web/action/CustomerAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/web/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/web/action/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/web/interceptor/PrivilegeInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/cn/contentcl/web/interceptor/PrivilegeInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts_crm/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts_crm/src/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/宿舍管理系统/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/宿舍管理系统/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/dtd/struts-2.3.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/../tools/dtd/struts-2.3.dtd" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2111908288">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\工具\apache-maven-3.6.0-bin\repository" />
+        <option name="mavenHome" value="E:/工具/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\工具\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="111" />
+    <option name="y" value="67" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot02-config" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot02-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Springboot02ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot02-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="leer.live.springboot.Springboot02ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="89" y="54" width="1400" height="776" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27794337" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

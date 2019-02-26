@@ -1,0 +1,10 @@
+package live.leer.springmvc.exception;
+
+/**
+ * 自定义异常
+ * @author leer
+ *
+ */
+public class MyException extends Exception {
+
+}

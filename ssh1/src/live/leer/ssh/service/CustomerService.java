@@ -4,7 +4,7 @@ import live.leer.ssh.domain.Customer;
 
 public interface CustomerService {
 
-	void save(Customer customer);
+    void save(Customer customer);
 
 
 }

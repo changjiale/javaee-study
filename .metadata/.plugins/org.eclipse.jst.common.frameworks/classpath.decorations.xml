@@ -1,0 +1,38 @@
+<classpath>
+    <container id="acmBoard!org.eclipse.jst.j2ee.internal.web.container">
+        <entry id="E:/code/javaee/acmBoard/WebRoot/WEB-INF/lib/struts2-core-2.3.24.jar">
+            <source-attachment-path>
+                G:/javaweb/49/07-Struts2框架（学习4天）/day01_Strust入门XML配置-action编写/day01_Strust入门XML配置-action编写/资料/struts2/struts-2.3.24-all.zip
+            </source-attachment-path>
+        </entry>
+    </container>
+    <container id="spring4_crm!org.eclipse.jst.j2ee.internal.web.container">
+        <entry id="E:/code/javaee/spring4_crm/WebContent/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar">
+            <source-attachment-path>E:/工具/spring-framework-4.2.4.RELEASE-dist.zip</source-attachment-path>
+        </entry>
+    </container>
+    <container id="ssh2!org.eclipse.jst.j2ee.internal.web.container">
+        <entry id="E:/code/javaee/ssh2/WebContent/WEB-INF/lib/spring-orm-4.2.4.RELEASE.jar">
+            <source-attachment-path>
+                E:/工具/spring-framework-4.2.4.RELEASE-dist/spring-framework-4.2.4.RELEASE/libs/spring-orm-4.2.4.RELEASE-sources.jar
+            </source-attachment-path>
+        </entry>
+    </container>
+    <container id="ssh1!org.eclipse.jst.j2ee.internal.web.container">
+        <entry id="E:/code/javaee/ssh1/WebContent/WEB-INF/lib/spring-orm-4.2.4.RELEASE.jar">
+            <source-attachment-path>
+                E:/工具/spring-framework-4.2.4.RELEASE-dist/spring-framework-4.2.4.RELEASE/libs/spring-orm-4.2.4.RELEASE-sources.jar
+            </source-attachment-path>
+        </entry>
+        <entry id="E:/code/javaee/ssh1/WebContent/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar">
+            <source-attachment-path>/ssh1/WebContent/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar</source-attachment-path>
+        </entry>
+    </container>
+    <container id="hibernate_01!org.eclipse.jst.j2ee.internal.web.container">
+        <entry id="E:/code/javaee/hibernate_01/WebContent/WEB-INF/lib/hibernate-core-5.0.7.Final.jar">
+            <source-attachment-path>
+                F:/javaweb/黑马49期/06-Hibernate框架(学习4天)/day01-Hibernate(一)_hibernate映射文件配置.hibernate入门/day01-Hibernate(一)_hibernate映射文件配置.hibernate入门/day28Hibernate(一)_hibernate映射文件配置.hibernate入门/day01/资料/资料/hibernate-release-5.0.7.Final.zip
+            </source-attachment-path>
+        </entry>
+    </container>
+</classpath>

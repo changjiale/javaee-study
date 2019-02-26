@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;cn.contentcl.struts.demo1&apos; to &apos;struts2_day04/src&apos;&#x0D;&#x0A;- Original project: &apos;struts2_day01&apos;&#x0D;&#x0A;- Destination element: &apos;struts2_day04/src&apos;&#x0D;&#x0A;- Original element: &apos;struts2_day01/src/cn.contentcl.struts.demo1&apos;" description="Copy package" destination="=struts2_day04/src" element1="/src&lt;cn.contentcl.struts.demo1" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1547364691569" version="1.0"/>
+</session>

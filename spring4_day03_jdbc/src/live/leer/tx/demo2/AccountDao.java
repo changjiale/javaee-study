@@ -1,10 +1,12 @@
 package live.leer.tx.demo2;
+
 /**
  * 转账DAO的接口
- * @author leer
  *
+ * @author leer
  */
 public interface AccountDao {
-	public void outMoney(String from,Double money);
-	public void inMoney(String to,Double money);
+    public void outMoney(String from, Double money);
+
+    public void inMoney(String to, Double money);
 }

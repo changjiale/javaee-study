@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE hibernate-mapping PUBLIC 
-    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- 建立类与表的映射关系 -->
 <hibernate-mapping>
- 	<class name="cn.contentcl.hibernate.domain.LinkMan" table="cst_linkman">
- 		<!-- 建立类中的属性与表中的主键对应 -->
- 		<id name="lkm_id" column="lkm_id">
- 			<generator class="native"/>
- 		</id>
- 		
- 		<!-- 建立类中的普通的属性和表的字段对应 -->
- 		<property name="lkm_name" />
- 		<property name="lkm_gender" />
- 		<property name="lkm_phone" />
- 		<property name="lkm_mobile" />
- 		<property name="lkm_email" />
- 		<property name="lkm_qq" />
- 		<property name="lkm_position" />
- 		<property name="lkm_memo" />
- 		
- 		<!-- 配置多对一的关系：放置的是一的一方的对象 -->
- 		<!-- 
- 			many to one标签
- 				* name	:	一的一方的对象的属性名称
- 				* class	:	一的一方的类的全路径
- 				* column:	在多的一方的表的外键的名称
- 				
- 		 -->
- 		 <many-to-one name="customer"  cascade="save-update,delete" class="cn.contentcl.hibernate.domain.Customer" column="lkm_cust_id"></many-to-one>
- 	</class>
+    <class name="cn.contentcl.hibernate.domain.LinkMan" table="cst_linkman">
+        <!-- 建立类中的属性与表中的主键对应 -->
+        <id name="lkm_id" column="lkm_id">
+            <generator class="native"/>
+        </id>
+
+        <!-- 建立类中的普通的属性和表的字段对应 -->
+        <property name="lkm_name"/>
+        <property name="lkm_gender"/>
+        <property name="lkm_phone"/>
+        <property name="lkm_mobile"/>
+        <property name="lkm_email"/>
+        <property name="lkm_qq"/>
+        <property name="lkm_position"/>
+        <property name="lkm_memo"/>
+
+        <!-- 配置多对一的关系：放置的是一的一方的对象 -->
+        <!--
+            many to one标签
+                * name	:	一的一方的对象的属性名称
+                * class	:	一的一方的类的全路径
+                * column:	在多的一方的表的外键的名称
+
+         -->
+        <many-to-one name="customer" cascade="save-update,delete" class="cn.contentcl.hibernate.domain.Customer"
+                     column="lkm_cust_id"></many-to-one>
+    </class>
 </hibernate-mapping>

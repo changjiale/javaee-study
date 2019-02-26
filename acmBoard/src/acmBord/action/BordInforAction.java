@@ -25,279 +25,284 @@ import acmBord.bean.AcmerInfo;
 import acmBord.bean.ProbleResult;
 import acmBord.listenner.DataInitListenner;
 
-public class BordInforAction extends ActionSupport implements ServletResponseAware,ServletRequestAware{
+public class BordInforAction extends ActionSupport implements ServletResponseAware, ServletRequestAware {
 
-	/**
-	 * 
-	 */
-	static{
-		
-	}
-	private static final long serialVersionUID = 1L;
-	
-	//ÌâÄ¿µÄth ÐÅÏ¢
-	private List<String> subjects = new ArrayList<String>();
+    /**
+     *
+     */
+    static {
 
-	//À´×ÔOJµÄ²ÎÊý¶ÓÔ±ÐÅÏ¢
-	private List<AcmerInfo> acmerInfos = new ArrayList<AcmerInfo>();
-	
-	//À´×ÔÎÄ¼þµÄ²ÎÊý¶ÓÔ±ÐÅÏ¢
-	private Map<String, AcmerInfo> acmerInforsMap = new HashMap<>();
-	
-	public List<AcmerInfo> getAcmerInfos() {
-		return acmerInfos;
-	}
+    }
 
-	public void setAcmerInfos(List<AcmerInfo> acmerInfos) {
-		this.acmerInfos = acmerInfos;
-	}
+    private static final long serialVersionUID = 1L;
 
-	public List<String> getSubjects() {
-		return subjects;
-	}
+    //ï¿½ï¿½Ä¿ï¿½ï¿½th ï¿½ï¿½Ï¢
+    private List<String> subjects = new ArrayList<String>();
 
-	public void setSubjects(List<String> subjects) {
-		this.subjects = subjects;
-	}
+    //ï¿½ï¿½ï¿½ï¿½OJï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½Ï¢
+    private List<AcmerInfo> acmerInfos = new ArrayList<AcmerInfo>();
 
-	
-	private Integer allSub = 0;//Ã¿¸ö²ÎÊý¶ÓÔ±×ÜµÄÌá½»Êý
-	private Integer rightSub = 0;//Ã¿¸ö²ÎÊý¶ÓÔ±×ÜµÄÕýÈ·µÄÌá½»Êý
-	@Override
-	public String execute() throws Exception {
-		boolean cookieFlag = false;
-		boolean minCokie = false;
-		boolean maxCoikie = false;
-		boolean viewHDCookie = false;
-		Cookie[] cookies = request.getCookies();
-		for(Cookie cookie :cookies ){
-			if(cookie.getName().equals("bordFlag")){
-				cookie.setMaxAge(1000*60*60);
-				cookieFlag = true;
-				break;
-			}
-			if(cookie.getName().equals("minStr")){
+    //ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½Ï¢
+    private Map<String, AcmerInfo> acmerInforsMap = new HashMap<>();
+
+    public List<AcmerInfo> getAcmerInfos() {
+        return acmerInfos;
+    }
+
+    public void setAcmerInfos(List<AcmerInfo> acmerInfos) {
+        this.acmerInfos = acmerInfos;
+    }
+
+    public List<String> getSubjects() {
+        return subjects;
+    }
+
+    public void setSubjects(List<String> subjects) {
+        this.subjects = subjects;
+    }
+
+
+    private Integer allSub = 0;//Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½Üµï¿½ï¿½á½»ï¿½ï¿½
+    private Integer rightSub = 0;//Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½Üµï¿½ï¿½ï¿½È·ï¿½ï¿½ï¿½á½»ï¿½ï¿½
+
+    @Override
+    public String execute() throws Exception {
+        boolean cookieFlag = false;
+        boolean minCokie = false;
+        boolean maxCoikie = false;
+        boolean viewHDCookie = false;
+        Cookie[] cookies = request.getCookies();
+        for (Cookie cookie : cookies) {
+            if (cookie.getName().equals("bordFlag")) {
+                cookie.setMaxAge(1000 * 60 * 60);
+                cookieFlag = true;
+                break;
+            }
+            if (cookie.getName().equals("minStr")) {
                 minCokie = true;
-                cookie.setMaxAge(1000*60*60);
+                cookie.setMaxAge(1000 * 60 * 60);
             }
-            if(cookie.getName().equals("maxStr")){
+            if (cookie.getName().equals("maxStr")) {
                 maxCoikie = true;
-                cookie.setMaxAge(1000*60*60);
+                cookie.setMaxAge(1000 * 60 * 60);
             }
-            if(cookie.getName().endsWith("viewHDCookie")){
-            	viewHDCookie = true;
-            	cookie.setMaxAge(1000*60*60);
+            if (cookie.getName().endsWith("viewHDCookie")) {
+                viewHDCookie = true;
+                cookie.setMaxAge(1000 * 60 * 60);
             }
-		}
-		if(cookieFlag == false){
-			Cookie fbCookie = new Cookie("bordFlag", "1");
-			fbCookie.setMaxAge(1000*60*60);
-			response.addCookie(fbCookie);
-		}
-		
-		if(minCokie == false){
-			//String str = "";
-			Cookie fbCookie = new Cookie("minStr", "");
-			fbCookie.setMaxAge(1000*60*60);
-			response.addCookie(fbCookie);
-		}
-		
-		if(maxCoikie == false){
-			//String str = "";
-			Cookie fbCookie = new Cookie("maxStr", "");
-			fbCookie.setMaxAge(1000*60*60);
-			response.addCookie(fbCookie);
-		}
-		if(viewHDCookie == false){
-			Cookie fbCookie = new Cookie("viewHDCookie", "1");
-			fbCookie.setMaxAge(1000*60*60);
-			response.addCookie(fbCookie);
-		}
-		acmerInforsMap = DataInitListenner.map;
-		getAllData();
-		return super.execute();
-	}
-	
-	//»ñÈ¡ËùÓÐÐÅÏ¢
-	public void getAllData() throws Exception{
-		System.out.println(acmerInforsMap);
-		//String url = "http://acm.pdsu.edu.cn/contestrank.php?cid=1011";
-		
-		Properties properties = new Properties();
-		InputStream inStream = getClass().getClassLoader().getResourceAsStream("bordUrl.properties");
-		properties.load(inStream);
-		//System.out.println(properties.get("url"));
-		
-        String url = properties.get("url").toString();;
-        
-		try {
-			Document doc = Jsoup.connect(url).get();
-			//System.out.println(doc.body().toString());
-			
-			Elements tableEmts = doc.getElementsByAttributeValue("id", "rank");
-			
-			for(Element tableEmt : tableEmts){
-				
-				//»ñÈ¡ÌâÄ¿¸öÊý
-				Elements theadEmts = tableEmt.getElementsByTag("thead");
-				
-				Element theadEmt = theadEmts.first();
-				
-				Elements trEmts = theadEmt.getElementsByClass("toprow");
-				
-				Element trEmt = trEmts.first();
-				
-				Elements thEmts = trEmt.getElementsByTag("td");
-				int proNum = thEmts.size()-1;
-				SujectsFill(proNum);
-				
-				//»ñÈ¡Ã¿¸ö²ÎÈü¶ÓÔ±µÄÐÅÏ¢
-				Element tbodyEmt = tableEmt.getElementsByTag("tbody").first();
-				Elements tbodyThEmts = tbodyEmt.getElementsByTag("tr");
-				//System.out.println(tbodyThEmts.first().getElementsByTag("td").first().text());
-				//Object[] ss = tbodyThEmts.toArray();
-				int realRank = 1;
-				String strRank = "-1";
-				Map<String, String> userNameList = new HashMap<>();
-				for(Element tbodyThEmt : tbodyThEmts){
-					Object[] tbodyThTddEmts = tbodyThEmt.getElementsByTag("td").toArray();
-					if(tbodyThTddEmts != null && tbodyThTddEmts.length > 0){
-						String rank = ((Element)tbodyThTddEmts[0]).text();
-						String name = ((Element)tbodyThTddEmts[1]).text();
-						String nickName = ((Element)tbodyThTddEmts[2]).text();
-						String solved = ((Element)tbodyThTddEmts[3]).text();
-						String time = ((Element)tbodyThTddEmts[4]).text();
-						String schoolName = "¼ÆËã»úÑ§Ôº(Èí¼þÑ§Ôº)";
-						int flag = 1;
-						int teamNum = -1;
-						nickName = "½­ºþÂ·ÈË";
-						//¼ÆËã·ÖÖÓÊý
-						String times[] = time.split(":");
-						String timeMin = String.valueOf(Integer.parseInt(times[0])*60+Integer.parseInt(times[1]));
-						
-						List<ProbleResult> probleResult = getProbleResultData(tbodyThTddEmts);
-						
-						//ÔÚÎÄ¼þÖÐ²éÕÒurl °ñµ¥Ã¿¸ö¶ÓÎé¶ÔÓ¦µÄ¶ÔÏó£¬²¢½«Õâ¸ö¶ÔÓÚµÄÆäÓàÐÅÏ¢²¹È«
-						//System.out.println(acmerInforsMap);
-						if(acmerInforsMap.containsKey(name)){
-							schoolName = acmerInforsMap.get(name).getSchoolName();
-							flag = acmerInforsMap.get(name).getFlag();
-							teamNum = acmerInforsMap.get(name).getTeamNum();
-							nickName = acmerInforsMap.get(name).getNickName();
-						}
-						String total = String.valueOf(allSub)+"/"+String.valueOf(rightSub);
-						AcmerInfo acmerInfo = new AcmerInfo("1", rank, name, nickName, solved, timeMin, schoolName, probleResult, total,flag,teamNum);
-						//System.out.println(acmerInfo);
-						acmerInfos.add(acmerInfo);
-						
-						
-						//¼ÇÂ¼ËùÓÐ×öÌâµÄ²ÎÈü¶ÓÔ±µÄÐÕÃû
-						userNameList.put(acmerInfo.getName(), acmerInfo.getName());
-						allSub = 0;rightSub = 0;
-						strRank = rank;
-					}
-					
-				}
-				
-				realRank = Integer.valueOf(strRank);
-				if(realRank == -1)
-				{
-					realRank = 1;
-				}
-				//System.out.println(realRank);
-				
-				//°Ñ acmerInfo.txt Ã»ÓÐ×öÌâµÄ²ÎÊý¶ÓÔ±ÏÔÊ¾
-				for(Map.Entry<String, AcmerInfo> acin : acmerInforsMap.entrySet()){
-					AcmerInfo acmerInfoByMap = acin.getValue();
-					if(!userNameList.containsKey(acmerInfoByMap.getName())){
-						acmerInfoByMap.setProbleResult(getEmptyProbleResults(proNum));
-						acmerInfoByMap.setRank(String.valueOf(realRank));
-						
-						acmerInfos.add(acmerInfoByMap);
-						realRank++;
-						//System.out.println(realRank);
-					}
-				}
-			}
-			
-			
-			
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-	
-	/**
-	 * »ñÈ¡ÌâÄ¿ÐÅÏ¢
-	 * @param tbodyThTddEmts
-	 * @return
-	 */
-	private List<ProbleResult> getProbleResultData(Object[] tbodyThTddEmts){
-		List<ProbleResult> results = new ArrayList<>();
-		for(int i = 5 ; i < tbodyThTddEmts.length ; i++){
-			String proName = ((Element)tbodyThTddEmts[i]).text();
-			String proColor = ((Element)tbodyThTddEmts[i]).attr("style");
-			ProbleResult pr = new ProbleResult(proName, proColor);
-			
-			
-			//¼ÆËãµÃµ½SolvedµÄÐÅÏ¢
-			if(!proName.equals("") && proName!= null && proName.length() > 0){
-				
-				if(!proName.startsWith("(")){
-					rightSub++;
-					allSub++;
-					
-					   
-				}
-				int s = proName.indexOf("(");
-				int e = proName.indexOf(")");
-				if(s!= -1 && e != -1){
-					//System.out.println("-->"+proName.substring(s+2, e));
-					int erroy = Integer.parseInt(proName.substring(s+2, e));
-					allSub+=erroy;
-				}
-				
-			}
-			
-			results.add(pr);
-		}		
-		return results;
-	}
-		
-	/**
-	 * »ñÈ¡ÌâÄ¿µÄÊýÁ¿ÒÔ¼°ÐÅÏ¢
-	 */
-	private void SujectsFill(int proNum){
-		
-	    for(int i = 0 ; i < proNum ; i++){
-	    	char num = (char) ('A'+i);
-	    	String proNumStr = String.valueOf(num);
-	    	subjects.add(proNumStr);
-	    }
-		
-		subjects.add("Total<br/>att/solved<br/>997/261");
-	}
-	
-	private List<ProbleResult> getEmptyProbleResults(int proNum){
-		List<ProbleResult> list = new ArrayList<>();
-		for(int i = 0 ; i < proNum ; i++){
-			list.add(new ProbleResult("","background-color:#eeeeee"));
-		}
-		return list;
-	}
+        }
+        if (cookieFlag == false) {
+            Cookie fbCookie = new Cookie("bordFlag", "1");
+            fbCookie.setMaxAge(1000 * 60 * 60);
+            response.addCookie(fbCookie);
+        }
 
-	private HttpServletResponse response;
-	@Override
-	public void setServletResponse(HttpServletResponse arg0) {
-		// TODO Auto-generated method stub
-		response =arg0;
-	}
+        if (minCokie == false) {
+            //String str = "";
+            Cookie fbCookie = new Cookie("minStr", "");
+            fbCookie.setMaxAge(1000 * 60 * 60);
+            response.addCookie(fbCookie);
+        }
 
-	private HttpServletRequest request; 
-	@Override
-	public void setServletRequest(HttpServletRequest arg0) {
-		// TODO Auto-generated method stub
-		request = arg0;
-	}
+        if (maxCoikie == false) {
+            //String str = "";
+            Cookie fbCookie = new Cookie("maxStr", "");
+            fbCookie.setMaxAge(1000 * 60 * 60);
+            response.addCookie(fbCookie);
+        }
+        if (viewHDCookie == false) {
+            Cookie fbCookie = new Cookie("viewHDCookie", "1");
+            fbCookie.setMaxAge(1000 * 60 * 60);
+            response.addCookie(fbCookie);
+        }
+        acmerInforsMap = DataInitListenner.map;
+        getAllData();
+        return super.execute();
+    }
+
+    //ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
+    public void getAllData() throws Exception {
+        System.out.println(acmerInforsMap);
+        //String url = "http://acm.pdsu.edu.cn/contestrank.php?cid=1011";
+
+        Properties properties = new Properties();
+        InputStream inStream = getClass().getClassLoader().getResourceAsStream("bordUrl.properties");
+        properties.load(inStream);
+        //System.out.println(properties.get("url"));
+
+        String url = properties.get("url").toString();
+        ;
+
+        try {
+            Document doc = Jsoup.connect(url).get();
+            //System.out.println(doc.body().toString());
+
+            Elements tableEmts = doc.getElementsByAttributeValue("id", "rank");
+
+            for (Element tableEmt : tableEmts) {
+
+                //ï¿½ï¿½È¡ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½
+                Elements theadEmts = tableEmt.getElementsByTag("thead");
+
+                Element theadEmt = theadEmts.first();
+
+                Elements trEmts = theadEmt.getElementsByClass("toprow");
+
+                Element trEmt = trEmts.first();
+
+                Elements thEmts = trEmt.getElementsByTag("td");
+                int proNum = thEmts.size() - 1;
+                SujectsFill(proNum);
+
+                //ï¿½ï¿½È¡Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½Ï¢
+                Element tbodyEmt = tableEmt.getElementsByTag("tbody").first();
+                Elements tbodyThEmts = tbodyEmt.getElementsByTag("tr");
+                //System.out.println(tbodyThEmts.first().getElementsByTag("td").first().text());
+                //Object[] ss = tbodyThEmts.toArray();
+                int realRank = 1;
+                String strRank = "-1";
+                Map<String, String> userNameList = new HashMap<>();
+                for (Element tbodyThEmt : tbodyThEmts) {
+                    Object[] tbodyThTddEmts = tbodyThEmt.getElementsByTag("td").toArray();
+                    if (tbodyThTddEmts != null && tbodyThTddEmts.length > 0) {
+                        String rank = ((Element) tbodyThTddEmts[0]).text();
+                        String name = ((Element) tbodyThTddEmts[1]).text();
+                        String nickName = ((Element) tbodyThTddEmts[2]).text();
+                        String solved = ((Element) tbodyThTddEmts[3]).text();
+                        String time = ((Element) tbodyThTddEmts[4]).text();
+                        String schoolName = "ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§Ôº(ï¿½ï¿½ï¿½Ñ§Ôº)";
+                        int flag = 1;
+                        int teamNum = -1;
+                        nickName = "ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½";
+                        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                        String times[] = time.split(":");
+                        String timeMin = String.valueOf(Integer.parseInt(times[0]) * 60 + Integer.parseInt(times[1]));
+
+                        List<ProbleResult> probleResult = getProbleResultData(tbodyThTddEmts);
+
+                        //ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ð²ï¿½ï¿½ï¿½url ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½Ä¶ï¿½ï¿½ó£¬²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½È«
+                        //System.out.println(acmerInforsMap);
+                        if (acmerInforsMap.containsKey(name)) {
+                            schoolName = acmerInforsMap.get(name).getSchoolName();
+                            flag = acmerInforsMap.get(name).getFlag();
+                            teamNum = acmerInforsMap.get(name).getTeamNum();
+                            nickName = acmerInforsMap.get(name).getNickName();
+                        }
+                        String total = String.valueOf(allSub) + "/" + String.valueOf(rightSub);
+                        AcmerInfo acmerInfo = new AcmerInfo("1", rank, name, nickName, solved, timeMin, schoolName, probleResult, total, flag, teamNum);
+                        //System.out.println(acmerInfo);
+                        acmerInfos.add(acmerInfo);
+
+
+                        //ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                        userNameList.put(acmerInfo.getName(), acmerInfo.getName());
+                        allSub = 0;
+                        rightSub = 0;
+                        strRank = rank;
+                    }
+
+                }
+
+                realRank = Integer.valueOf(strRank);
+                if (realRank == -1) {
+                    realRank = 1;
+                }
+                //System.out.println(realRank);
+
+                //ï¿½ï¿½ acmerInfo.txt Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½Ê¾
+                for (Map.Entry<String, AcmerInfo> acin : acmerInforsMap.entrySet()) {
+                    AcmerInfo acmerInfoByMap = acin.getValue();
+                    if (!userNameList.containsKey(acmerInfoByMap.getName())) {
+                        acmerInfoByMap.setProbleResult(getEmptyProbleResults(proNum));
+                        acmerInfoByMap.setRank(String.valueOf(realRank));
+
+                        acmerInfos.add(acmerInfoByMap);
+                        realRank++;
+                        //System.out.println(realRank);
+                    }
+                }
+            }
+
+
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * ï¿½ï¿½È¡ï¿½ï¿½Ä¿ï¿½ï¿½Ï¢
+     *
+     * @param tbodyThTddEmts
+     * @return
+     */
+    private List<ProbleResult> getProbleResultData(Object[] tbodyThTddEmts) {
+        List<ProbleResult> results = new ArrayList<>();
+        for (int i = 5; i < tbodyThTddEmts.length; i++) {
+            String proName = ((Element) tbodyThTddEmts[i]).text();
+            String proColor = ((Element) tbodyThTddEmts[i]).attr("style");
+            ProbleResult pr = new ProbleResult(proName, proColor);
+
+
+            //ï¿½ï¿½ï¿½ï¿½Ãµï¿½Solvedï¿½ï¿½ï¿½ï¿½Ï¢
+            if (!proName.equals("") && proName != null && proName.length() > 0) {
+
+                if (!proName.startsWith("(")) {
+                    rightSub++;
+                    allSub++;
+
+
+                }
+                int s = proName.indexOf("(");
+                int e = proName.indexOf(")");
+                if (s != -1 && e != -1) {
+                    //System.out.println("-->"+proName.substring(s+2, e));
+                    int erroy = Integer.parseInt(proName.substring(s + 2, e));
+                    allSub += erroy;
+                }
+
+            }
+
+            results.add(pr);
+        }
+        return results;
+    }
+
+    /**
+     * ï¿½ï¿½È¡ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½Ï¢
+     */
+    private void SujectsFill(int proNum) {
+
+        for (int i = 0; i < proNum; i++) {
+            char num = (char) ('A' + i);
+            String proNumStr = String.valueOf(num);
+            subjects.add(proNumStr);
+        }
+
+        subjects.add("Total<br/>att/solved<br/>997/261");
+    }
+
+    private List<ProbleResult> getEmptyProbleResults(int proNum) {
+        List<ProbleResult> list = new ArrayList<>();
+        for (int i = 0; i < proNum; i++) {
+            list.add(new ProbleResult("", "background-color:#eeeeee"));
+        }
+        return list;
+    }
+
+    private HttpServletResponse response;
+
+    @Override
+    public void setServletResponse(HttpServletResponse arg0) {
+        // TODO Auto-generated method stub
+        response = arg0;
+    }
+
+    private HttpServletRequest request;
+
+    @Override
+    public void setServletRequest(HttpServletRequest arg0) {
+        // TODO Auto-generated method stub
+        request = arg0;
+    }
 }

@@ -1,0 +1,20 @@
+package live.leer.spring.demo2;
+
+/**
+ * cglib动态代理
+ * @author leer
+ *
+ */
+public class CglibProxy {
+
+	private CustomerDao customerDao;
+
+	public CglibProxy(CustomerDao customerDao) {
+		this.customerDao = customerDao;
+	}
+	
+	
+	/**
+	 * 使用cglib产生代理的方法
+	 */
+}

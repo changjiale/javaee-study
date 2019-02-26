@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;log4j.properties&apos; to &apos;spring4_day03_jdbc/src&apos;&#x0D;&#x0A;- Original project: &apos;spring4_day02&apos;&#x0D;&#x0A;- Destination element: &apos;spring4_day03_jdbc/src&apos;&#x0D;&#x0A;- Original element: &apos;log4j.properties&apos;" description="Copy file" destination="=spring4_day03_jdbc/src" element1="src/log4j.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1548576222084" units="0" version="1.0"/>
+</session>

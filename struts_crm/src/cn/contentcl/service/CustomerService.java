@@ -5,8 +5,8 @@ import java.util.List;
 import cn.contentcl.domain.Customer;
 
 public interface CustomerService {
-	 public List<Customer> find();
+    public List<Customer> find();
 
-	public void save(Customer customer);
+    public void save(Customer customer);
 
 }
