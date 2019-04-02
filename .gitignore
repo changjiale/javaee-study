@@ -1,0 +1,7 @@
+text/.idea/misc.xml
+shiro_authentication/target/classes/xx.ini
+shiro_authentication/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+shiro_authentication/target/maven-archiver/pom.properties
+shiro_authentication/target/
+.metadata/
+.recommenders/

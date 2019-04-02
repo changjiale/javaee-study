@@ -1,5 +1,0 @@
-package live.leer.springmvc.exception;
-
-public class MyException extends Exception {
-
-}

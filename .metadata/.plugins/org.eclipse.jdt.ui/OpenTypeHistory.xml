@@ -1,83 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo
-            handle="=struts2_day01/E:\/code\/javaee\/struts2_day01\/WebContent\/WEB-INF\/lib\/xwork-core-2.3.24.jar&lt;com.opensymphony.xwork2(ActionSupport.class[ActionSupport"
-            modifiers="33" timestamp="1544778687056"/>
-    <typeInfo handle="=struts_crm/src&lt;cn.contentcl.service{CustomerService.java[CustomerService" modifiers="513"
-              timestamp="1545741035411"/>
-    <typeInfo handle="=struts_crm/src&lt;cn.contentcl.dao{CustomerDao.java[CustomerDao" modifiers="513"
-              timestamp="1545741251029"/>
-    <typeInfo
-            handle="=struts2_day02/E:\/code\/javaee\/struts2_day02\/WebContent\/WEB-INF\/lib\/xwork-core-2.3.24.jar&lt;com.opensymphony.xwork2(ActionSupport.class[ActionSupport"
-            modifiers="33" timestamp="1544778687056"/>
-    <typeInfo handle="=struts_crm/src&lt;cn.contentcl.dao{UserDao.java[UserDao" modifiers="513"
-              timestamp="1547880056635"/>
-    <typeInfo handle="=spring4_day01/src&lt;live.leer.spring.demo1{UserDAO.java[UserDAO" modifiers="513"
-              timestamp="1547886769890"/>
-    <typeInfo handle="=spring4_day01/src&lt;live.leer.spring.demo2{CustomerDAO.java[CustomerDAO" modifiers="513"
-              timestamp="1548058859588"/>
-    <typeInfo handle="=spring4_crm/src&lt;live.leer.service{CustomerService.java[CustomerService" modifiers="513"
-              timestamp="1548224972734"/>
-    <typeInfo handle="=spring4_crm/src&lt;live.leer.dao{CustomerDao.java[CustomerDao" modifiers="513"
-              timestamp="1548228152596"/>
-    <typeInfo handle="=spring4_day02/src&lt;live.leer.spring.demo1{UserDao.java[UserDao" modifiers="513"
-              timestamp="1548308442928"/>
-    <typeInfo handle="=spring4_day02/src&lt;live.leer.spring.demo1{UserService.java[UserService" modifiers="513"
-              timestamp="1548310585381"/>
-    <typeInfo handle="=spring4_day02_aop/src&lt;live.leer.spring.demo3{ProductDao.java[ProductDao" modifiers="513"
-              timestamp="1548418616125"/>
-    <typeInfo handle="=spring4_day03_jdbc/src&lt;live.leer.tx.demo1{AccountService.java[AccountService" modifiers="513"
-              timestamp="1548663516830"/>
-    <typeInfo handle="=spring4_day03_jdbc/src&lt;live.leer.tx.demo1{AccountDao.java[AccountDao" modifiers="513"
-              timestamp="1548663813560"/>
-    <typeInfo
-            handle="=spring4_crm/E:\/code\/javaee\/spring4_crm\/WebContent\/WEB-INF\/lib\/spring-web-4.2.4.RELEASE.jar&lt;org.springframework.web.context(ContextLoaderListener.class[ContextLoaderListener"
-            modifiers="33" timestamp="1548156882062"/>
-    <typeInfo handle="=ssh1/src&lt;live.leer.ssh.service{CustomerService.java[CustomerService" modifiers="513"
-              timestamp="1548763832012"/>
-    <typeInfo handle="=ssh1/src&lt;live.leer.ssh.dao{CustomerDao.java[CustomerDao" modifiers="513"
-              timestamp="1548764903437"/>
-    <typeInfo
-            handle="=ssh1/E:\/code\/javaee\/ssh1\/WebContent\/WEB-INF\/lib\/hibernate-core-5.0.7.Final.jar&lt;org.hibernate(CustomEntityDirtinessStrategy.class[CustomEntityDirtinessStrategy"
-            modifiers="1537" timestamp="1548767754839"/>
-    <typeInfo
-            handle="=ssh1/E:\/code\/javaee\/ssh1\/WebContent\/WEB-INF\/lib\/spring-web-4.2.4.RELEASE.jar&lt;org.springframework.web.context(ContextLoaderListener.class[ContextLoaderListener"
-            modifiers="1" timestamp="1548767755260"/>
-    <typeInfo
-            handle="=ssh1/E:\/code\/javaee\/ssh1\/WebContent\/WEB-INF\/lib\/spring-orm-4.2.4.RELEASE.jar&lt;org.springframework.orm.hibernate5(LocalSessionFactoryBean.class[LocalSessionFactoryBean"
-            modifiers="33" timestamp="1548767755217"/>
-    <typeInfo
-            handle="=ssh2/E:\/code\/javaee\/ssh2\/WebContent\/WEB-INF\/lib\/spring-orm-4.2.4.RELEASE.jar&lt;org.springframework.orm.hibernate5.support(OpenSessionInViewFilter.class[OpenSessionInViewFilter"
-            modifiers="33" timestamp="1548767755217"/>
-    <typeInfo
-            handle="=acmBoard/E:\/code\/javaee\/acmBoard\/WebRoot\/WEB-INF\/lib\/struts2-core-2.3.24.jar&lt;org.apache.struts2.dispatcher.ng.filter(StrutsPrepareAndExecuteFilter.class[StrutsPrepareAndExecuteFilter"
-            modifiers="33" timestamp="1484656540000"/>
-    <typeInfo handle="=crm07_dao/src\/main\/java&lt;live.leer.dao{CustomerDao.java[CustomerDao" modifiers="513"
-              timestamp="1549610534801"/>
-    <typeInfo handle="=crm07_service/src\/main\/java&lt;live.leer.service{CustomerService.java[CustomerService"
-              modifiers="513" timestamp="1549613386841"/>
-    <typeInfo
-            handle="=springmvc_mybatis02/E:\/code\/javaee\/springmvc_mybatis02\/WebContent\/WEB-INF\/lib\/spring-core-4.2.4.RELEASE.jar&lt;org.springframework.core.convert.converter(Converter.class[Converter"
-            modifiers="1537" timestamp="1550832802026"/>
-    <typeInfo
-            handle="=springmvc_mybatis02/WebContent\/WEB-INF\/lib\/cglib-2.2.2.jar&lt;net.sf.cglib.core(Converter.class[Converter"
-            modifiers="1537" timestamp="1550832801503"/>
-    <typeInfo
-            handle="=springmvc_mybatis02/E:\/code\/javaee\/springmvc_mybatis02\/WebContent\/WEB-INF\/lib\/cglib-2.2.2.jar&lt;net.sf.cglib.core(Converter.class[Converter"
-            modifiers="1537" timestamp="1550832801503"/>
-    <typeInfo
-            handle="=springmvc_mybatis02/E:\/code\/javaee\/springmvc_mybatis02\/WebContent\/WEB-INF\/lib\/spring-context-4.2.4.RELEASE.jar&lt;org.springframework.format.support(FormattingConversionService.class[FormattingConversionService"
-            modifiers="33" timestamp="1550832802016"/>
-    <typeInfo
-            handle="=springmvc_mybatis02/E:\/code\/javaee\/springmvc_mybatis02\/WebContent\/WEB-INF\/lib\/spring-context-4.2.4.RELEASE.jar&lt;org.springframework.format.support(FormattingConversionServiceFactoryBean.class[FormattingConversionServiceFactoryBean"
-            modifiers="33" timestamp="1550832802016"/>
-    <typeInfo
-            handle="=springmvc_mybatis02/E:\/code\/javaee\/springmvc_mybatis02\/WebContent\/WEB-INF\/lib\/spring-webmvc-4.2.4.RELEASE.jar&lt;org.springframework.web.servlet(HandlerExceptionResolver.class[HandlerExceptionResolver"
-            modifiers="1537" timestamp="1550832802128"/>
-    <typeInfo
-            handle="=springmvc_mybatis02/D:\/Java\/jdk1.8.0_181\/jre\/lib\/rt.jar&lt;java.lang(Exception.class[Exception"
-            modifiers="33" timestamp="1533869296557"/>
-    <typeInfo
-            handle="=springmvc_mybatis02/WebContent\/WEB-INF\/lib\/spring-webmvc-4.2.4.RELEASE.jar&lt;org.springframework.web.servlet(HandlerInterceptor.class[HandlerInterceptor"
-            modifiers="1537" timestamp="1550832802128"/>
+<typeInfo handle="=struts2_day01/E:\/code\/javaee\/struts2_day01\/WebContent\/WEB-INF\/lib\/xwork-core-2.3.24.jar&lt;com.opensymphony.xwork2(ActionSupport.class[ActionSupport" modifiers="33" timestamp="1544778687056"/>
+<typeInfo handle="=struts_crm/src&lt;cn.contentcl.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1551147586222"/>
+<typeInfo handle="=struts_crm/src&lt;cn.contentcl.dao{CustomerDao.java[CustomerDao" modifiers="513" timestamp="1551147587773"/>
+<typeInfo handle="=struts2_day02/E:\/code\/javaee\/struts2_day02\/WebContent\/WEB-INF\/lib\/xwork-core-2.3.24.jar&lt;com.opensymphony.xwork2(ActionSupport.class[ActionSupport" modifiers="33" timestamp="1544778687056"/>
+<typeInfo handle="=struts_crm/src&lt;cn.contentcl.dao{UserDao.java[UserDao" modifiers="513" timestamp="1551147583902"/>
+<typeInfo handle="=spring4_day01/src&lt;live.leer.spring.demo1{UserDAO.java[UserDAO" modifiers="513" timestamp="1551147584625"/>
+<typeInfo handle="=spring4_day01/src&lt;live.leer.spring.demo2{CustomerDAO.java[CustomerDAO" modifiers="513" timestamp="1551147585075"/>
+<typeInfo handle="=spring4_crm/src&lt;live.leer.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1551147586733"/>
+<typeInfo handle="=spring4_crm/src&lt;live.leer.dao{CustomerDao.java[CustomerDao" modifiers="513" timestamp="1551147584991"/>
+<typeInfo handle="=spring4_day02/src&lt;live.leer.spring.demo1{UserDao.java[UserDao" modifiers="513" timestamp="1551147586941"/>
+<typeInfo handle="=spring4_day02/src&lt;live.leer.spring.demo1{UserService.java[UserService" modifiers="513" timestamp="1551147585874"/>
+<typeInfo handle="=spring4_day02_aop/src&lt;live.leer.spring.demo3{ProductDao.java[ProductDao" modifiers="513" timestamp="1551147587544"/>
+<typeInfo handle="=spring4_day03_jdbc/src&lt;live.leer.tx.demo1{AccountService.java[AccountService" modifiers="513" timestamp="1551147583624"/>
+<typeInfo handle="=spring4_day03_jdbc/src&lt;live.leer.tx.demo1{AccountDao.java[AccountDao" modifiers="513" timestamp="1551147585309"/>
+<typeInfo handle="=spring4_crm/E:\/code\/javaee\/spring4_crm\/WebContent\/WEB-INF\/lib\/spring-web-4.2.4.RELEASE.jar&lt;org.springframework.web.context(ContextLoaderListener.class[ContextLoaderListener" modifiers="33" timestamp="1548156882062"/>
+<typeInfo handle="=ssh1/src&lt;live.leer.ssh.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1551147587575"/>
+<typeInfo handle="=ssh1/src&lt;live.leer.ssh.dao{CustomerDao.java[CustomerDao" modifiers="513" timestamp="1551147585780"/>
+<typeInfo handle="=ssh1/E:\/code\/javaee\/ssh1\/WebContent\/WEB-INF\/lib\/hibernate-core-5.0.7.Final.jar&lt;org.hibernate(CustomEntityDirtinessStrategy.class[CustomEntityDirtinessStrategy" modifiers="1537" timestamp="1548767754839"/>
+<typeInfo handle="=ssh1/E:\/code\/javaee\/ssh1\/WebContent\/WEB-INF\/lib\/spring-web-4.2.4.RELEASE.jar&lt;org.springframework.web.context(ContextLoaderListener.class[ContextLoaderListener" modifiers="1" timestamp="1548767755260"/>
+<typeInfo handle="=ssh1/E:\/code\/javaee\/ssh1\/WebContent\/WEB-INF\/lib\/spring-orm-4.2.4.RELEASE.jar&lt;org.springframework.orm.hibernate5(LocalSessionFactoryBean.class[LocalSessionFactoryBean" modifiers="33" timestamp="1548767755217"/>
+<typeInfo handle="=ssh2/E:\/code\/javaee\/ssh2\/WebContent\/WEB-INF\/lib\/spring-orm-4.2.4.RELEASE.jar&lt;org.springframework.orm.hibernate5.support(OpenSessionInViewFilter.class[OpenSessionInViewFilter" modifiers="33" timestamp="1548767755217"/>
+<typeInfo handle="=acmBoard/E:\/code\/javaee\/acmBoard\/WebRoot\/WEB-INF\/lib\/struts2-core-2.3.24.jar&lt;org.apache.struts2.dispatcher.ng.filter(StrutsPrepareAndExecuteFilter.class[StrutsPrepareAndExecuteFilter" modifiers="33" timestamp="1484656540000"/>
+<typeInfo handle="=crm07_dao/src\/main\/java&lt;live.leer.dao{CustomerDao.java[CustomerDao" modifiers="513" timestamp="1551147587199"/>
+<typeInfo handle="=crm07_service/src\/main\/java&lt;live.leer.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1551147586831"/>
+<typeInfo handle="=springmvc_mybatis02/E:\/code\/javaee\/springmvc_mybatis02\/WebContent\/WEB-INF\/lib\/spring-core-4.2.4.RELEASE.jar&lt;org.springframework.core.convert.converter(Converter.class[Converter" modifiers="1537" timestamp="1550832802026"/>
+<typeInfo handle="=springmvc_mybatis02/WebContent\/WEB-INF\/lib\/cglib-2.2.2.jar&lt;net.sf.cglib.core(Converter.class[Converter" modifiers="1537" timestamp="1550832801503"/>
+<typeInfo handle="=springmvc_mybatis02/E:\/code\/javaee\/springmvc_mybatis02\/WebContent\/WEB-INF\/lib\/cglib-2.2.2.jar&lt;net.sf.cglib.core(Converter.class[Converter" modifiers="1537" timestamp="1550832801503"/>
+<typeInfo handle="=springmvc_mybatis02/E:\/code\/javaee\/springmvc_mybatis02\/WebContent\/WEB-INF\/lib\/spring-context-4.2.4.RELEASE.jar&lt;org.springframework.format.support(FormattingConversionService.class[FormattingConversionService" modifiers="33" timestamp="1550832802016"/>
+<typeInfo handle="=springmvc_mybatis02/E:\/code\/javaee\/springmvc_mybatis02\/WebContent\/WEB-INF\/lib\/spring-context-4.2.4.RELEASE.jar&lt;org.springframework.format.support(FormattingConversionServiceFactoryBean.class[FormattingConversionServiceFactoryBean" modifiers="33" timestamp="1550832802016"/>
+<typeInfo handle="=springmvc_mybatis02/E:\/code\/javaee\/springmvc_mybatis02\/WebContent\/WEB-INF\/lib\/spring-webmvc-4.2.4.RELEASE.jar&lt;org.springframework.web.servlet(HandlerExceptionResolver.class[HandlerExceptionResolver" modifiers="1537" timestamp="1550832802128"/>
+<typeInfo handle="=springmvc_mybatis02/D:\/Java\/jdk1.8.0_181\/jre\/lib\/rt.jar&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1533869296557"/>
+<typeInfo handle="=springmvc_mybatis02/WebContent\/WEB-INF\/lib\/spring-webmvc-4.2.4.RELEASE.jar&lt;org.springframework.web.servlet(HandlerInterceptor.class[HandlerInterceptor" modifiers="1537" timestamp="1550832802128"/>
 </typeInfoHistroy>

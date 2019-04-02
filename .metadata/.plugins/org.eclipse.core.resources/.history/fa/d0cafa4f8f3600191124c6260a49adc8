@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="mybatis04_springmvc">
-        <property name="context-root" value="mybatis04_springmvc"/>
-    </wb-module>
-</project-modules>

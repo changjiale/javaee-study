@@ -7802,3 +7802,613 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-c
 2019-03-07 15:14:59,276 [Worker-21: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mavenstruts
 2019-03-07 15:14:59,276 [Worker-21: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mavenstruts
 2019-03-07 15:14:59,291 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:29:38,982 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-01 14:29:56,528 [Worker-37: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: leer.live:crm07:0.0.1-SNAPSHOT @ E:\code\javaee\crm07\pom.xml.
+2019-04-01 14:29:58,007 [Worker-37: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: leer.live:crm07_dao:0.0.1-SNAPSHOT @ E:\code\javaee\crm07\crm07_dao\pom.xml.
+2019-04-01 14:29:58,122 [Worker-37: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: leer.live:crm07_service:0.0.1-SNAPSHOT @ E:\code\javaee\crm07\crm07_service\pom.xml.
+2019-04-01 14:29:58,186 [Worker-37: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_dao: leer.live:crm07_dao:0.0.1-SNAPSHOT with classifier  to /crm07_dao/target/classes
+2019-04-01 14:29:58,281 [Worker-37: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: leer.live:crm07_web:0.0.1-SNAPSHOT @ E:\code\javaee\crm07\crm07_web\pom.xml.
+2019-04-01 14:29:58,302 [Worker-37: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_service: leer.live:crm07_service:0.0.1-SNAPSHOT with classifier  to /crm07_service/target/classes
+2019-04-01 14:29:58,303 [Worker-37: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_dao: leer.live:crm07_dao:0.0.1-SNAPSHOT with classifier  to /crm07_dao/target/classes
+2019-04-01 14:29:58,596 [Worker-37: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_dao: leer.live:crm07_dao:0.0.1-SNAPSHOT with classifier  to /crm07_dao/target/classes
+2019-04-01 14:29:58,683 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet.jsp:jsp-api:2.0
+2019-04-01 14:29:58,687 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 14:29:58,860 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 14:29:58,864 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 14:29:58,868 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 14:29:58,872 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 14:29:58,883 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 14:29:58,897 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 14:29:58,902 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javassist:javassist:3.11.0.GA
+2019-04-01 14:29:58,907 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 14:29:58,910 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 14:29:58,914 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet.jsp:jsp-api:2.0
+2019-04-01 14:29:58,918 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 14:29:58,921 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 14:29:58,926 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 14:29:58,930 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 14:29:58,934 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 14:29:58,941 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 14:29:58,945 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 14:29:58,949 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 14:29:58,953 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 14:29:58,959 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 14:29:59,154 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.9
+2019-04-01 14:29:59,158 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.1
+2019-04-01 14:29:59,163 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 14:29:59,166 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 14:29:59,168 [Worker-37: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_service: leer.live:crm07_service:0.0.1-SNAPSHOT with classifier  to /crm07_service/target/classes
+2019-04-01 14:29:59,168 [Worker-37: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_dao: leer.live:crm07_dao:0.0.1-SNAPSHOT with classifier  to /crm07_dao/target/classes
+2019-04-01 14:29:59,170 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 14:29:59,177 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 14:29:59,181 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 14:29:59,184 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 14:29:59,188 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 14:29:59,192 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 14:29:59,196 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 14:29:59,200 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 14:29:59,204 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 14:29:59,210 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 14:29:59,213 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 14:29:59,217 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 14:29:59,219 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 14:29:59,223 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 14:29:59,228 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-spring-plugin:2.3.24
+2019-04-01 14:29:59,233 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 14:29:59,236 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.2.RELEASE
+2019-04-01 14:29:59,240 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.2.RELEASE
+2019-04-01 14:29:59,244 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.4.RELEASE
+2019-04-01 14:29:59,247 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.4.RELEASE
+2019-04-01 14:29:59,251 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2019-04-01 14:29:59,254 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:4.2.4.RELEASE
+2019-04-01 14:29:59,258 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.4.RELEASE
+2019-04-01 14:29:59,263 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2019-04-01 14:29:59,267 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.4.RELEASE
+2019-04-01 14:29:59,272 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:4.2.4.RELEASE
+2019-04-01 14:29:59,277 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.4.RELEASE
+2019-04-01 14:29:59,282 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.4.RELEASE
+2019-04-01 14:29:59,285 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.10
+2019-04-01 14:29:59,288 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.12
+2019-04-01 14:29:59,293 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-log4j12:1.7.12
+2019-04-01 14:29:59,297 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.17
+2019-04-01 14:29:59,300 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for c3p0:c3p0:0.9.1.1
+2019-04-01 14:29:59,304 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jstl:jstl:1.2
+2019-04-01 14:29:59,307 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 14:29:59,352 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 14:29:59,356 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 14:29:59,360 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 14:29:59,368 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 14:29:59,371 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 14:29:59,375 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 14:29:59,379 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 14:29:59,382 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 14:29:59,386 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 14:29:59,390 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 14:29:59,394 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 14:29:59,402 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 14:29:59,406 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 14:29:59,411 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 14:29:59,415 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 14:29:59,419 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 14:29:59,423 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-spring-plugin:2.3.24
+2019-04-01 14:29:59,426 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 14:29:59,429 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.2.RELEASE
+2019-04-01 14:29:59,433 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.2.RELEASE
+2019-04-01 14:29:59,436 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.4.RELEASE
+2019-04-01 14:29:59,440 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.4.RELEASE
+2019-04-01 14:29:59,443 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2019-04-01 14:29:59,447 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:4.2.4.RELEASE
+2019-04-01 14:29:59,451 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.4.RELEASE
+2019-04-01 14:29:59,455 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2019-04-01 14:29:59,459 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.4.RELEASE
+2019-04-01 14:29:59,462 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:4.2.4.RELEASE
+2019-04-01 14:29:59,466 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.4.RELEASE
+2019-04-01 14:29:59,469 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.4.RELEASE
+2019-04-01 14:29:59,472 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.10
+2019-04-01 14:29:59,476 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.12
+2019-04-01 14:29:59,480 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-log4j12:1.7.12
+2019-04-01 14:29:59,483 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.17
+2019-04-01 14:29:59,487 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for c3p0:c3p0:0.9.1.1
+2019-04-01 14:29:59,490 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jstl:jstl:1.2
+2019-04-01 14:29:59,494 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 14:29:59,536 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_dao: leer.live:crm07_dao:0.0.1-SNAPSHOT with classifier  to /crm07_dao/target/classes
+2019-04-01 14:29:59,563 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.9
+2019-04-01 14:29:59,566 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.1
+2019-04-01 14:29:59,570 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 14:29:59,573 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 14:29:59,576 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 14:29:59,581 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 14:29:59,584 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 14:29:59,587 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 14:29:59,591 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 14:29:59,594 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 14:29:59,597 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 14:29:59,600 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 14:29:59,604 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 14:29:59,609 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 14:29:59,613 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 14:29:59,617 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 14:29:59,621 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 14:29:59,625 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 14:29:59,630 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-spring-plugin:2.3.24
+2019-04-01 14:29:59,633 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 14:29:59,636 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.2.RELEASE
+2019-04-01 14:29:59,639 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.2.RELEASE
+2019-04-01 14:29:59,644 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.4.RELEASE
+2019-04-01 14:29:59,646 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.4.RELEASE
+2019-04-01 14:29:59,649 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2019-04-01 14:29:59,652 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:4.2.4.RELEASE
+2019-04-01 14:29:59,655 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.4.RELEASE
+2019-04-01 14:29:59,658 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2019-04-01 14:29:59,661 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.4.RELEASE
+2019-04-01 14:29:59,664 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:4.2.4.RELEASE
+2019-04-01 14:29:59,667 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.4.RELEASE
+2019-04-01 14:29:59,671 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.4.RELEASE
+2019-04-01 14:29:59,674 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.10
+2019-04-01 14:29:59,677 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.12
+2019-04-01 14:29:59,680 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-log4j12:1.7.12
+2019-04-01 14:29:59,684 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.17
+2019-04-01 14:29:59,687 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for c3p0:c3p0:0.9.1.1
+2019-04-01 14:29:59,690 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jstl:jstl:1.2
+2019-04-01 14:29:59,693 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 14:29:59,739 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_service: leer.live:crm07_service:0.0.1-SNAPSHOT with classifier  to /crm07_service/target/classes
+2019-04-01 14:29:59,740 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_dao: leer.live:crm07_dao:0.0.1-SNAPSHOT with classifier  to /crm07_dao/target/classes
+2019-04-01 14:29:59,767 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 14:29:59,770 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 14:29:59,773 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 14:29:59,780 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 14:29:59,782 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 14:29:59,785 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 14:29:59,789 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 14:29:59,793 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 14:29:59,797 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 14:29:59,801 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 14:29:59,806 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 14:29:59,811 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 14:29:59,815 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 14:29:59,818 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 14:29:59,821 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 14:29:59,825 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 14:29:59,828 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-spring-plugin:2.3.24
+2019-04-01 14:29:59,831 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 14:29:59,834 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.2.RELEASE
+2019-04-01 14:29:59,838 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.2.RELEASE
+2019-04-01 14:29:59,841 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.4.RELEASE
+2019-04-01 14:29:59,844 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.4.RELEASE
+2019-04-01 14:29:59,848 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2019-04-01 14:29:59,851 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:4.2.4.RELEASE
+2019-04-01 14:29:59,854 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.4.RELEASE
+2019-04-01 14:29:59,857 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2019-04-01 14:29:59,860 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.4.RELEASE
+2019-04-01 14:29:59,863 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:4.2.4.RELEASE
+2019-04-01 14:29:59,866 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.4.RELEASE
+2019-04-01 14:29:59,869 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.4.RELEASE
+2019-04-01 14:29:59,872 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.10
+2019-04-01 14:29:59,875 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.12
+2019-04-01 14:29:59,878 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-log4j12:1.7.12
+2019-04-01 14:29:59,881 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.17
+2019-04-01 14:29:59,883 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for c3p0:c3p0:0.9.1.1
+2019-04-01 14:29:59,886 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jstl:jstl:1.2
+2019-04-01 14:29:59,890 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 14:29:59,891 [Worker-37: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_service: leer.live:crm07_service:0.0.1-SNAPSHOT with classifier  to /crm07_service/target/classes
+2019-04-01 14:29:59,891 [Worker-37: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_dao: leer.live:crm07_dao:0.0.1-SNAPSHOT with classifier  to /crm07_dao/target/classes
+2019-04-01 14:30:01,824 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:30:01,834 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-04-01 14:30:01,864 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:30:01,866 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 14:30:03,029 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:30:03,031 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-01 14:30:03,036 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:30:03,038 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 14:30:03,194 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:30:03,196 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-04-01 14:30:03,205 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:30:03,207 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 14:30:03,585 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:30:03,587 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 14:30:03,590 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:30:03,591 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 14:30:05,226 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:30:05,228 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-01 14:30:05,233 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:30:05,235 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 14:50:29,610 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-04-01 14:50:44,453 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet.jsp:jsp-api:2.0
+2019-04-01 14:50:44,457 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 14:50:44,685 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 14:50:44,692 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 14:50:44,696 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 14:50:44,700 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 14:50:44,707 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 14:50:44,712 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 14:50:44,715 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javassist:javassist:3.11.0.GA
+2019-04-01 14:50:44,719 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 14:50:44,722 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 14:50:44,726 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet.jsp:jsp-api:2.0
+2019-04-01 14:50:44,730 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 14:50:44,733 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 14:50:44,736 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 14:50:44,741 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 14:50:44,746 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 14:50:44,753 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 14:50:44,757 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 14:50:44,762 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 14:50:44,766 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 14:50:44,769 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 14:50:45,085 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.9
+2019-04-01 14:50:45,089 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.1
+2019-04-01 14:50:45,094 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 14:50:45,098 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 14:50:45,101 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 14:50:45,109 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 14:50:45,113 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 14:50:45,116 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 14:50:45,120 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 14:50:45,125 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 14:50:45,129 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 14:50:45,133 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 14:50:45,136 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 14:50:45,143 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 14:50:45,147 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 14:50:45,151 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 14:50:45,156 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 14:50:45,160 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 14:50:45,164 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-spring-plugin:2.3.24
+2019-04-01 14:50:45,168 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 14:50:45,173 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.2.RELEASE
+2019-04-01 14:50:45,178 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.2.RELEASE
+2019-04-01 14:50:45,183 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.4.RELEASE
+2019-04-01 14:50:45,187 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.4.RELEASE
+2019-04-01 14:50:45,192 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2019-04-01 14:50:45,197 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:4.2.4.RELEASE
+2019-04-01 14:50:45,201 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.4.RELEASE
+2019-04-01 14:50:45,205 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2019-04-01 14:50:45,209 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.4.RELEASE
+2019-04-01 14:50:45,213 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:4.2.4.RELEASE
+2019-04-01 14:50:45,218 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.4.RELEASE
+2019-04-01 14:50:45,222 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.4.RELEASE
+2019-04-01 14:50:45,227 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.10
+2019-04-01 14:50:45,230 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.12
+2019-04-01 14:50:45,235 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-log4j12:1.7.12
+2019-04-01 14:50:45,240 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.17
+2019-04-01 14:50:45,244 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for c3p0:c3p0:0.9.1.1
+2019-04-01 14:50:45,248 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jstl:jstl:1.2
+2019-04-01 14:50:45,255 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 14:50:45,423 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 14:50:45,430 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 14:50:45,434 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 14:50:45,441 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 14:50:45,448 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 14:50:45,452 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 14:50:45,468 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 14:50:45,472 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 14:50:45,484 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 14:50:45,488 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 14:50:45,495 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 14:50:45,502 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 14:50:45,507 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 14:50:45,512 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 14:50:45,516 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 14:50:45,520 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 14:50:45,525 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-spring-plugin:2.3.24
+2019-04-01 14:50:45,529 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 14:50:45,533 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.2.RELEASE
+2019-04-01 14:50:45,536 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.2.RELEASE
+2019-04-01 14:50:45,540 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.4.RELEASE
+2019-04-01 14:50:45,544 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.4.RELEASE
+2019-04-01 14:50:45,548 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2019-04-01 14:50:45,554 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:4.2.4.RELEASE
+2019-04-01 14:50:45,558 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.4.RELEASE
+2019-04-01 14:50:45,568 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2019-04-01 14:50:45,572 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.4.RELEASE
+2019-04-01 14:50:45,576 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:4.2.4.RELEASE
+2019-04-01 14:50:45,613 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.4.RELEASE
+2019-04-01 14:50:45,617 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.4.RELEASE
+2019-04-01 14:50:45,621 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.10
+2019-04-01 14:50:45,625 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.12
+2019-04-01 14:50:45,632 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-log4j12:1.7.12
+2019-04-01 14:50:45,638 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.17
+2019-04-01 14:50:45,658 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for c3p0:c3p0:0.9.1.1
+2019-04-01 14:50:45,664 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jstl:jstl:1.2
+2019-04-01 14:50:45,685 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 14:50:45,809 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_dao: leer.live:crm07_dao:0.0.1-SNAPSHOT with classifier  to /crm07_dao/target/classes
+2019-04-01 14:50:45,841 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.9
+2019-04-01 14:50:45,845 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.1
+2019-04-01 14:50:45,849 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 14:50:45,852 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 14:50:45,856 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 14:50:45,863 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 14:50:45,867 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 14:50:45,872 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 14:50:45,878 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 14:50:45,881 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 14:50:45,885 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 14:50:45,891 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 14:50:45,896 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 14:50:45,902 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 14:50:45,907 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 14:50:45,909 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 14:50:45,913 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 14:50:45,916 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 14:50:45,919 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-spring-plugin:2.3.24
+2019-04-01 14:50:45,922 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 14:50:45,926 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.2.RELEASE
+2019-04-01 14:50:45,929 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.2.RELEASE
+2019-04-01 14:50:45,932 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.4.RELEASE
+2019-04-01 14:50:45,935 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.4.RELEASE
+2019-04-01 14:50:45,940 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2019-04-01 14:50:45,943 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:4.2.4.RELEASE
+2019-04-01 14:50:45,947 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.4.RELEASE
+2019-04-01 14:50:45,950 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2019-04-01 14:50:45,954 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.4.RELEASE
+2019-04-01 14:50:45,957 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:4.2.4.RELEASE
+2019-04-01 14:50:45,960 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.4.RELEASE
+2019-04-01 14:50:45,963 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.4.RELEASE
+2019-04-01 14:50:45,966 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.10
+2019-04-01 14:50:45,969 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.12
+2019-04-01 14:50:45,972 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-log4j12:1.7.12
+2019-04-01 14:50:45,976 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.17
+2019-04-01 14:50:45,979 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for c3p0:c3p0:0.9.1.1
+2019-04-01 14:50:45,983 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jstl:jstl:1.2
+2019-04-01 14:50:45,989 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 14:50:46,179 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_service: leer.live:crm07_service:0.0.1-SNAPSHOT with classifier  to /crm07_service/target/classes
+2019-04-01 14:50:46,179 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_dao: leer.live:crm07_dao:0.0.1-SNAPSHOT with classifier  to /crm07_dao/target/classes
+2019-04-01 14:50:46,285 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 14:50:46,290 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 14:50:46,293 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 14:50:46,381 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 14:50:46,384 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 14:50:46,387 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 14:50:46,391 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 14:50:46,395 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 14:50:46,398 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 14:50:46,402 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 14:50:46,405 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 14:50:46,411 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 14:50:46,414 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 14:50:46,417 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 14:50:46,420 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 14:50:46,426 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 14:50:46,430 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-spring-plugin:2.3.24
+2019-04-01 14:50:46,433 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 14:50:46,437 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.2.RELEASE
+2019-04-01 14:50:46,441 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.2.RELEASE
+2019-04-01 14:50:46,445 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.4.RELEASE
+2019-04-01 14:50:46,448 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.4.RELEASE
+2019-04-01 14:50:46,452 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2019-04-01 14:50:46,460 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:4.2.4.RELEASE
+2019-04-01 14:50:46,464 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.4.RELEASE
+2019-04-01 14:50:46,467 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2019-04-01 14:50:46,470 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.4.RELEASE
+2019-04-01 14:50:46,473 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:4.2.4.RELEASE
+2019-04-01 14:50:46,478 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.4.RELEASE
+2019-04-01 14:50:46,481 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.4.RELEASE
+2019-04-01 14:50:46,485 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.10
+2019-04-01 14:50:46,487 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.12
+2019-04-01 14:50:46,491 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-log4j12:1.7.12
+2019-04-01 14:50:46,495 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.17
+2019-04-01 14:50:46,498 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for c3p0:c3p0:0.9.1.1
+2019-04-01 14:50:46,501 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jstl:jstl:1.2
+2019-04-01 14:50:46,505 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 14:50:49,354 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:50:49,369 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-04-01 14:50:49,383 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:50:49,385 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 14:50:50,464 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:50:50,467 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-01 14:50:50,470 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:50:50,472 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 14:50:50,557 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:50:50,560 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-04-01 14:50:50,562 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:50:50,564 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 14:50:51,173 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:50:51,175 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 14:50:51,177 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:50:51,179 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 14:50:51,218 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:50:51,219 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-01 14:50:51,221 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 14:50:51,222 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 15:34:09,797 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-04-01 15:34:24,282 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet.jsp:jsp-api:2.0
+2019-04-01 15:34:24,292 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 15:34:24,552 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 15:34:24,560 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 15:34:24,575 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 15:34:24,580 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 15:34:24,591 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 15:34:24,596 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 15:34:24,601 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javassist:javassist:3.11.0.GA
+2019-04-01 15:34:24,605 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 15:34:24,614 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 15:34:24,618 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet.jsp:jsp-api:2.0
+2019-04-01 15:34:24,626 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 15:34:24,633 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 15:34:24,637 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 15:34:24,642 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 15:34:24,649 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 15:34:24,655 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 15:34:24,671 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 15:34:24,676 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 15:34:24,680 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 15:34:24,685 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 15:34:25,106 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.9
+2019-04-01 15:34:25,116 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.1
+2019-04-01 15:34:25,121 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 15:34:25,125 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 15:34:25,129 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 15:34:25,137 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 15:34:25,141 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 15:34:25,146 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 15:34:25,171 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 15:34:25,182 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 15:34:25,186 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 15:34:25,224 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 15:34:25,249 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 15:34:25,258 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 15:34:25,262 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 15:34:25,266 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 15:34:25,271 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 15:34:25,275 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 15:34:25,308 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-spring-plugin:2.3.24
+2019-04-01 15:34:25,313 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 15:34:25,317 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.2.RELEASE
+2019-04-01 15:34:25,348 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.2.RELEASE
+2019-04-01 15:34:25,352 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.4.RELEASE
+2019-04-01 15:34:25,356 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.4.RELEASE
+2019-04-01 15:34:25,385 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2019-04-01 15:34:25,398 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:4.2.4.RELEASE
+2019-04-01 15:34:25,403 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.4.RELEASE
+2019-04-01 15:34:25,408 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2019-04-01 15:34:25,412 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.4.RELEASE
+2019-04-01 15:34:25,417 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:4.2.4.RELEASE
+2019-04-01 15:34:25,421 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.4.RELEASE
+2019-04-01 15:34:25,427 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.4.RELEASE
+2019-04-01 15:34:25,435 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.10
+2019-04-01 15:34:25,440 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.12
+2019-04-01 15:34:25,444 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-log4j12:1.7.12
+2019-04-01 15:34:25,448 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.17
+2019-04-01 15:34:25,452 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for c3p0:c3p0:0.9.1.1
+2019-04-01 15:34:25,456 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jstl:jstl:1.2
+2019-04-01 15:34:25,460 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 15:34:25,466 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 15:34:25,471 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 15:34:25,475 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 15:34:25,484 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 15:34:25,488 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 15:34:25,494 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 15:34:25,497 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 15:34:25,502 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 15:34:25,505 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 15:34:25,510 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 15:34:25,513 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 15:34:25,519 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 15:34:25,523 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 15:34:25,528 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 15:34:25,568 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 15:34:25,573 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 15:34:25,578 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-spring-plugin:2.3.24
+2019-04-01 15:34:25,582 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 15:34:25,593 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.2.RELEASE
+2019-04-01 15:34:25,597 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.2.RELEASE
+2019-04-01 15:34:25,601 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.4.RELEASE
+2019-04-01 15:34:25,605 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.4.RELEASE
+2019-04-01 15:34:25,609 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2019-04-01 15:34:25,613 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:4.2.4.RELEASE
+2019-04-01 15:34:25,695 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.4.RELEASE
+2019-04-01 15:34:25,699 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2019-04-01 15:34:25,703 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.4.RELEASE
+2019-04-01 15:34:25,707 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:4.2.4.RELEASE
+2019-04-01 15:34:25,710 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.4.RELEASE
+2019-04-01 15:34:25,713 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.4.RELEASE
+2019-04-01 15:34:25,717 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.10
+2019-04-01 15:34:25,721 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.12
+2019-04-01 15:34:25,725 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-log4j12:1.7.12
+2019-04-01 15:34:25,729 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.17
+2019-04-01 15:34:25,733 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for c3p0:c3p0:0.9.1.1
+2019-04-01 15:34:25,738 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jstl:jstl:1.2
+2019-04-01 15:34:25,742 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 15:34:25,958 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_dao: leer.live:crm07_dao:0.0.1-SNAPSHOT with classifier  to /crm07_dao/target/classes
+2019-04-01 15:34:25,991 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.9
+2019-04-01 15:34:25,995 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.1
+2019-04-01 15:34:26,034 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 15:34:26,038 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 15:34:26,042 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 15:34:26,049 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 15:34:26,053 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 15:34:26,057 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 15:34:26,061 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 15:34:26,065 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 15:34:26,069 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 15:34:26,073 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 15:34:26,077 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 15:34:26,083 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 15:34:26,087 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 15:34:26,090 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 15:34:26,094 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 15:34:26,098 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 15:34:26,104 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-spring-plugin:2.3.24
+2019-04-01 15:34:26,107 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 15:34:26,111 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.2.RELEASE
+2019-04-01 15:34:26,116 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.2.RELEASE
+2019-04-01 15:34:26,119 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.4.RELEASE
+2019-04-01 15:34:26,123 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.4.RELEASE
+2019-04-01 15:34:26,126 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2019-04-01 15:34:26,131 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:4.2.4.RELEASE
+2019-04-01 15:34:26,140 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.4.RELEASE
+2019-04-01 15:34:26,143 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2019-04-01 15:34:26,147 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.4.RELEASE
+2019-04-01 15:34:26,153 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:4.2.4.RELEASE
+2019-04-01 15:34:26,156 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.4.RELEASE
+2019-04-01 15:34:26,160 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.4.RELEASE
+2019-04-01 15:34:26,164 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.10
+2019-04-01 15:34:26,168 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.12
+2019-04-01 15:34:26,172 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-log4j12:1.7.12
+2019-04-01 15:34:26,175 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.17
+2019-04-01 15:34:26,179 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for c3p0:c3p0:0.9.1.1
+2019-04-01 15:34:26,183 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jstl:jstl:1.2
+2019-04-01 15:34:26,187 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 15:34:26,265 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_service: leer.live:crm07_service:0.0.1-SNAPSHOT with classifier  to /crm07_service/target/classes
+2019-04-01 15:34:26,266 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/crm07_dao: leer.live:crm07_dao:0.0.1-SNAPSHOT with classifier  to /crm07_dao/target/classes
+2019-04-01 15:34:26,316 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-core:2.3.24
+2019-04-01 15:34:26,320 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts.xwork:xwork-core:2.3.24
+2019-04-01 15:34:26,324 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for asm:asm:3.3
+2019-04-01 15:34:26,331 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.22
+2019-04-01 15:34:26,334 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.6
+2019-04-01 15:34:26,338 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2019-04-01 15:34:26,342 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.2
+2019-04-01 15:34:26,345 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 15:34:26,345 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.0.7.Final
+2019-04-01 15:34:26,349 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.0.Final
+2019-04-01 15:34:26,353 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2019-04-01 15:34:26,356 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-04-01 15:34:26,358 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.18.1-GA
+2019-04-01 15:34:26,365 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1
+2019-04-01 15:34:26,370 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.0.Final
+2019-04-01 15:34:26,373 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dom4j:dom4j:1.6.1
+2019-04-01 15:34:26,377 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for xml-apis:xml-apis:1.0.b2
+2019-04-01 15:34:26,380 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.1.Final
+2019-04-01 15:34:26,384 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.struts:struts2-spring-plugin:2.3.24
+2019-04-01 15:34:26,387 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.2
+2019-04-01 15:34:26,391 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.2.2.RELEASE
+2019-04-01 15:34:26,394 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 15:34:26,395 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.2.2.RELEASE
+2019-04-01 15:34:26,396 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 15:34:26,399 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.2.4.RELEASE
+2019-04-01 15:34:26,402 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.2.4.RELEASE
+2019-04-01 15:34:26,407 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2019-04-01 15:34:26,410 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:4.2.4.RELEASE
+2019-04-01 15:34:26,414 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.2.4.RELEASE
+2019-04-01 15:34:26,418 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2019-04-01 15:34:26,422 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.2.4.RELEASE
+2019-04-01 15:34:26,426 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:4.2.4.RELEASE
+2019-04-01 15:34:26,429 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.2.4.RELEASE
+2019-04-01 15:34:26,433 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.2.4.RELEASE
+2019-04-01 15:34:26,436 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.10
+2019-04-01 15:34:26,440 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.12
+2019-04-01 15:34:26,443 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-log4j12:1.7.12
+2019-04-01 15:34:26,446 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.17
+2019-04-01 15:34:26,450 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for c3p0:c3p0:0.9.1.1
+2019-04-01 15:34:26,454 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jstl:jstl:1.2
+2019-04-01 15:34:26,458 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2019-04-01 15:34:29,706 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 15:34:29,713 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 15:34:29,715 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 15:34:29,717 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 15:34:30,058 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 15:34:30,060 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-01 15:34:30,069 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 15:34:30,072 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 15:34:30,269 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 15:34:30,271 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-04-01 15:34:30,280 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 15:34:30,282 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 15:34:32,035 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 15:34:32,037 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 15:34:32,040 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 15:34:32,042 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-01 15:34:32,444 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 15:34:32,446 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-01 15:34:32,451 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-01 15:34:32,453 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

@@ -17,8 +17,7 @@
 --><!-- Note:  A "Server" is not itself a "Container", so you may not
      define subcomponents such as "Valves" at this level.
      Documentation at /docs/config/server.html
- -->
-<Server port="8005" shutdown="SHUTDOWN">
+ --><Server port="8005" shutdown="SHUTDOWN">
     <Listener className="org.apache.catalina.startup.VersionLoggerListener"/>
     <!-- Security listener. Documentation at /docs/config/listeners.html
     <Listener className="org.apache.catalina.security.SecurityListener" />
@@ -39,9 +38,7 @@
         <!-- Editable user database that can also be used by
              UserDatabaseRealm to authenticate users
         -->
-        <Resource auth="Container" description="User database that can be updated and saved"
-                  factory="org.apache.catalina.users.MemoryUserDatabaseFactory" name="UserDatabase"
-                  pathname="conf/tomcat-users.xml" type="org.apache.catalina.UserDatabase"/>
+        <Resource auth="Container" description="User database that can be updated and saved" factory="org.apache.catalina.users.MemoryUserDatabaseFactory" name="UserDatabase" pathname="conf/tomcat-users.xml" type="org.apache.catalina.UserDatabase"/>
     </GlobalNamingResources>
 
     <!-- A "Service" is a collection of one or more "Connectors" that share
@@ -127,13 +124,11 @@
                 <!-- Access log processes all example.
                      Documentation at: /docs/config/valve.html
                      Note: The pattern used is equivalent to using pattern="common" -->
-                <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"
-                       pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
+                <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-                <Context docBase="springmvc_mybatis02" path="/springmvc_mybatis02" reloadable="true"
-                         source="org.eclipse.jst.jee.server:springmvc_mybatis02"/>
+                
                 <Context docBase="E:\code\picture" path="/pic" reloadable="true"/>
-            </Host>
+            <Context docBase="acmBoard" path="/acmBoard" reloadable="true" source="org.eclipse.jst.jee.server:acmBoard"/></Host>
         </Engine>
     </Service>
 </Server>
