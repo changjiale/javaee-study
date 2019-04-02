@@ -13,7 +13,13 @@
   -->
   <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
     <property name="cacheManager" ref="cacheManager"/>
-    <property name="realm" ref="jdbcRealm"/>
+    <property name="authenticator" ref="authenticator"/>
+    <property name="realms">
+      <list>
+        <ref bean="jdbcRealm"/>
+        <ref bean="secondRealm"/>
+      </list>
+    </property>
 
   </bean>
 
@@ -33,11 +39,12 @@
     <property name="cacheManagerConfigFile" value="classpath:ehcache.xml"/>
   </bean>
 
-  <bean id="authenticator"
-        class="org.apache.shiro.authc.pam.ModularRealmAuthenticator">
-    <property name="authenticationStrategy">
-      <bean class="org.apache.shiro.authc.pam.AtLeastOneSuccessfulStrategy"></bean>
-    </property>
+  <bean id="authenticator" class="org.apache.shiro.authc.pam.ModularRealmAuthenticator">
+
+    <!--全部成功才算成功-->
+    <!--<property name="authenticationStrategy">-->
+      <!--<bean class="org.apache.shiro.authc.pam.AllSuccessfulStrategy"></bean>-->
+    <!--</property> -->
   </bean>
 
   <!-- Used by the SecurityManager to access security data (users, roles, etc).
@@ -51,6 +58,14 @@
     <property name="credentialsMatcher">
       <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
         <property name="hashAlgorithmName" value="MD5"></property>
+        <property name="hashIterations" value="1024"></property>
+      </bean>
+    </property>
+  </bean>
+  <bean id="secondRealm" class="shiro.realms.SecondRealm">
+    <property name="credentialsMatcher">
+      <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+        <property name="hashAlgorithmName" value="SHA1"></property>
         <property name="hashIterations" value="1024"></property>
       </bean>
     </property>
@@ -97,6 +112,8 @@
     <property name="successUrl" value="/list.jsp"/>
     <property name="unauthorizedUrl" value="/unauthorized.jsp"/>
 
+    <property name="filterChainDefinitionMap" ref="filterChainDefinitionMap"></property>
+
 
     <!--
         配置哪些页面需要受保护.
@@ -107,20 +124,26 @@
         4). roles 角色过滤器
     -->
 
-    <property name="filterChainDefinitions">
-        <value>
-            /login.jsp = anon
-            /shiro/login = anon
-            /shiro/logout = logout
+    <!--<property name="filterChainDefinitions">-->
+        <!--<value>-->
+            <!--/login.jsp = anon-->
+            <!--/shiro/login = anon-->
+            <!--/shiro/logout = logout-->
 
             <!--/user.jsp = roles[user]-->
             <!--/admin.jsp = roles[admin]-->
 
-            # everything else requires authentication:
-            /** = authc
-        </value>
-    </property>
+            <!--# everything else requires authentication:-->
+            <!--/** = authc-->
+        <!--</value>-->
+    <!--</property>-->
 
   </bean>
+  <!--配置一个bean, 该bean是一个map， 通过实例工厂方法的方式-->
+  <bean id="filterChainDefinitionMap" factory-bean="filterChainDefinitionMapBuilder" factory-method="buildFilterChainDefinitionMap"></bean>
+
+  <bean id="filterChainDefinitionMapBuilder" class="shiro.factory.FilterChainDefinitionMapBuilder"></bean>
+
+  <bean id="shiroService" class="shiro.service.ShiroService"></bean>
 
 </beans>
