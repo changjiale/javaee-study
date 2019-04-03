@@ -1,5 +1,6 @@
 package shiro.handlers;
 
+import org.apache.cxf.transport.http.HTTPSession;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -10,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import shiro.service.ShiroService;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 @RequestMapping("/shiro")
 public class ShiroHandler {
@@ -18,7 +21,8 @@ public class ShiroHandler {
     private ShiroService shiroService;
 
     @RequestMapping("/testShiroAnnotation")
-    public String testShiroAnnotation(){
+    public String testShiroAnnotation(HttpSession session){
+        session.setAttribute("key","value12345");
         shiroService.testMethd();
         return "redirect:/list.jsp";
 
