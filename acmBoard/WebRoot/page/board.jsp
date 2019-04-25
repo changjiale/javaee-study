@@ -355,9 +355,9 @@
                     <option value="1">专业组</option>
                     <option value="0">非专业组</option>
                 </select>
-                <input type="text" name="minNum" style="width: 25px"/>
+                <input type="text" name="minNum" style="width: 35px"/>
                 <font style="text-align: center">--</font>
-                <input type="text" name="maxNum" style="width: 25px"/>
+                <input type="text" name="maxNum" style="width: 35px"/>
                 <button id="selectBord" style="height: 30px">选择榜单</button>
                 <button id="intervalFlag" style="height: 30px">取消滑动</button>
                 <button id="retuenOj" style="height: 30px">返回比赛OJ</button>

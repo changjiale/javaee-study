@@ -1,4 +1,4 @@
-!SESSION 2019-02-25 14:25:46.366 -----------------------------------------------
+!SESSION 2019-04-12 14:30:53.517 -----------------------------------------------
 eclipse.buildId=4.9.0.I20180906-0745
 java.version=1.8.0_181
 java.vendor=Oracle Corporation
@@ -7,9 +7,9 @@ Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
 This is a continuation of log file E:\code\javaee\.metadata\.bak_1.log
-Created Time: 2019-02-25 15:02:12.789
+Created Time: 2019-04-12 20:10:39.939
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:02:12.789
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:10:39.939
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -64,7 +64,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:45.642
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:10:39.975
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -119,7 +119,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:45.883
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:21.595
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -174,7 +174,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:46.254
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:22.685
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -229,7 +229,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:46.331
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:22.891
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -284,10 +284,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.eclipse.jface.text 2 0 2019-02-25 15:04:46.713
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:46.737
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:23.105
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -342,7 +339,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:46.755
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:23.318
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -397,7 +394,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:48.810
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:24.741
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -452,7 +449,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:48.818
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:26.008
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -507,7 +504,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:48.829
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:26.815
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -562,7 +559,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:48.840
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:27.835
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -617,7 +614,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:48.850
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:28.124
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -672,7 +669,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:50.616
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:30.739
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -727,7 +724,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:50.628
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:31.239
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -782,7 +779,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:50.637
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:31.387
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -837,7 +834,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:50.647
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:39.498
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -892,7 +889,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:51.887
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:44.540
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -947,7 +944,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:51.899
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:44.808
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1002,7 +999,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:52.118
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:44.980
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1057,7 +1054,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:52.283
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:45.111
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1112,7 +1109,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:56.475
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:45.150
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1167,7 +1164,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:04:56.487
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:45.722
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1222,7 +1219,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:21.271
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:45.946
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1277,7 +1274,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:25.669
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:46.063
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1332,7 +1329,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:28.999
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:46.186
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1387,7 +1384,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:29.219
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:46.449
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1442,7 +1439,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:30.182
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:46.557
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1497,7 +1494,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:30.287
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:46.698
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1552,7 +1549,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:30.612
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:46.872
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1607,7 +1604,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:30.632
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:47.127
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1662,7 +1659,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:31.769
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:47.279
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1717,7 +1714,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:31.780
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:47.391
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1772,7 +1769,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:31.790
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:47.501
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1827,7 +1824,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:31.798
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:49.008
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1882,7 +1879,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:31.840
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:49.151
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1937,7 +1934,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:32.377
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:49.958
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -1992,7 +1989,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:33.525
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:50.051
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2047,7 +2044,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:33.538
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:51.224
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2102,7 +2099,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:33.553
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:51.351
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2157,7 +2154,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:33.567
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:53.327
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2212,7 +2209,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:40.142
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:54.723
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2267,7 +2264,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:40.152
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:54.838
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2322,7 +2319,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:40.159
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:54.967
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2377,7 +2374,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:40.170
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:55.065
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2432,7 +2429,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:40.179
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:55.354
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2487,7 +2484,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:40.725
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:55.550
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2542,7 +2539,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:42.086
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:55.858
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2597,7 +2594,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:42.103
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:56.170
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2652,7 +2649,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:42.151
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:56.303
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2707,7 +2704,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:42.160
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:56.487
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2762,7 +2759,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:43.324
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:59.465
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2817,7 +2814,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:43.452
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:11:59.552
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2872,7 +2869,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:06:44.069
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:15.280
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2927,7 +2924,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:31.593
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:15.362
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -2982,7 +2979,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:34.725
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:15.649
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3037,7 +3034,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:35.353
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:43.314
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3092,7 +3089,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:40.180
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:43.910
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3147,7 +3144,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:42.980
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:43.935
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3202,7 +3199,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.479
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:44.105
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3257,7 +3254,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.520
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:44.259
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3312,7 +3309,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.529
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:44.344
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3367,7 +3364,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.554
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:44.387
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3422,7 +3419,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.586
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:47.677
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3477,7 +3474,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.619
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:47.965
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3532,7 +3529,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.671
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:58.326
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3587,7 +3584,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.691
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:58.556
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3642,7 +3639,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.719
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:58.726
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3697,7 +3694,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.751
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:58.772
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3752,7 +3749,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.784
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:58.832
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3807,7 +3804,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.818
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:59.045
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3862,7 +3859,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.851
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:59.101
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3917,7 +3914,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.884
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:59.249
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -3972,7 +3969,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.940
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:59.348
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4027,7 +4024,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.954
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:59.499
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4082,7 +4079,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:43.983
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:12:59.632
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4137,7 +4134,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:44.014
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:00.013
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4192,7 +4189,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:44.061
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:00.185
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4247,7 +4244,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:44.080
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:00.953
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4302,7 +4299,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:44.866
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:01.264
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4357,7 +4354,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.397
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:03.981
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4412,7 +4409,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.405
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:04.155
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4467,7 +4464,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.422
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:07.195
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4522,7 +4519,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.451
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:07.306
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4577,7 +4574,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.485
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:07.469
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4632,7 +4629,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.517
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:07.640
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4687,7 +4684,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.549
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:13.017
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4742,7 +4739,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.580
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:14.292
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4797,7 +4794,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.616
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:14.293
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4852,7 +4849,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.650
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:14.294
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4907,7 +4904,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.683
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:14.662
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -4962,7 +4959,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.739
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:14.804
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5017,7 +5014,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.756
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:14.808
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5072,7 +5069,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.785
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:15.000
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5127,7 +5124,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.817
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:17.640
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5182,7 +5179,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.846
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:17.641
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5237,7 +5234,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.880
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:17.745
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5292,7 +5289,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.924
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:17.748
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5347,7 +5344,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.946
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:20.056
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5402,7 +5399,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:45.978
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:20.263
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5457,7 +5454,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:46.011
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:20.421
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5512,7 +5509,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:46.044
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:20.555
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5567,7 +5564,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:46.078
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:20.728
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5622,7 +5619,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:46.111
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:21.102
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5677,7 +5674,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:46.145
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:21.313
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5732,7 +5729,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:46.179
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:21.934
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5787,7 +5784,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:46.209
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:22.508
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5842,7 +5839,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:51.605
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:37.806
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5897,7 +5894,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:07:51.884
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:38.160
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -5952,7 +5949,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:08:06.855
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:38.308
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6007,7 +6004,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:08:23.541
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:38.520
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6062,7 +6059,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:08:23.638
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:39.494
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6117,7 +6114,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:08:23.837
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:55.436
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6172,7 +6169,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:08:23.968
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:13:57.144
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6227,7 +6224,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:08:24.171
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:14.769
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6282,7 +6279,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:08:24.567
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:14.914
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6337,7 +6334,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:08:25.813
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:15.020
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6391,61 +6388,40 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
-
-!ENTRY org.eclipse.jface.text 2 0 2019-02-25 15:09:31.684
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
 
-!ENTRY org.eclipse.jface.text 2 0 2019-02-25 15:09:32.337
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.ui 4 0 2019-02-25 15:10:38.450
-!MESSAGE Unhandled event loop exception
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:15.093
+!MESSAGE 
 !STACK 0
-org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
-	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:67)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4594)
-	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:215)
-	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
-	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:204)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:199)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
-	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
-	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:138)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:81)
-	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:42)
-	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
-	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
-	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
-	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:349)
-	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:113)
-	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:194)
-	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:205)
-	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
-	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:115)
-	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
-	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:474)
-	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:468)
-	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
-	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5148)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4797)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2162)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784)
-	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
-	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
-	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3999)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3555)
+java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
+	at java.lang.Class.getDeclaredMethod(Class.java:2130)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.updateHighlightAnnotations(STS4LanguageClientImpl.java:181)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.access$0(STS4LanguageClientImpl.java:169)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl$UpdateHighlights.updateSourceViewer(STS4LanguageClientImpl.java:154)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl$UpdateHighlights.runInUIThread(STS4LanguageClientImpl.java:139)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3933)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3564)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
@@ -6467,23 +6443,63 @@ org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
-Caused by: java.lang.NullPointerException
-	at org.eclipse.tm4e.ui.internal.menus.ThemeContribution.getContributionItems(ThemeContribution.java:59)
-	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:83)
-	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:57)
-	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:150)
-	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:731)
-	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:813)
-	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:672)
-	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1222)
-	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeUIElementTopicAllRenderedVisibility(MenuManagerRenderer.java:203)
-	at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:15.669
+!MESSAGE 
+!STACK 0
+java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
+	at java.lang.Class.getDeclaredMethod(Class.java:2130)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.updateHighlightAnnotations(STS4LanguageClientImpl.java:181)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.access$0(STS4LanguageClientImpl.java:169)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl$UpdateHighlights.updateSourceViewer(STS4LanguageClientImpl.java:154)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl$UpdateHighlights.runInUIThread(STS4LanguageClientImpl.java:139)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3933)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3564)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	... 64 more
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:21.264
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:16.683
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6538,7 +6554,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:21.347
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:16.807
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6593,7 +6609,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:21.540
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:16.903
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6648,7 +6664,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:21.771
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:16.974
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6703,7 +6719,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:21.907
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:17.586
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6758,7 +6774,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:26.712
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:17.846
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6813,7 +6829,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:28.231
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:18.378
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6868,7 +6884,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:29.603
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:19.196
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6923,7 +6939,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:30.401
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:19.326
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -6978,7 +6994,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:31.191
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:19.618
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7033,7 +7049,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:31.385
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:19.792
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7088,7 +7104,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:32.127
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:19.880
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7143,7 +7159,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:33.670
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:20.144
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7198,7 +7214,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:33.875
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:20.397
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7253,7 +7269,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:35.005
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:20.713
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7308,7 +7324,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:35.257
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:21.430
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7363,7 +7379,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:35.629
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:21.837
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7418,7 +7434,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:35.995
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:22.947
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7473,7 +7489,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:36.177
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:23.305
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7528,7 +7544,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:36.397
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:23.454
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7583,7 +7599,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:36.602
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:23.583
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7638,7 +7654,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:37.092
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:23.812
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7693,7 +7709,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:37.494
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:24.047
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7748,7 +7764,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:37.779
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:24.207
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7803,7 +7819,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:37.973
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:24.900
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7858,7 +7874,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:38.055
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:25.054
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7913,7 +7929,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:38.213
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:33.518
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -7968,7 +7984,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:38.466
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:36.817
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8023,7 +8039,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:11:51.306
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:37.838
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8078,7 +8094,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:16.535
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:37.884
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8133,7 +8149,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:17.367
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:38.037
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8188,7 +8204,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:17.376
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:38.225
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8243,7 +8259,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:17.469
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:38.474
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8298,7 +8314,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:17.476
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:38.567
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8353,7 +8369,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:17.867
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:38.912
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8408,7 +8424,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:18.000
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:39.091
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8463,7 +8479,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:18.280
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:39.092
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8518,7 +8534,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:18.295
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:39.502
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8573,7 +8589,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:18.384
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:40.405
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8628,7 +8644,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:18.392
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:40.727
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8683,7 +8699,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:19.078
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:40.905
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8738,7 +8754,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:19.170
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:43.626
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8793,7 +8809,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:19.314
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:43.722
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8848,7 +8864,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:19.419
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:43.863
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8903,7 +8919,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:19.495
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:44.007
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -8958,7 +8974,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:19.597
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:44.193
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9013,7 +9029,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:19.778
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:44.355
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9068,7 +9084,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:19.904
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:46.056
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9123,7 +9139,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:20.061
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:46.236
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9178,7 +9194,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:20.184
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:46.678
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9233,7 +9249,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:20.359
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:46.964
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9288,7 +9304,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:20.541
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:47.110
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9343,7 +9359,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:20.778
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:48.274
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9398,7 +9414,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:20.943
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:48.398
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9453,7 +9469,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:29.549
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:48.447
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9508,7 +9524,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:29.611
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:48.539
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9563,7 +9579,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:30.732
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:49.622
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9618,7 +9634,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:30.741
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:49.659
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9673,7 +9689,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:30.767
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:49.813
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9728,7 +9744,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:32.338
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:50.032
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9783,7 +9799,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:32.348
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:50.187
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9838,7 +9854,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:32.358
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:50.290
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9893,7 +9909,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:32.883
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:52.497
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -9948,7 +9964,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:32.891
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:14:52.746
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10003,7 +10019,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:34.318
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:01.260
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10058,7 +10074,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:34.327
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:01.357
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10113,7 +10129,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:34.336
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:01.442
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10168,7 +10184,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:34.345
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:01.508
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10223,7 +10239,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:34.355
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:02.735
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10278,7 +10294,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:34.857
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:02.834
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10333,7 +10349,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:35.007
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:02.999
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10388,7 +10404,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:35.635
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:03.150
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10443,7 +10459,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:36.774
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:03.233
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10498,7 +10514,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:36.782
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:05.093
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10553,7 +10569,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:36.790
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:05.294
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10608,7 +10624,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:38.548
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:06.986
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10663,7 +10679,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:38.941
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:07.878
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10718,7 +10734,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:38.951
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:08.536
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10773,7 +10789,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:40.189
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:11.135
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10828,7 +10844,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:40.200
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:11.227
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10883,7 +10899,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:40.209
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:11.406
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10938,7 +10954,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:41.351
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:11.550
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -10993,7 +11009,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:41.359
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:11.583
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11048,7 +11064,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:41.368
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:11.695
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11103,7 +11119,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:42.119
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:12.137
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11158,7 +11174,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:42.128
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:13.386
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11213,7 +11229,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:43.124
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:13.479
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11268,7 +11284,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:43.133
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:14.599
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11323,7 +11339,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:43.140
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:14.838
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11378,7 +11394,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:44.727
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:15.013
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11433,7 +11449,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:44.735
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:23.023
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11488,7 +11504,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:44.743
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:23.228
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11543,7 +11559,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:48.371
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:28.272
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11598,7 +11614,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:48.498
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:28.338
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11653,7 +11669,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:49.331
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:15:28.552
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11708,7 +11724,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:49.339
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:42.932
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11763,7 +11779,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:49.360
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:43.658
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11818,7 +11834,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:58.237
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:43.786
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11873,7 +11889,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:58.938
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:43.859
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11928,7 +11944,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:59.200
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:43.903
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -11983,7 +11999,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:13:59.371
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:46.351
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12038,7 +12054,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:03.349
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:46.465
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12093,7 +12109,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:03.360
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:46.678
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12148,7 +12164,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:03.368
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:47.509
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12203,7 +12219,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:04.203
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:48.706
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12258,7 +12274,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:04.211
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:48.819
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12313,7 +12329,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:04.222
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:48.947
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12368,7 +12384,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:05.528
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:49.675
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12423,7 +12439,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:05.538
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:50.916
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12478,7 +12494,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:05.546
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:54.119
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12533,7 +12549,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:07.173
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:54.263
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12588,7 +12604,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:08.310
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:54.452
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12643,7 +12659,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:09.103
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:55.409
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12698,7 +12714,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:10.240
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:55.549
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()
@@ -12753,7 +12769,7 @@ java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSour
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-25 15:14:10.249
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 20:16:55.695
 !MESSAGE 
 !STACK 0
 java.lang.NoSuchMethodException: org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doUpdateCodeMinings()

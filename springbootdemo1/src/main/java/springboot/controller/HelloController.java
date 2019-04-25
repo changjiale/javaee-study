@@ -1,20 +1,24 @@
 package springboot.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+import springboot.Pojo.User;
+import springboot.service.UserService;
 
-import javax.sql.DataSource;
-
-@Controller
+@RestController
+@RequestMapping("user")
 public class HelloController {
     @Autowired
-    private DataSource dataSource;
+    private UserService userService;
 
     @ResponseBody
     @RequestMapping("/hello")
     public String hello(){
         return "hello";
+    }
+
+    @GetMapping("{id}")
+    public User selectById(@PathVariable("id") Long id){
+        return userService.queryById(id); 
     }
 }

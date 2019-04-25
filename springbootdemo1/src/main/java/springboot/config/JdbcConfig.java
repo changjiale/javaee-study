@@ -1,6 +1,5 @@
 package springboot.config;
 
-import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -33,11 +32,11 @@ public class JdbcConfig {
 //        dataSource.setPassword(prop.getPassword());
 //        return dataSource;
 //    }
-    @Bean
-    @ConfigurationProperties(prefix = "jdbc")
-    public DataSource dataSource(){
-        DruidDataSource dataSource =  new DruidDataSource();
-
-        return dataSource;
-    }
+//    @Bean
+//    @ConfigurationProperties(prefix = "jdbc")
+//    public DataSource dataSource(){
+//        DruidDataSource dataSource =  new DruidDataSource();
+//
+//        return dataSource;
+//    }
 }

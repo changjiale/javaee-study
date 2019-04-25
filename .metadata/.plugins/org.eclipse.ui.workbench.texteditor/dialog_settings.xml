@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-    <section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-        <item value="false" key="isRegEx"/>
-        <item value="getItem" key="selection"/>
-        <item value="false" key="casesensitive"/>
-        <item value="false" key="incremental"/>
-        <item value="true" key="wrap"/>
-        <item value="false" key="wholeword"/>
-        <list key="findhistory">
-            <item value="getItem"/>
-            <item value="8080"/>
-            <item value="user_sql"/>
-            <item value="com.itheima"/>
-            <item value="transactionManager"/>
-            <item value="acmerInforsMap"/>
-            <item value="acmerInfo.txt"/>
-            <item value="Info"/>
-            <item value="DataInitListenner"/>
-            <item value="acmerInfo"/>
-            <item value="acmer"/>
-            <item value="OGNL"/>
-            <item value="customer_saveUI"/>
-            <item value="userAction1"/>
-            <item value="userAction1.action"/>
-        </list>
-        <list key="replacehistory">
-            <item value="live.leer"/>
-        </list>
-    </section>
-    <section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-        <item value="356" key="DIALOG_WIDTH"/>
-        <item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"
-              key="DIALOG_FONT_NAME"/>
-        <item value="454" key="DIALOG_HEIGHT"/>
-        <item value="1153" key="DIALOG_X_ORIGIN"/>
-        <item value="178" key="DIALOG_Y_ORIGIN"/>
-    </section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="show" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="show"/>
+			<item value="name=&quot;minNum&quot;"/>
+			<item value="minNum"/>
+			<item value="getItem"/>
+			<item value="8080"/>
+			<item value="user_sql"/>
+			<item value="com.itheima"/>
+			<item value="transactionManager"/>
+			<item value="acmerInforsMap"/>
+			<item value="acmerInfo.txt"/>
+			<item value="Info"/>
+			<item value="DataInitListenner"/>
+			<item value="acmerInfo"/>
+			<item value="acmer"/>
+			<item value="OGNL"/>
+		</list>
+		<list key="replacehistory">
+			<item value="live.leer"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="356" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="454" key="DIALOG_HEIGHT"/>
+		<item value="1401" key="DIALOG_X_ORIGIN"/>
+		<item value="209" key="DIALOG_Y_ORIGIN"/>
+	</section>
 </section>
