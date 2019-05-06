@@ -5,5 +5,18 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/yun6
     username: root
     password:
+  application:
+    name: user-service
 mybatis:
   type-aliases-package: cloud.user.pojo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka,http://127.0.0.1:10087/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    #最小续约周期  单位s  --> 每隔多久发送一次心跳
+    lease-renewal-interval-in-seconds: 30
+    #最小过期时长 单位s    -->隔了90s都没发 就算挂了
+    lease-expiration-duration-in-seconds: 90

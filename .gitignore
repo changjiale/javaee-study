@@ -16,3 +16,4 @@ springcloud-demo1/.idea/
 cloud-demo/user-service/target/
 cloud-demo/consumer-demo/target/
 permission/.settings/
+cloud-demo/eureka-server/target/
