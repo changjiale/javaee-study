@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/yun6
+    username: root
+    password:
+mybatis:
+  type-aliases-package: cloud.user.pojo
