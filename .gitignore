@@ -13,3 +13,6 @@ springbootdemo1/.idea/
 test1/.settings/
 springcloud-demo1/.idea/
 .idea/
+cloud-demo/user-service/target/
+cloud-demo/consumer-demo/target/
+permission/.settings/
