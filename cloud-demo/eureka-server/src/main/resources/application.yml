@@ -8,4 +8,7 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:10086/eureka
     register-with-eureka: false
+  server:
+    #失效剔除 单位ms  默认60*1000
+    eviction-interval-timer-in-ms: 30000
 
