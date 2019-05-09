@@ -1,0 +1,37 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+#zuul:
+#  routes:
+#    #路由规则，默认规则 id和路径统一
+#    user-service: /user-service/**
+#zuul:
+#  routes:
+#    #前缀改名
+#    user-service: /user/**
+zuul:
+  routes:
+    user-service:
+      path: /user/**
+      serviceId: user-service
+      #取消设置前缀
+#      strip-prefix: false
+  ignored-services:
+    - consumer-service
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000 # 熔断超时时长：2000ms
+ribbon:
+  ConnectionTimeout: 500
+  ReadTimeout: 2000      #(ConnectionTimeout+ReadTimeout)*2 < timeoutInMilliseconds
+

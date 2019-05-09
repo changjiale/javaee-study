@@ -16,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 @RestController
-@RequestMapping("consumer")
+@RequestMapping("/consumer")
 //熔断返回函数
 //@DefaultProperties(defaultFallback = "queryByIdFallBack")
 public class ConsumerController{
