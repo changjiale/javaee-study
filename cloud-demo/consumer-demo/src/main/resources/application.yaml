@@ -12,6 +12,13 @@ eureka:
   instance:
     prefer-ip-address: true
     ip-address: 127.0.0.1
+#开启feign熔断
+feign:
+  hystrix:
+    enabled: true
+ribbon:
+  ConnectionTimeOut: 500
+  ReadTimeOut: 2000
 #user-service:
 #  ribbon:
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
