@@ -30,7 +30,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 6000 # 熔断超时时长：2000ms
+            timeoutInMilliseconds: 6000 # 熔断超时时长：6000ms
 ribbon:
   ConnectionTimeout: 500
   ReadTimeout: 2000      #(ConnectionTimeout+ReadTimeout)*2 < timeoutInMilliseconds
