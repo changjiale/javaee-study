@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <button @click="handleClick">点我</button>
+    <input type="text" v-model="num"> <button @click="num++">+</button>
+    <h1>
+        <span v-text="name"></span><br/>
+        {{num}}
+    </h1>
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    const app = new Vue({
+        el:"#app",
+        data:{
+            name: "胡歌",
+            num:1,
+        },
+        methods:{
+            handleClick(){
+                console.log("hello");
+            }
+        },
+        created(){
+            //向后台发起ajax请求，完成对data数据的初始化
+            setTimeout(() => this.name = "222",1000);
+        }
+    });
+</script>
+</body>
+</html>
