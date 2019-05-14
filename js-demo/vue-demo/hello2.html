@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div#box{
+            width: 100px;
+            height: 100px;
+            color: darkgray;
+        }
+        .red{
+            background-color: red;
+        }
+        .blue{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <button @click="isred=!isred">红色</button>
+    <div id="box" :class="{red:isred,blue:!isred}">
+        我是盒子
+    </div>
+    <hr>
+    <h1>您的生日是：{{
+        new Date(birthday).getFullYear() + '-'+ new Date(birthday).getMonth()+ '-' + new Date(birthday).getDay()
+        }}
+        {{birth}}
+    </h1>
+
+    <hr>
+    <input type="text" v-model="num">
+    <h1>num: {{num}}</h1>
+
+
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    const app = new Vue({
+        el:"#app",
+        data:{
+            isred:true,
+            birthday:1529032123201, // 毫秒值,
+            num:1,
+            person:{
+              name: "jack",
+              age: 21,
+            },
+        },
+        computed:{
+            birth(){// 计算属性本质是一个方法，但是必须返回结果
+                const d = new Date(this.birthday);
+                return d.getFullYear() + "-" + d.getMonth() + "-" + d.getDay();
+            }
+        },
+        watch:{
+            num(val, oldval){
+                console.log(val, oldval);
+
+            },
+            person:{
+                deep:true,
+                handler(val){
+                    console.log(val.age);
+                }
+            }
+        }
+
+    });
+</script>
+</body>
+</html>

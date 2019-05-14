@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <counter :num="count" @incr="add" @decr="reduce"></counter>
+</div>
+
+
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+
+    const counter= {
+        template: `
+        <div>
+            <button @click="handleAdd">+</button>
+            <button @click="handleReduce">-</button>
+            <h1>
+                Num:{{num}}
+            </h1>
+        </div>
+        `,
+        props: ["num"],
+        methods: {
+            handleAdd(){
+                this.$emit('incr')
+            },
+            handleReduce(){
+                this.$emit('decr')
+            }
+        }
+    };
+    const app = new Vue({
+        el:"#app",
+        data:{
+            count: 0,
+
+        },
+        components:{
+            counter,
+        },
+        methods: {
+            add(){
+                this.count++;
+            },
+            reduce(){
+                this.count--;
+            }
+        }
+
+    });
+</script>
+</body>
+</html>

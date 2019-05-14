@@ -10,8 +10,37 @@
     <input type="text" v-model="num"> <button @click="num++">+</button>
     <h1>
         <span v-text="name"></span><br/>
-        {{num}}
+        <span v-html="name"></span>
     </h1>
+    <hr/>
+    <!--v-model-->
+    <input type="checkbox" v-model="lessons" value="java">java<br>
+    <input type="checkbox" v-model="lessons" value="Python">Python<br>
+    <input type="checkbox" v-model="lessons" value="IOS">IOS<br>
+
+    <hr>
+    <h1>
+        您已购买下列课程 {{lessons.join(",")}}
+    </h1>
+    <hr>
+    <!--v-on-->
+    <div style="with: 100px; height: 100px; background-color: cornsilk;" @click="print('div')">
+        div
+        <button @click.stop="print('button')">点我试试</button>
+        <a href="http://www.baidu.com" @click.prevent.stop="print('百度')">百度</a>
+    </div>
+    <!-- v-for -->
+    <ul>
+        <li v-for="(u,i) in users" :key="u.name">
+            {{i}} {{u.name + "," + u.gender + "," + u.age}}
+        </li>
+        <li v-for="(value,key) in users[0]">{{key +","+value}}</li>
+    </ul>
+    <!-- v-if -->
+    <ul>
+        <li v-for="i in 5" v-if="i%2 === 0">{{i}}</li>
+    </ul>
+
 </div>
 <script src="node_modules/vue/dist/vue.js"></script>
 <script>
@@ -20,15 +49,24 @@
         data:{
             name: "胡歌",
             num:1,
+            lessons:[],
+            users:[
+                {name: "xxx", gender: '女', age:21},
+                {name:"虎哥", gender: "男", age: 30}
+            ],
         },
         methods:{
             handleClick(){
                 console.log("hello");
+            },
+            print(msg){
+                console.log(msg);
             }
         },
         created(){
             //向后台发起ajax请求，完成对data数据的初始化
-            setTimeout(() => this.name = "222",1000);
+            //setTimeout(() => this.name = "222",1000);
+            this.name = "<font color='blue'>虎哥</font>";
         }
     });
 </script>

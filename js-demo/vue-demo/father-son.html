@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <introduce :title="msg"></introduce>
+    <fon-component :items="lessons"></fon-component>
+</div>
+
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+
+    const introduce= {
+        template: "<h1>{{title}}</h1>",
+        props: ["title"],
+    };
+    const fonComponent= {
+        template: "<ul><li v-for='item in items'>{{item}}</li></ul>",
+        props: {
+            items:{
+                type: Array,
+                default: ['java']
+            }
+        }
+    }
+    const app = new Vue({
+        el:"#app",
+        data:{
+            msg: "大家好，我是渣渣辉",
+            lessons:['java','Python','php'],
+
+        },
+        components:{
+            //counter: counter,  //当key value一张 可简写 key
+            introduce,
+            fonComponent
+        }
+
+    });
+</script>
+</body>
+</html>
