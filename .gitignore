@@ -19,3 +19,4 @@ permission/.settings/
 cloud-demo/eureka-server/target/
 js-demo/vue-demo/node_modules/
 pagehelper-test/target/
+es-demo/target/
