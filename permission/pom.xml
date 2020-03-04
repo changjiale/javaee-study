@@ -11,7 +11,7 @@
 	<properties>
 		<!-- Spring版本号 -->
 		<spring.version>4.0.5.RELEASE</spring.version>
-		<jackson.version>2.4.2</jackson.version>
+		<jackson.version>2.9.10.3</jackson.version>
 	</properties>
 	<dependencies>
 		<!-- Spring相关包 -->
