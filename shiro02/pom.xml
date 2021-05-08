@@ -60,7 +60,7 @@
     <!-- main version setting -->
     <junit.version>4.12</junit.version>
     <spring.version>4.3.7.RELEASE</spring.version>
-    <shiro.version>1.4.0</shiro.version>
+    <shiro.version>1.6.0</shiro.version>
 
     <!-- tools version setting -->
     <javax.servlet-api.version>4.0.0-b07</javax.servlet-api.version>
